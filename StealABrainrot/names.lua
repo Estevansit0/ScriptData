@@ -48,16 +48,16 @@ local v7 = {
         Price = 1350,
         Generation = 12,
     },
-    ["Tartaragno"] = {
-        Name = "Tartaragno",
-        DisplayName = "Tartaragno",
+    ["Pipi Kiwi"] = {
+        Name = "Pipi Kiwi",
+        DisplayName = "Pipi Kiwi",
         Rarity = "Common",
         Price = 1500,
         Generation = 13,
     },
-    ["Pipi Kiwi"] = {
-        Name = "Pipi Kiwi",
-        DisplayName = "Pipi Kiwi",
+    ["Tartaragno"] = {
+        Name = "Tartaragno",
+        DisplayName = "Tartaragno",
         Rarity = "Common",
         Price = 1500,
         Generation = 13,
@@ -328,16 +328,16 @@ local v7 = {
         Price = 225000,
         Generation = 900,
     },
-    ["Clickerino Crabo"] = {
-        Name = "Clickerino Crabo",
-        DisplayName = "Clickerino Crabo",
+    ["Blueberrinni Octopusini"] = {
+        Name = "Blueberrinni Octopusini",
+        DisplayName = "Blueberrinni Octopusini",
         Rarity = "Legendary",
         Price = 250000,
         Generation = 1000,
     },
-    ["Blueberrinni Octopusini"] = {
-        Name = "Blueberrinni Octopusini",
-        DisplayName = "Blueberrinni Octopusini",
+    ["Clickerino Crabo"] = {
+        Name = "Clickerino Crabo",
+        DisplayName = "Clickerino Crabo",
         Rarity = "Legendary",
         Price = 250000,
         Generation = 1000,
@@ -489,19 +489,19 @@ local v7 = {
         Price = 2000000,
         Generation = 7000,
     },
-    ["Mythic Lucky Block"] = {
-        Name = "Mythic Lucky Block",
-        DisplayName = "Lucky Block",
-        Rarity = "Mythic",
-        Price = 2500000,
-        Generation = 0,
-    },
     ["Cavallo Virtuoso"] = {
         Name = "Cavallo Virtuoso",
         DisplayName = "Cavallo Virtuoso",
         Rarity = "Mythic",
         Price = 2500000,
         Generation = 7500,
+    },
+    ["Mythic Lucky Block"] = {
+        Name = "Mythic Lucky Block",
+        DisplayName = "Lucky Block",
+        Rarity = "Mythic",
+        Price = 2500000,
+        Generation = 0,
     },
     ["Gorillo Subwoofero"] = {
         Name = "Gorillo Subwoofero",
@@ -510,16 +510,16 @@ local v7 = {
         Price = 2750000,
         Generation = 7750,
     },
-    ["Gorillo Watermelondrillo"] = {
-        Name = "Gorillo Watermelondrillo",
-        DisplayName = "Gorillo Watermelondrillo",
+    ["Stoppo Luminino"] = {
+        Name = "Stoppo Luminino",
+        DisplayName = "Stoppo Luminino",
         Rarity = "Mythic",
         Price = 3000000,
         Generation = 8000,
     },
-    ["Stoppo Luminino"] = {
-        Name = "Stoppo Luminino",
-        DisplayName = "Stoppo Luminino",
+    ["Gorillo Watermelondrillo"] = {
+        Name = "Gorillo Watermelondrillo",
+        DisplayName = "Gorillo Watermelondrillo",
         Rarity = "Mythic",
         Price = 3000000,
         Generation = 8000,
@@ -607,6 +607,13 @@ local v7 = {
         Rarity = "Mythic",
         Price = 4750000,
         Generation = 15000,
+    },
+    ["Centrucci Nuclucci"] = {
+        Name = "Centrucci Nuclucci",
+        DisplayName = "Centrucci Nuclucci",
+        Rarity = "Mythic",
+        Price = 4800000,
+        Generation = 15500,
     },
     ["Toiletto Focaccino"] = {
         Name = "Toiletto Focaccino",
@@ -699,13 +706,6 @@ local v7 = {
         Price = 15000000,
         Generation = 75000,
     },
-    ["Alessio"] = {
-        Name = "Alessio",
-        DisplayName = "Alessio",
-        Rarity = "Brainrot God",
-        Price = 17500000,
-        Generation = 85000,
-    },
     ["Money Money Man"] = {
         Name = "Money Money Man",
         DisplayName = "Money Money Man",
@@ -713,12 +713,19 @@ local v7 = {
         Price = 17500000,
         Generation = 65000,
     },
-    ["Tipi Topi Taco"] = {
-        Name = "Tipi Topi Taco",
-        DisplayName = "Tipi Topi Taco",
+    ["Alessio"] = {
+        Name = "Alessio",
+        DisplayName = "Alessio",
+        Rarity = "Brainrot God",
+        Price = 17500000,
+        Generation = 85000,
+    },
+    ["Tralalita Tralala"] = {
+        Name = "Tralalita Tralala",
+        DisplayName = "Tralalita Tralala",
         Rarity = "Brainrot God",
         Price = 20000000,
-        Generation = 75000,
+        Generation = 100000,
     },
     ["Unclito Samito"] = {
         Name = "Unclito Samito",
@@ -727,12 +734,12 @@ local v7 = {
         Price = 20000000,
         Generation = 75000,
     },
-    ["Tralalita Tralala"] = {
-        Name = "Tralalita Tralala",
-        DisplayName = "Tralalita Tralala",
+    ["Tipi Topi Taco"] = {
+        Name = "Tipi Topi Taco",
+        DisplayName = "Tipi Topi Taco",
         Rarity = "Brainrot God",
         Price = 20000000,
-        Generation = 100000,
+        Generation = 75000,
     },
     ["Tukanno Bananno"] = {
         Name = "Tukanno Bananno",
@@ -755,6 +762,20 @@ local v7 = {
         Price = 24500000,
         Generation = 125000,
     },
+    ["Espresso Signora"] = {
+        Name = "Espresso Signora",
+        DisplayName = "Espresso Signora",
+        Rarity = "Brainrot God",
+        Price = 25000000,
+        Generation = 70000,
+    },
+    ["Orcalero Orcala"] = {
+        Name = "Orcalero Orcala",
+        DisplayName = "Orcalero Orcala",
+        Rarity = "Brainrot God",
+        Price = 25000000,
+        Generation = 100000,
+    },
     ["Trenostruzzo Turbo 3000"] = {
         Name = "Trenostruzzo Turbo 3000",
         DisplayName = "Trenostruzzo Turbo 3000",
@@ -768,20 +789,6 @@ local v7 = {
         Rarity = "Brainrot God",
         Price = 25000000,
         Generation = 0,
-    },
-    ["Orcalero Orcala"] = {
-        Name = "Orcalero Orcala",
-        DisplayName = "Orcalero Orcala",
-        Rarity = "Brainrot God",
-        Price = 25000000,
-        Generation = 100000,
-    },
-    ["Espresso Signora"] = {
-        Name = "Espresso Signora",
-        DisplayName = "Espresso Signora",
-        Rarity = "Brainrot God",
-        Price = 25000000,
-        Generation = 70000,
     },
     ["Urubini Flamenguini"] = {
         Name = "Urubini Flamenguini",
@@ -811,19 +818,19 @@ local v7 = {
         Price = 31000000,
         Generation = 155000,
     },
-    ["Gattito Tacoto"] = {
-        Name = "Gattito Tacoto",
-        DisplayName = "Gattito Tacoto",
-        Rarity = "Brainrot God",
-        Price = 32500000,
-        Generation = 165000,
-    },
     ["Las Capuchinas"] = {
         Name = "Las Capuchinas",
         DisplayName = "Las Capuchinas",
         Rarity = "Brainrot God",
         Price = 32500000,
         Generation = 185000,
+    },
+    ["Gattito Tacoto"] = {
+        Name = "Gattito Tacoto",
+        DisplayName = "Gattito Tacoto",
+        Rarity = "Brainrot God",
+        Price = 32500000,
+        Generation = 165000,
     },
     ["Bulbito Bandito Traktorito"] = {
         Name = "Bulbito Bandito Traktorito",
@@ -874,19 +881,19 @@ local v7 = {
         Price = 40500000,
         Generation = 225000,
     },
-    ["Los Bombinitos"] = {
-        Name = "Los Bombinitos",
-        DisplayName = "Los Bombinitos",
-        Rarity = "Brainrot God",
-        Price = 42500000,
-        Generation = 220000,
-    },
     ["Tractoro Dinosauro"] = {
         Name = "Tractoro Dinosauro",
         DisplayName = "Tractoro Dinosauro",
         Rarity = "Brainrot God",
         Price = 42500000,
         Generation = 230000,
+    },
+    ["Los Bombinitos"] = {
+        Name = "Los Bombinitos",
+        DisplayName = "Los Bombinitos",
+        Rarity = "Brainrot God",
+        Price = 42500000,
+        Generation = 220000,
     },
     ["Tartaruga Cisterna"] = {
         Name = "Tartaruga Cisterna",
@@ -895,13 +902,6 @@ local v7 = {
         Price = 45000000,
         Generation = 250000,
     },
-    ["Cacasito Satalito"] = {
-        Name = "Cacasito Satalito",
-        DisplayName = "Cacasito Satalito",
-        Rarity = "Brainrot God",
-        Price = 45000000,
-        Generation = 240000,
-    },
     ["Los Orcalitos"] = {
         Name = "Los Orcalitos",
         DisplayName = "Los Orcalitos",
@@ -909,9 +909,23 @@ local v7 = {
         Price = 45000000,
         Generation = 235000,
     },
+    ["Snailenzo"] = {
+        Name = "Snailenzo",
+        DisplayName = "Snailenzo",
+        Rarity = "Brainrot God",
+        Price = 45000000,
+        Generation = 250000,
+    },
     ["Mummy Ambalabu"] = {
         Name = "Mummy Ambalabu",
         DisplayName = "Mummy Ambalabu",
+        Rarity = "Brainrot God",
+        Price = 45000000,
+        Generation = 250000,
+    },
+    ["Corn Corn Corn Sahur"] = {
+        Name = "Corn Corn Corn Sahur",
+        DisplayName = "Corn Corn Corn Sahur",
         Rarity = "Brainrot God",
         Price = 45000000,
         Generation = 250000,
@@ -930,19 +944,12 @@ local v7 = {
         Price = 45000000,
         Generation = 250000,
     },
-    ["Snailenzo"] = {
-        Name = "Snailenzo",
-        DisplayName = "Snailenzo",
+    ["Cacasito Satalito"] = {
+        Name = "Cacasito Satalito",
+        DisplayName = "Cacasito Satalito",
         Rarity = "Brainrot God",
         Price = 45000000,
-        Generation = 250000,
-    },
-    ["Corn Corn Corn Sahur"] = {
-        Name = "Corn Corn Corn Sahur",
-        DisplayName = "Corn Corn Corn Sahur",
-        Rarity = "Brainrot God",
-        Price = 45000000,
-        Generation = 250000,
+        Generation = 240000,
     },
     ["Dug dug dug"] = {
         Name = "Dug dug dug",
@@ -958,19 +965,19 @@ local v7 = {
         Price = 45500000,
         Generation = 245000,
     },
-    ["Los Tipi Tacos"] = {
-        Name = "Los Tipi Tacos",
-        DisplayName = "Los Tipi Tacos",
-        Rarity = "Brainrot God",
-        Price = 46000000,
-        Generation = 260000,
-    },
     ["Crabbo Limonetta"] = {
         Name = "Crabbo Limonetta",
         DisplayName = "Crabbo Limonetta",
         Rarity = "Brainrot God",
         Price = 46000000,
         Generation = 235000,
+    },
+    ["Los Tipi Tacos"] = {
+        Name = "Los Tipi Tacos",
+        DisplayName = "Los Tipi Tacos",
+        Rarity = "Brainrot God",
+        Price = 46000000,
+        Generation = 260000,
     },
     ["Frio Ninja"] = {
         Name = "Frio Ninja",
@@ -1014,6 +1021,13 @@ local v7 = {
         Price = 48500000,
         Generation = 285000,
     },
+    ["Bombardini Tortinii"] = {
+        Name = "Bombardini Tortinii",
+        DisplayName = "Bombardini Tortinii",
+        Rarity = "Brainrot God",
+        Price = 50000000,
+        Generation = 225000,
+    },
     ["La Vacca Saturno Saturnita"] = {
         Name = "La Vacca Saturno Saturnita",
         DisplayName = "La Vacca Saturno Saturnita",
@@ -1028,19 +1042,19 @@ local v7 = {
         Price = 50000000,
         Generation = 0,
     },
-    ["Bombardini Tortinii"] = {
-        Name = "Bombardini Tortinii",
-        DisplayName = "Bombardini Tortinii",
-        Rarity = "Brainrot God",
-        Price = 50000000,
-        Generation = 225000,
-    },
     ["Brasilini Berimbini"] = {
         Name = "Brasilini Berimbini",
         DisplayName = "Brasilini Berimbini",
         Rarity = "Brainrot God",
         Price = 55000000,
         Generation = 285000,
+    },
+    ["Krupuk Pagi Pagi"] = {
+        Name = "Krupuk Pagi Pagi",
+        DisplayName = "Krupuk Pagi Pagi",
+        Rarity = "Brainrot God",
+        Price = 60000000,
+        Generation = 290000,
     },
     ["Belula Beluga"] = {
         Name = "Belula Beluga",
@@ -1052,13 +1066,6 @@ local v7 = {
     ["Skull Skull Skull"] = {
         Name = "Skull Skull Skull",
         DisplayName = "Skull Skull Skull",
-        Rarity = "Brainrot God",
-        Price = 60000000,
-        Generation = 290000,
-    },
-    ["Krupuk Pagi Pagi"] = {
-        Name = "Krupuk Pagi Pagi",
-        DisplayName = "Krupuk Pagi Pagi",
         Rarity = "Brainrot God",
         Price = 60000000,
         Generation = 290000,
@@ -1084,13 +1091,6 @@ local v7 = {
         Price = 67000000,
         Generation = 280000,
     },
-    ["Bisonte Giuppitere"] = {
-        Name = "Bisonte Giuppitere",
-        DisplayName = "Bisonte Giuppitere",
-        Rarity = "Secret",
-        Price = 75000000,
-        Generation = 300000,
-    },
     ["Sammyni Spyderini"] = {
         Name = "Sammyni Spyderini",
         DisplayName = "Sammyni Spyderini",
@@ -1104,6 +1104,13 @@ local v7 = {
         Rarity = "Secret",
         Price = 75000000,
         Generation = 400000,
+    },
+    ["Bisonte Giuppitere"] = {
+        Name = "Bisonte Giuppitere",
+        DisplayName = "Bisonte Giuppitere",
+        Rarity = "Secret",
+        Price = 75000000,
+        Generation = 300000,
     },
     ["Agarrini la Palini"] = {
         Name = "Agarrini la Palini",
@@ -1126,20 +1133,6 @@ local v7 = {
         Price = 85000000,
         Generation = 400000,
     },
-    ["Karkerkar Kurkur"] = {
-        Name = "Karkerkar Kurkur",
-        DisplayName = "Karkerkar Kurkur",
-        Rarity = "Secret",
-        Price = 100000000,
-        Generation = 300000,
-    },
-    ["Los Matteos"] = {
-        Name = "Los Matteos",
-        DisplayName = "Los Matteos",
-        Rarity = "Secret",
-        Price = 100000000,
-        Generation = 300000,
-    },
     ["Los Tortus"] = {
         Name = "Los Tortus",
         DisplayName = "Los Tortus",
@@ -1147,12 +1140,12 @@ local v7 = {
         Price = 100000000,
         Generation = 500000,
     },
-    ["Zombie Tralala"] = {
-        Name = "Zombie Tralala",
-        DisplayName = "Zombie Tralala",
+    ["Karkerkar Kurkur"] = {
+        Name = "Karkerkar Kurkur",
+        DisplayName = "Karkerkar Kurkur",
         Rarity = "Secret",
         Price = 100000000,
-        Generation = 500000,
+        Generation = 300000,
     },
     ["Admin Lucky Block"] = {
         Name = "Admin Lucky Block",
@@ -1161,9 +1154,23 @@ local v7 = {
         Price = 100000000,
         Generation = 0,
     },
+    ["Los Matteos"] = {
+        Name = "Los Matteos",
+        DisplayName = "Los Matteos",
+        Rarity = "Secret",
+        Price = 100000000,
+        Generation = 300000,
+    },
     ["Los Tralaleritos"] = {
         Name = "Los Tralaleritos",
         DisplayName = "Los Tralaleritos",
+        Rarity = "Secret",
+        Price = 100000000,
+        Generation = 500000,
+    },
+    ["Zombie Tralala"] = {
+        Name = "Zombie Tralala",
+        DisplayName = "Zombie Tralala",
         Rarity = "Secret",
         Price = 100000000,
         Generation = 500000,
@@ -1203,19 +1210,19 @@ local v7 = {
         Price = 120000000,
         Generation = 550000,
     },
-    ["Extinct Tralalero"] = {
-        Name = "Extinct Tralalero",
-        DisplayName = "Extinct Tralalero",
-        Rarity = "Secret",
-        Price = 125000000,
-        Generation = 450000,
-    },
     ["Torrtuginni Dragonfrutini"] = {
         Name = "Torrtuginni Dragonfrutini",
         DisplayName = "Torrtuginni Dragonfrutini",
         Rarity = "Secret",
         Price = 125000000,
         Generation = 350000,
+    },
+    ["Los Spyderinis"] = {
+        Name = "Los Spyderinis",
+        DisplayName = "Los Spyderinis",
+        Rarity = "Secret",
+        Price = 125000000,
+        Generation = 425000,
     },
     ["Fragola La La La"] = {
         Name = "Fragola La La La",
@@ -1224,12 +1231,12 @@ local v7 = {
         Price = 125000000,
         Generation = 450000,
     },
-    ["Los Spyderinis"] = {
-        Name = "Los Spyderinis",
-        DisplayName = "Los Spyderinis",
+    ["Extinct Tralalero"] = {
+        Name = "Extinct Tralalero",
+        DisplayName = "Extinct Tralalero",
         Rarity = "Secret",
         Price = 125000000,
-        Generation = 425000,
+        Generation = 450000,
     },
     ["Yess my examine"] = {
         Name = "Yess my examine",
@@ -1294,16 +1301,16 @@ local v7 = {
         Price = 185000000,
         Generation = 725000,
     },
-    ["Los Karkeritos"] = {
-        Name = "Los Karkeritos",
-        DisplayName = "Los Karkeritos",
+    ["Las Vaquitas Saturnitas"] = {
+        Name = "Las Vaquitas Saturnitas",
+        DisplayName = "Las Vaquitas Saturnitas",
         Rarity = "Secret",
         Price = 200000000,
         Generation = 750000,
     },
-    ["Las Vaquitas Saturnitas"] = {
-        Name = "Las Vaquitas Saturnitas",
-        DisplayName = "Las Vaquitas Saturnitas",
+    ["Los Karkeritos"] = {
+        Name = "Los Karkeritos",
+        DisplayName = "Los Karkeritos",
         Rarity = "Secret",
         Price = 200000000,
         Generation = 750000,
@@ -1322,13 +1329,6 @@ local v7 = {
         Price = 235000000,
         Generation = 900000,
     },
-    ["Perrito Burrito"] = {
-        Name = "Perrito Burrito",
-        DisplayName = "Perrito Burrito",
-        Rarity = "Secret",
-        Price = 250000000,
-        Generation = 1000000,
-    },
     ["Los Lucky Blocks"] = {
         Name = "Los Lucky Blocks",
         DisplayName = "Los Lucky Blocks",
@@ -1339,6 +1339,13 @@ local v7 = {
     ["Graipuss Medussi"] = {
         Name = "Graipuss Medussi",
         DisplayName = "Graipuss Medussi",
+        Rarity = "Secret",
+        Price = 250000000,
+        Generation = 1000000,
+    },
+    ["Perrito Burrito"] = {
+        Name = "Perrito Burrito",
+        DisplayName = "Perrito Burrito",
         Rarity = "Secret",
         Price = 250000000,
         Generation = 1000000,
@@ -1441,19 +1448,19 @@ local v7 = {
         Price = 750000000,
         Generation = 3500000,
     },
-    ["Chicleteira Bicicleteira"] = {
-        Name = "Chicleteira Bicicleteira",
-        DisplayName = "Chicleteira Bicicleteira",
-        Rarity = "Secret",
-        Price = 750000000,
-        Generation = 3500000,
-    },
     ["Secret Lucky Block"] = {
         Name = "Secret Lucky Block",
         DisplayName = "Lucky Block",
         Rarity = "Secret",
         Price = 750000000,
         Generation = 0,
+    },
+    ["Chicleteira Bicicleteira"] = {
+        Name = "Chicleteira Bicicleteira",
+        DisplayName = "Chicleteira Bicicleteira",
+        Rarity = "Secret",
+        Price = 750000000,
+        Generation = 3500000,
     },
     ["Burrito Bandito"] = {
         Name = "Burrito Bandito",
@@ -1476,19 +1483,19 @@ local v7 = {
         Price = 900000000,
         Generation = 5000000,
     },
-    ["Los Nooo My Hotspotsitos"] = {
-        Name = "Los Nooo My Hotspotsitos",
-        DisplayName = "Los Nooo My Hotspotsitos",
-        Rarity = "Secret",
-        Price = 1000000000,
-        Generation = 5500000,
-    },
     ["La Grande Combinasion"] = {
         Name = "La Grande Combinasion",
         DisplayName = "La Grande Combinasion",
         Rarity = "Secret",
         Price = 1000000000,
         Generation = 10000000,
+    },
+    ["Los Nooo My Hotspotsitos"] = {
+        Name = "Los Nooo My Hotspotsitos",
+        DisplayName = "Los Nooo My Hotspotsitos",
+        Rarity = "Secret",
+        Price = 1000000000,
+        Generation = 5500000,
     },
     ["Rang Ring Bus"] = {
         Name = "Rang Ring Bus",
@@ -1525,6 +1532,13 @@ local v7 = {
         Price = 1750000000,
         Generation = 12500000,
     },
+    ["Swag Soda"] = {
+        Name = "Swag Soda",
+        DisplayName = "Swag Soda",
+        Rarity = "Secret",
+        Price = 1800000000,
+        Generation = 13000000,
+    },
     ["Los Combinasionas"] = {
         Name = "Los Combinasionas",
         DisplayName = "Los Combinasionas",
@@ -1546,19 +1560,19 @@ local v7 = {
         Price = 2500000000,
         Generation = 17500000,
     },
-    ["Nuclearo Dinossauro"] = {
-        Name = "Nuclearo Dinossauro",
-        DisplayName = "Nuclearo Dinossauro",
-        Rarity = "Secret",
-        Price = 2500000000,
-        Generation = 15000000,
-    },
     ["Chillin Chili"] = {
         Name = "Chillin Chili",
         DisplayName = "Chillin Chili",
         Rarity = "Secret",
         Price = 2500000000,
         Generation = 25000000,
+    },
+    ["Nuclearo Dinossauro"] = {
+        Name = "Nuclearo Dinossauro",
+        DisplayName = "Nuclearo Dinossauro",
+        Rarity = "Secret",
+        Price = 2500000000,
+        Generation = 15000000,
     },
     ["Chipso and Queso"] = {
         Name = "Chipso and Queso",
@@ -1567,19 +1581,19 @@ local v7 = {
         Price = 2500000000,
         Generation = 25000000,
     },
-    ["Money Money Puggy"] = {
-        Name = "Money Money Puggy",
-        DisplayName = "Money Money Puggy",
-        Rarity = "Secret",
-        Price = 2600000000,
-        Generation = 21000000,
-    },
     ["Los Bros"] = {
         Name = "Los Bros",
         DisplayName = "Los Bros",
         Rarity = "Secret",
         Price = 2600000000,
         Generation = 24000000,
+    },
+    ["Money Money Puggy"] = {
+        Name = "Money Money Puggy",
+        DisplayName = "Money Money Puggy",
+        Rarity = "Secret",
+        Price = 2600000000,
+        Generation = 21000000,
     },
     ["Los Mobilis"] = {
         Name = "Los Mobilis",
@@ -1623,13 +1637,6 @@ local v7 = {
         Price = 3000000000,
         Generation = 27500000,
     },
-    ["Los Puggies"] = {
-        Name = "Los Puggies",
-        DisplayName = "Los Puggies",
-        Rarity = "Secret",
-        Price = 3000000000,
-        Generation = 30000000,
-    },
     ["Los Hotspotsitos"] = {
         Name = "Los Hotspotsitos",
         DisplayName = "Los Hotspotsitos",
@@ -1643,6 +1650,13 @@ local v7 = {
         Rarity = "Secret",
         Price = 3000000000,
         Generation = 20000000,
+    },
+    ["Los Puggies"] = {
+        Name = "Los Puggies",
+        DisplayName = "Los Puggies",
+        Rarity = "Secret",
+        Price = 3000000000,
+        Generation = 30000000,
     },
     ["La Extinct Grande"] = {
         Name = "La Extinct Grande",
@@ -1707,6 +1721,13 @@ local v7 = {
         Price = 6000000000,
         Generation = 37500000,
     },
+    ["Orcaledon"] = {
+        Name = "Orcaledon",
+        DisplayName = "Orcaledon",
+        Rarity = "Secret",
+        Price = 7000000000,
+        Generation = 40000000,
+    },
     ["La Supreme Combinasion"] = {
         Name = "La Supreme Combinasion",
         DisplayName = "La Supreme Combinasion",
@@ -1749,16 +1770,16 @@ local v7 = {
         Price = 25000000000,
         Generation = 80000000,
     },
-    ["Fragrama and Chocrama"] = {
-        Name = "Fragrama and Chocrama",
-        DisplayName = "Fragrama and Chocrama",
+    ["La Casa Boo"] = {
+        Name = "La Casa Boo",
+        DisplayName = "La Casa Boo",
         Rarity = "Secret",
         Price = 40000000000,
         Generation = 100000000,
     },
-    ["La Casa Boo"] = {
-        Name = "La Casa Boo",
-        DisplayName = "La Casa Boo",
+    ["Fragrama and Chocrama"] = {
+        Name = "Fragrama and Chocrama",
+        DisplayName = "Fragrama and Chocrama",
         Rarity = "Secret",
         Price = 40000000000,
         Generation = 100000000,

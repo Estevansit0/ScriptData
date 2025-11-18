@@ -1,4 +1,3 @@
--- Script Path: game:GetService("ReplicatedStorage").Datas.Animals
 local v7 = {
     ["Los Lucky Blocks"] = {
         DisplayName = "Los Lucky Blocks",

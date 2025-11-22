@@ -5,41 +5,11 @@ local v7 = {
         Generation = 0,
         Rarity = "Admin",
     },
-    ["Secret Lucky Block"] = {
-        DisplayName = "Lucky Block",
-        Price = 750000000,
-        Generation = 0,
-        Rarity = "Secret",
-    },
-    ["Mythic Lucky Block"] = {
+    ["Lucky Block"] = {
         DisplayName = "Lucky Block",
         Price = 2500000,
         Generation = 0,
         Rarity = "Mythic",
-    },
-    ["Los Taco Blocks"] = {
-        DisplayName = "Los Taco Blocks",
-        Price = 300000000,
-        Generation = 0,
-        Rarity = "Taco",
-    },
-    ["Brainrot God Lucky Block"] = {
-        DisplayName = "Lucky Block",
-        Price = 25000000,
-        Generation = 0,
-        Rarity = "Brainrot God",
-    },
-    ["Admin Lucky Block"] = {
-        DisplayName = "Lucky Block",
-        Price = 100000000,
-        Generation = 0,
-        Rarity = "Admin",
-    },
-    ["Taco Lucky Block"] = {
-        DisplayName = "Lucky Block",
-        Price = 50000000,
-        Generation = 0,
-        Rarity = "Taco",
     },
     ["Spooky Lucky Block"] = {
         DisplayName = "Spooky Lucky Block",
@@ -47,14 +17,44 @@ local v7 = {
         Generation = 0,
         Rarity = "Spooky",
     },
+    ["Los Taco Blocks"] = {
+        DisplayName = "Los Taco Blocks",
+        Price = 300000000,
+        Generation = 0,
+        Rarity = "Taco",
+    },
+    ["Lucky Block"] = {
+        DisplayName = "Lucky Block",
+        Price = 750000000,
+        Generation = 0,
+        Rarity = "Secret",
+    },
+    ["Lucky Block"] = {
+        DisplayName = "Lucky Block",
+        Price = 25000000,
+        Generation = 0,
+        Rarity = "Brainrot God",
+    },
+    ["Lucky Block"] = {
+        DisplayName = "Lucky Block",
+        Price = 50000000,
+        Generation = 0,
+        Rarity = "Taco",
+    },
+    ["Lucky Block"] = {
+        DisplayName = "Lucky Block",
+        Price = 100000000,
+        Generation = 0,
+        Rarity = "Admin",
+    },
     ["Noobini Pizzanini"] = {
         DisplayName = "Noobini Pizzanini",
         Price = 25,
         Generation = 1,
         Rarity = "Common",
     },
-    ["Lirilì Larilà"] = {
-        DisplayName = "Lirilì Larilà",
+    ["LirilÃ¬ LarilÃ "] = {
+        DisplayName = "LirilÃ¬ LarilÃ ",
         Price = 250,
         Generation = 3,
         Rarity = "Common",
@@ -161,17 +161,17 @@ local v7 = {
         Generation = 70,
         Rarity = "Rare",
     },
-    ["Pinealotto Fruttarino"] = {
-        DisplayName = "Pinealotto Fruttarino",
-        Price = 9750,
-        Generation = 75,
-        Rarity = "Rare",
-    },
     ["Cappuccino Assassino"] = {
         DisplayName = "Cappuccino Assassino",
         Price = 10000,
         Generation = 75,
         Rarity = "Epic",
+    },
+    ["Pinealotto Fruttarino"] = {
+        DisplayName = "Pinealotto Fruttarino",
+        Price = 9750,
+        Generation = 75,
+        Rarity = "Rare",
     },
     ["Bandito Axolito"] = {
         DisplayName = "Bandito Axolito",
@@ -395,6 +395,12 @@ local v7 = {
         Generation = 1350,
         Rarity = "Legendary",
     },
+    ["Puffaball"] = {
+        DisplayName = "Puffaball",
+        Price = 330000,
+        Generation = 1500,
+        Rarity = "Legendary",
+    },
     ["Sigma Girl"] = {
         DisplayName = "Sigma Girl",
         Price = 340000,
@@ -479,14 +485,14 @@ local v7 = {
         Generation = 7750,
         Rarity = "Mythic",
     },
-    ["Gorillo Watermelondrillo"] = {
-        DisplayName = "Gorillo Watermelondrillo",
+    ["Stoppo Luminino"] = {
+        DisplayName = "Stoppo Luminino",
         Price = 3000000,
         Generation = 8000,
         Rarity = "Mythic",
     },
-    ["Stoppo Luminino"] = {
-        DisplayName = "Stoppo Luminino",
+    ["Gorillo Watermelondrillo"] = {
+        DisplayName = "Gorillo Watermelondrillo",
         Price = 3000000,
         Generation = 8000,
         Rarity = "Mythic",
@@ -659,14 +665,14 @@ local v7 = {
         Generation = 75000,
         Rarity = "Brainrot God",
     },
-    ["Tipi Topi Taco"] = {
-        DisplayName = "Tipi Topi Taco",
+    ["Unclito Samito"] = {
+        DisplayName = "Unclito Samito",
         Price = 20000000,
         Generation = 75000,
         Rarity = "Brainrot God",
     },
-    ["Unclito Samito"] = {
-        DisplayName = "Unclito Samito",
+    ["Tipi Topi Taco"] = {
+        DisplayName = "Tipi Topi Taco",
         Price = 20000000,
         Generation = 75000,
         Rarity = "Brainrot God",
@@ -707,9 +713,9 @@ local v7 = {
         Generation = 125000,
         Rarity = "Brainrot God",
     },
-    ["Urubini Flamenguini"] = {
-        DisplayName = "Urubini Flamenguini",
-        Price = 30000000,
+    ["Trenostruzzo Turbo 3000"] = {
+        DisplayName = "Trenostruzzo Turbo 3000",
+        Price = 25000000,
         Generation = 150000,
         Rarity = "Brainrot God",
     },
@@ -719,9 +725,9 @@ local v7 = {
         Generation = 150000,
         Rarity = "Brainrot God",
     },
-    ["Trenostruzzo Turbo 3000"] = {
-        DisplayName = "Trenostruzzo Turbo 3000",
-        Price = 25000000,
+    ["Urubini Flamenguini"] = {
+        DisplayName = "Urubini Flamenguini",
+        Price = 30000000,
         Generation = 150000,
         Rarity = "Brainrot God",
     },
@@ -785,15 +791,15 @@ local v7 = {
         Generation = 220000,
         Rarity = "Brainrot God",
     },
-    ["Brr es Teh Patipum"] = {
-        DisplayName = "Brr es Teh Patipum",
-        Price = 40000000,
-        Generation = 225000,
-        Rarity = "Brainrot God",
-    },
     ["Pakrahmatmatina"] = {
         DisplayName = "Pakrahmatmatina",
         Price = 40500000,
+        Generation = 225000,
+        Rarity = "Brainrot God",
+    },
+    ["Brr es Teh Patipum"] = {
+        DisplayName = "Brr es Teh Patipum",
+        Price = 40000000,
         Generation = 225000,
         Rarity = "Brainrot God",
     },
@@ -851,18 +857,6 @@ local v7 = {
         Generation = 250000,
         Rarity = "Brainrot God",
     },
-    ["Corn Corn Corn Sahur"] = {
-        DisplayName = "Corn Corn Corn Sahur",
-        Price = 45000000,
-        Generation = 250000,
-        Rarity = "Brainrot God",
-    },
-    ["Squalanana"] = {
-        DisplayName = "Squalanana",
-        Price = 45000000,
-        Generation = 250000,
-        Rarity = "Brainrot God",
-    },
     ["Snailenzo"] = {
         DisplayName = "Snailenzo",
         Price = 45000000,
@@ -875,10 +869,28 @@ local v7 = {
         Generation = 250000,
         Rarity = "Brainrot God",
     },
+    ["Corn Corn Corn Sahur"] = {
+        DisplayName = "Corn Corn Corn Sahur",
+        Price = 45000000,
+        Generation = 250000,
+        Rarity = "Brainrot God",
+    },
+    ["Squalanana"] = {
+        DisplayName = "Squalanana",
+        Price = 45000000,
+        Generation = 250000,
+        Rarity = "Brainrot God",
+    },
     ["Dug dug dug"] = {
         DisplayName = "Dug dug dug",
         Price = 45500000,
         Generation = 255000,
+        Rarity = "Brainrot God",
+    },
+    ["Granchiello Spiritell"] = {
+        DisplayName = "Granchiello Spiritell",
+        Price = 46000000,
+        Generation = 260000,
         Rarity = "Brainrot God",
     },
     ["Los Tipi Tacos"] = {
@@ -905,14 +917,14 @@ local v7 = {
         Generation = 275000,
         Rarity = "Brainrot God",
     },
-    ["Los Gattitos"] = {
-        DisplayName = "Los Gattitos",
+    ["Bambu Bambu Sahur"] = {
+        DisplayName = "Bambu Bambu Sahur",
         Price = 47500000,
         Generation = 275000,
         Rarity = "Brainrot God",
     },
-    ["Bambu Bambu Sahur"] = {
-        DisplayName = "Bambu Bambu Sahur",
+    ["Los Gattitos"] = {
+        DisplayName = "Los Gattitos",
         Price = 47500000,
         Generation = 275000,
         Rarity = "Brainrot God",
@@ -929,22 +941,16 @@ local v7 = {
         Generation = 280000,
         Rarity = "Brainrot God",
     },
-    ["Brasilini Berimbini"] = {
-        DisplayName = "Brasilini Berimbini",
-        Price = 55000000,
-        Generation = 285000,
-        Rarity = "Brainrot God",
-    },
     ["Cappuccino Clownino"] = {
         DisplayName = "Cappuccino Clownino",
         Price = 48500000,
         Generation = 285000,
         Rarity = "Brainrot God",
     },
-    ["Skull Skull Skull"] = {
-        DisplayName = "Skull Skull Skull",
-        Price = 60000000,
-        Generation = 290000,
+    ["Brasilini Berimbini"] = {
+        DisplayName = "Brasilini Berimbini",
+        Price = 55000000,
+        Generation = 285000,
         Rarity = "Brainrot God",
     },
     ["Krupuk Pagi Pagi"] = {
@@ -955,6 +961,12 @@ local v7 = {
     },
     ["Belula Beluga"] = {
         DisplayName = "Belula Beluga",
+        Price = 60000000,
+        Generation = 290000,
+        Rarity = "Brainrot God",
+    },
+    ["Skull Skull Skull"] = {
+        DisplayName = "Skull Skull Skull",
         Price = 60000000,
         Generation = 290000,
         Rarity = "Brainrot God",
@@ -971,15 +983,15 @@ local v7 = {
         Generation = 295000,
         Rarity = "Brainrot God",
     },
-    ["Los Matteos"] = {
-        DisplayName = "Los Matteos",
-        Price = 100000000,
+    ["Bisonte Giuppitere"] = {
+        DisplayName = "Bisonte Giuppitere",
+        Price = 75000000,
         Generation = 300000,
         Rarity = "Secret",
     },
-    ["La Vacca Saturno Saturnita"] = {
-        DisplayName = "La Vacca Saturno Saturnita",
-        Price = 50000000,
+    ["Los Matteos"] = {
+        DisplayName = "Los Matteos",
+        Price = 100000000,
         Generation = 300000,
         Rarity = "Secret",
     },
@@ -989,9 +1001,9 @@ local v7 = {
         Generation = 300000,
         Rarity = "Secret",
     },
-    ["Bisonte Giuppitere"] = {
-        DisplayName = "Bisonte Giuppitere",
-        Price = 75000000,
+    ["La Vacca Saturno Saturnita"] = {
+        DisplayName = "La Vacca Saturno Saturnita",
+        Price = 50000000,
         Generation = 300000,
         Rarity = "Secret",
     },
@@ -1037,26 +1049,26 @@ local v7 = {
         Generation = 400000,
         Rarity = "Secret",
     },
-    ["Los Spyderinis"] = {
-        DisplayName = "Los Spyderinis",
-        Price = 125000000,
-        Generation = 425000,
-        Rarity = "Secret",
-    },
     ["Agarrini la Palini"] = {
         DisplayName = "Agarrini la Palini",
         Price = 80000000,
         Generation = 425000,
         Rarity = "Secret",
     },
-    ["Extinct Tralalero"] = {
-        DisplayName = "Extinct Tralalero",
+    ["Los Spyderinis"] = {
+        DisplayName = "Los Spyderinis",
         Price = 125000000,
-        Generation = 450000,
+        Generation = 425000,
         Rarity = "Secret",
     },
     ["Fragola La La La"] = {
         DisplayName = "Fragola La La La",
+        Price = 125000000,
+        Generation = 450000,
+        Rarity = "Secret",
+    },
+    ["Extinct Tralalero"] = {
+        DisplayName = "Extinct Tralalero",
         Price = 125000000,
         Generation = 450000,
         Rarity = "Secret",
@@ -1067,14 +1079,14 @@ local v7 = {
         Generation = 475000,
         Rarity = "Secret",
     },
-    ["Los Tralaleritos"] = {
-        DisplayName = "Los Tralaleritos",
+    ["Los Tortus"] = {
+        DisplayName = "Los Tortus",
         Price = 100000000,
         Generation = 500000,
         Rarity = "Secret",
     },
-    ["Los Tortus"] = {
-        DisplayName = "Los Tortus",
+    ["Los Tralaleritos"] = {
+        DisplayName = "Los Tralaleritos",
         Price = 100000000,
         Generation = 500000,
         Rarity = "Secret",
@@ -1121,15 +1133,15 @@ local v7 = {
         Generation = 625000,
         Rarity = "Secret",
     },
-    ["Las Tralaleritas"] = {
-        DisplayName = "Las Tralaleritas",
-        Price = 150000000,
-        Generation = 650000,
-        Rarity = "Secret",
-    },
     ["Pumpkini Spyderini"] = {
         DisplayName = "Pumpkini Spyderini",
         Price = 165000000,
+        Generation = 650000,
+        Rarity = "Secret",
+    },
+    ["Las Tralaleritas"] = {
+        DisplayName = "Las Tralaleritas",
+        Price = 150000000,
         Generation = 650000,
         Rarity = "Secret",
     },
@@ -1199,6 +1211,12 @@ local v7 = {
         Generation = 1250000,
         Rarity = "Secret",
     },
+    ["Cuadramat and Pakrahmatmamat"] = {
+        DisplayName = "Cuadramat and Pakrahmatmamat",
+        Price = 400000000,
+        Generation = 1400000,
+        Rarity = "Secret",
+    },
     ["Nooo My Hotspot"] = {
         DisplayName = "Nooo My Hotspot",
         Price = 500000000,
@@ -1217,14 +1235,14 @@ local v7 = {
         Generation = 1750000,
         Rarity = "Secret",
     },
-    ["Telemorte"] = {
-        DisplayName = "Telemorte",
+    ["La Sahur Combinasion"] = {
+        DisplayName = "La Sahur Combinasion",
         Price = 550000000,
         Generation = 2000000,
         Rarity = "Secret",
     },
-    ["La Sahur Combinasion"] = {
-        DisplayName = "La Sahur Combinasion",
+    ["Telemorte"] = {
+        DisplayName = "Telemorte",
         Price = 550000000,
         Generation = 2000000,
         Rarity = "Secret",
@@ -1253,22 +1271,16 @@ local v7 = {
         Generation = 2750000,
         Rarity = "Secret",
     },
-    ["Pot Pumpkin"] = {
-        DisplayName = "Pot Pumpkin",
-        Price = 700000000,
-        Generation = 3000000,
-        Rarity = "Secret",
-    },
     ["Quesadilla Crocodila"] = {
         DisplayName = "Quesadilla Crocodila",
         Price = 700000000,
         Generation = 3000000,
         Rarity = "Secret",
     },
-    ["Chicleteira Bicicleteira"] = {
-        DisplayName = "Chicleteira Bicicleteira",
-        Price = 750000000,
-        Generation = 3500000,
+    ["Pot Pumpkin"] = {
+        DisplayName = "Pot Pumpkin",
+        Price = 700000000,
+        Generation = 3000000,
         Rarity = "Secret",
     },
     ["Quesadillo Vampiro"] = {
@@ -1277,14 +1289,20 @@ local v7 = {
         Generation = 3500000,
         Rarity = "Secret",
     },
-    ["Chicleteirina Bicicleteirina"] = {
-        DisplayName = "Chicleteirina Bicicleteirina",
-        Price = 850000000,
-        Generation = 4000000,
+    ["Chicleteira Bicicleteira"] = {
+        DisplayName = "Chicleteira Bicicleteira",
+        Price = 750000000,
+        Generation = 3500000,
         Rarity = "Secret",
     },
     ["Burrito Bandito"] = {
         DisplayName = "Burrito Bandito",
+        Price = 850000000,
+        Generation = 4000000,
+        Rarity = "Secret",
+    },
+    ["Chicleteirina Bicicleteirina"] = {
+        DisplayName = "Chicleteirina Bicicleteirina",
         Price = 850000000,
         Generation = 4000000,
         Rarity = "Secret",
@@ -1355,16 +1373,22 @@ local v7 = {
         Generation = 13000000,
         Rarity = "Secret",
     },
+    ["Los Combinasionas"] = {
+        DisplayName = "Los Combinasionas",
+        Price = 2000000000,
+        Generation = 15000000,
+        Rarity = "Secret",
+    },
     ["Nuclearo Dinossauro"] = {
         DisplayName = "Nuclearo Dinossauro",
         Price = 2500000000,
         Generation = 15000000,
         Rarity = "Secret",
     },
-    ["Los Combinasionas"] = {
-        DisplayName = "Los Combinasionas",
-        Price = 2000000000,
-        Generation = 15000000,
+    ["Fishino Clownino"] = {
+        DisplayName = "Fishino Clownino",
+        Price = 2100000000,
+        Generation = 15500000,
         Rarity = "Secret",
     },
     ["Tacorita Bicicleta"] = {
@@ -1377,6 +1401,12 @@ local v7 = {
         DisplayName = "Las Sis",
         Price = 2500000000,
         Generation = 17500000,
+        Rarity = "Secret",
+    },
+    ["Los Planitos"] = {
+        DisplayName = "Los Planitos",
+        Price = 2750000000,
+        Generation = 18500000,
         Rarity = "Secret",
     },
     ["Los Hotspotsitos"] = {
@@ -1403,14 +1433,14 @@ local v7 = {
         Generation = 22000000,
         Rarity = "Secret",
     },
-    ["Los 67"] = {
-        DisplayName = "Los 67",
+    ["Celularcini Viciosini"] = {
+        DisplayName = "Celularcini Viciosini",
         Price = 2750000000,
         Generation = 22500000,
         Rarity = "Secret",
     },
-    ["Celularcini Viciosini"] = {
-        DisplayName = "Celularcini Viciosini",
+    ["Los 67"] = {
+        DisplayName = "Los 67",
         Price = 2750000000,
         Generation = 22500000,
         Rarity = "Secret",
@@ -1433,14 +1463,14 @@ local v7 = {
         Generation = 24500000,
         Rarity = "Secret",
     },
-    ["Chillin Chili"] = {
-        DisplayName = "Chillin Chili",
+    ["Chipso and Queso"] = {
+        DisplayName = "Chipso and Queso",
         Price = 2500000000,
         Generation = 25000000,
         Rarity = "Secret",
     },
-    ["Chipso and Queso"] = {
-        DisplayName = "Chipso and Queso",
+    ["Chillin Chili"] = {
+        DisplayName = "Chillin Chili",
         Price = 2500000000,
         Generation = 25000000,
         Rarity = "Secret",
@@ -1469,6 +1499,12 @@ local v7 = {
         Generation = 30000000,
         Rarity = "Secret",
     },
+    ["W or L"] = {
+        DisplayName = "W or L",
+        Price = 3000000000,
+        Generation = 30000000,
+        Rarity = "Secret",
+    },
     ["Los Primos"] = {
         DisplayName = "Los Primos",
         Price = 3750000000,
@@ -1493,14 +1529,14 @@ local v7 = {
         Generation = 33500000,
         Rarity = "Secret",
     },
-    ["Ketupat Kepat"] = {
-        DisplayName = "Ketupat Kepat",
+    ["La Taco Combinasion"] = {
+        DisplayName = "La Taco Combinasion",
         Price = 5000000000,
         Generation = 35000000,
         Rarity = "Secret",
     },
-    ["La Taco Combinasion"] = {
-        DisplayName = "La Taco Combinasion",
+    ["Ketupat Kepat"] = {
+        DisplayName = "Ketupat Kepat",
         Price = 5000000000,
         Generation = 35000000,
         Rarity = "Secret",
@@ -1511,14 +1547,14 @@ local v7 = {
         Generation = 37500000,
         Rarity = "Secret",
     },
-    ["Orcaledon"] = {
-        DisplayName = "Orcaledon",
+    ["La Supreme Combinasion"] = {
+        DisplayName = "La Supreme Combinasion",
         Price = 7000000000,
         Generation = 40000000,
         Rarity = "Secret",
     },
-    ["La Supreme Combinasion"] = {
-        DisplayName = "La Supreme Combinasion",
+    ["Orcaledon"] = {
+        DisplayName = "Orcaledon",
         Price = 7000000000,
         Generation = 40000000,
         Rarity = "Secret",
@@ -1527,6 +1563,12 @@ local v7 = {
         DisplayName = "Ketchuru and Musturu",
         Price = 7500000000,
         Generation = 42500000,
+        Rarity = "Secret",
+    },
+    ["Lavadorito Spinito"] = {
+        DisplayName = "Lavadorito Spinito",
+        Price = 30000000000,
+        Generation = 45000000,
         Rarity = "Secret",
     },
     ["Garama and Madundung"] = {
@@ -1553,14 +1595,14 @@ local v7 = {
         Generation = 80000000,
         Rarity = "Secret",
     },
-    ["Fragrama and Chocrama"] = {
-        DisplayName = "Fragrama and Chocrama",
+    ["La Casa Boo"] = {
+        DisplayName = "La Casa Boo",
         Price = 40000000000,
         Generation = 100000000,
         Rarity = "Secret",
     },
-    ["La Casa Boo"] = {
-        DisplayName = "La Casa Boo",
+    ["Fragrama and Chocrama"] = {
+        DisplayName = "Fragrama and Chocrama",
         Price = 40000000000,
         Generation = 100000000,
         Rarity = "Secret",
@@ -1608,4 +1650,5 @@ local v7 = {
         Rarity = "OG",
     },
 }
+
 return v7

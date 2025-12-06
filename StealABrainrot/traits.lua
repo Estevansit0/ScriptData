@@ -40,6 +40,9 @@ local v7 = {
         ["Icon"] = "rbxassetid://104964195846833",
         ["Color"] = Color3.fromRGB(235, 57, 26),
         ["MultiplierModifier"] = 4,
+        ["Modify"] = function(p2, _, p3)
+            p2.Size = p3:GetAttribute("Size") or p2.Size
+        end
     },
     ["Glitched"] = {
         ["Display"] = "Glitched",
@@ -89,6 +92,10 @@ local v7 = {
         ["Icon"] = "rbxassetid://97725744252608",
         ["Color"] = Color3.fromRGB(255, 170, 0),
         ["MultiplierModifier"] = 3,
+        ["ModifyVFX"] = function(p4)
+            -- upvalues: (copy) v_u_1
+            require(v_u_1.Shared.VFX).emitLoop(p4, 4)
+        end
     },
     ["Disco"] = {
         ["Display"] = "Disco",
@@ -166,6 +173,9 @@ local v7 = {
         ["Icon"] = "rbxassetid://119591742504251",
         ["Color"] = Color3.fromRGB(255, 200, 0),
         ["MultiplierModifier"] = 5,
+        ["ModifyVFX"] = function(p5, p6)
+            p5.Attachment.WorldPosition = p6.Parent:GetPivot().Position
+        end
     },
     ["Skeleton"] = {
         ["Display"] = "Skeleton",
@@ -218,10 +228,17 @@ local v7 = {
     },
     ["Jackolantern Pet"] = {
         ["Display"] = "Jackolantern Pet",
-        ["DisplayWithRichText"] = "<font color=\"#ffffff\">Jackolantern Pet</font>",
+        ["DisplayWithRichText"] = "<font color=\"#ff9d26\">Jackolantern Pet</font>",
         ["Icon"] = "rbxassetid://97054765273857",
-        ["Color"] = Color3.fromRGB(255, 255, 255),
+        ["Color"] = Color3.fromRGB(255, 170, 0),
         ["MultiplierModifier"] = 4.5
+    },
+    ["Santa Hat"] = {
+        ["Display"] = "Santa Hat",
+        ["DisplayWithRichText"] = "<font color=\"#ce4d4c\">Santa Hat</font>",
+        ["Icon"] = "rbxassetid://88375043733582",
+        ["Color"] = Color3.fromRGB(206, 77, 76),
+        ["MultiplierModifier"] = 4
     }
 }
 return v7

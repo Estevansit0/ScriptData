@@ -1,3 +1,4 @@
+
 local ToolData = {
     ["BlackLegStyle"] = {
         Skills = {
@@ -59,7 +60,7 @@ local ToolData = {
                 Cooldown = 7
             },
             ["Night Guy"] = {
-                Cooldown = 25
+                Cooldown = 50
             },
         }
     },
@@ -120,6 +121,38 @@ local ToolData = {
             },
             ["Execution Dash"] = {
                 Cooldown = 12
+            },
+        }
+    },
+    ["DivineScythe"] = {
+        Skills = {
+            ["Divine Lasso"] = {
+                Cooldown = 12
+            },
+            ["Divine Slash"] = {
+                Cooldown = 7
+            },
+        }
+    },
+    ["CidKagenoo"] = {
+        Skills = {
+            ["Eminence Unleashed"] = {
+                Cooldown = 10
+            },
+            ["I AM ATOMIC"] = {
+                Cooldown = 45
+            },
+            ["Atomic Barrage"] = {
+                Cooldown = 8
+            },
+            ["Atomic Execution"] = {
+                Cooldown = 13
+            },
+            ["Atomic Rupture"] = {
+                Cooldown = 18
+            },
+            ["Atomic Eruption"] = {
+                Cooldown = 10
             },
         }
     },

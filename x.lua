@@ -1,4 +1,3 @@
-
 local ToolData = {
     ["BlackLegStyle"] = {
         Skills = {
@@ -98,6 +97,12 @@ local ToolData = {
         Skills = {
             ["Zankoku: Oblivion Cut"] = {
                 Cooldown = 7
+            },
+            ["Zankoku: Partial Release"] = {
+                Cooldown = 5
+            },
+            ["Zankoku: Final Cut"] = {
+                Cooldown = 40
             },
             ["Zankoku: Abyss Flurry"] = {
                 Cooldown = 13
@@ -273,11 +278,14 @@ local ToolData = {
             ["Limitless Pulse"] = {
                 Cooldown = 8
             },
+            ["Endless Summer"] = {
+                Cooldown = 5
+            },
             ["Hollow Purple"] = {
                 Cooldown = 25
             },
             ["Awakened Limitless"] = {
-                Cooldown = 10
+                Cooldown = 5
             },
             ["Unstable Red"] = {
                 Cooldown = 10
@@ -313,6 +321,28 @@ local ToolData = {
             },
             ["Chestnut Mochi"] = {
                 Cooldown = 10
+            },
+        }
+    },
+    ["Sukuno"] = {
+        Skills = {
+            ["Dismantle"] = {
+                Cooldown = 6
+            },
+            ["Curse Awakening"] = {
+                Cooldown = 10
+            },
+            ["Cleave Rush"] = {
+                Cooldown = 7
+            },
+            ["Malevorant Shrine"] = {
+                Cooldown = 30
+            },
+            ["Flame Arrow"] = {
+                Cooldown = 10
+            },
+            ["Spiderweb Cleave"] = {
+                Cooldown = 11
             },
         }
     },

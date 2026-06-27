@@ -161,6 +161,28 @@ local ToolData = {
             },
         }
     },
+    ["Gilgamash"] = {
+        Skills = {
+            ["Babylon Volley"] = {
+                Cooldown = 8
+            },
+            ["Chain Of Fate"] = {
+                Cooldown = 10
+            },
+            ["Golden Emperor"] = {
+                Cooldown = 10
+            },
+            ["Enuma Elish"] = {
+                Cooldown = 45
+            },
+            ["Gate of Babylon"] = {
+                Cooldown = 18
+            },
+            ["Golden Turret"] = {
+                Cooldown = 13
+            },
+        }
+    },
     ["KidBuu"] = {
         Skills = {
             ["Majin Kamehameha"] = {

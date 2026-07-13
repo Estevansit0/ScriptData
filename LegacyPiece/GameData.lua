@@ -2,6 +2,71 @@ local Data = {}
 
 Data.QuestData = {
     ["Main"] = {
+        ["Mission Fire Force 1"] = {
+            ["CompletedQuest"] = true,
+            ["Goal"] = {
+                ["Amount"] = 3,
+                ["Target"] = "Lost Cat",
+                ["Type"] = "Obtain",
+            },
+            ["Identity"] = "Fire Force Trial: Lost Cats",
+            ["NPC"] = "Fire Force Recruiter",
+            ["Name"] = "Round Up the Lost Cats",
+            ["NoCancel"] = true,
+            ["NoRepeat"] = true,
+            ["Requirements"] = {},
+            ["Rewards"] = {
+                ["Experience"] = 50000,
+                ["Money"] = 10000,
+                ["Shards"] = 100,
+            },
+            ["Type"] = "Main",
+        },
+        ["Mission Fire Force 2"] = {
+            ["CompletedQuest"] = true,
+            ["Goal"] = {
+                ["Amount"] = 5,
+                ["Target"] = "Fire Force Hostage",
+                ["Type"] = "Find",
+            },
+            ["Identity"] = "Fire Force Trial: Rescue",
+            ["NPC"] = "Fire Force Recruiter",
+            ["Name"] = "Rescue 5 Hostages",
+            ["NoCancel"] = true,
+            ["NoRepeat"] = true,
+            ["Requirements"] = {
+                ["Quest"] = "Mission Fire Force 1",
+            },
+            ["Rewards"] = {
+                ["Experience"] = 100000,
+                ["Money"] = 20000,
+                ["Shards"] = 200,
+            },
+            ["Type"] = "Main",
+        },
+        ["Mission Fire Force 3"] = {
+            ["CompletedQuest"] = true,
+            ["Goal"] = {
+                ["Amount"] = 3,
+                ["Target"] = "Infernal Ambusher",
+                ["Type"] = "Kill",
+            },
+            ["Identity"] = "Fire Force Trial: Ambush",
+            ["NPC"] = "Fire Force Recruiter",
+            ["Name"] = "Survive 3 Ambushes",
+            ["NoCancel"] = true,
+            ["NoRepeat"] = true,
+            ["Requirements"] = {
+                ["Quest"] = "Mission Fire Force 2",
+            },
+            ["Rewards"] = {
+                ["Experience"] = 250000,
+                ["Money"] = 50000,
+                ["Shards"] = 500,
+                ["Title"] = "Fire Force",
+            },
+            ["Type"] = "Main",
+        },
         ["Quest Aristocrat"] = {
             ["Goal"] = {
                 ["Target"] = "Aristocrat",

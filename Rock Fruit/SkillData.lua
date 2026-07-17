@@ -1,4 +1,5 @@
 -- Script Path: game:GetService("ReplicatedStorage").Modules.SkillList
+
 return {
     Combat = {
         "Z", 
@@ -170,6 +171,30 @@ return {
         "V"
     }, 
     ["Aura Monster"] = {
+        "Z", 
+        "X", 
+        "C", 
+        "V"
+    }, 
+    Jimina = {
+        "Z", 
+        "X", 
+        "C", 
+        "V"
+    }, 
+    Cid = {
+        "Z", 
+        "X", 
+        "C", 
+        "V"
+    }, 
+    David = {
+        "Z", 
+        "X", 
+        "C", 
+        "V"
+    }, 
+    ["Excuse me sir"] = {
         "Z", 
         "X", 
         "C", 

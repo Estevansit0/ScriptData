@@ -81,13 +81,17 @@ local v1 = {
     {
         Level = 19000, 
         Npc = l_NpcQuest_0:WaitForChild("NPC_Quest20")
+    }, 
+    {
+        Level = 20000, 
+        Npc = l_NpcQuest_0:WaitForChild("NPC_Quest21")
     }
 };
 local l_QuestMarker_0 = game:GetService("ReplicatedStorage"):WaitForChild("QuestMarker");
 local _ = workspace.CurrentCamera;
 local l_RunService_0 = game:GetService("RunService");
 local _ = game:GetService("TweenService");
-v1.GetQuestByLevel = function(v6) --[[ Line: 31 ]]
+v1.GetQuestByLevel = function(v6) --[[ Line: 32 ]]
     -- upvalues: v1 (copy)
     local v7 = nil;
     for _, v9 in ipairs(v1) do
@@ -101,7 +105,7 @@ v1.GetQuestByLevel = function(v6) --[[ Line: 31 ]]
 end;
 local v10 = {};
 local v11 = {};
-local function v16() --[[ Line: 46 ]] --[[ Name: ClearMarkers ]]
+local function v16() --[[ Line: 47 ]] --[[ Name: ClearMarkers ]]
     -- upvalues: v11 (ref), v10 (ref)
     for _, v13 in v11 do
         v13:Disconnect();
@@ -112,7 +116,7 @@ local function v16() --[[ Line: 46 ]] --[[ Name: ClearMarkers ]]
     v11 = {};
     v10 = {};
 end;
-v1.UpdateMark = function(v17) --[[ Line: 57 ]]
+v1.UpdateMark = function(v17) --[[ Line: 58 ]]
     -- upvalues: v16 (copy), v1 (copy), l_QuestMarker_0 (copy), l_RunService_0 (copy), v11 (ref), v10 (ref)
     v16();
     local l_v17_Attribute_0 = v17:GetAttribute("Level");
@@ -135,7 +139,7 @@ v1.UpdateMark = function(v17) --[[ Line: 57 ]]
                     local v25 = l_QuestMarker_0:Clone();
                     v25.Parent = l_HumanoidRootPart_0;
                     v25.Distance.TextLabel.Text = string.format("%.0f", l_Magnitude_0) .. "m";
-                    local v27 = l_RunService_0.RenderStepped:Connect(function() --[[ Line: 74 ]]
+                    local v27 = l_RunService_0.RenderStepped:Connect(function() --[[ Line: 75 ]]
                         -- upvalues: v25 (copy), l_HumanoidRootPart_0 (copy), l_HumanoidRootPart_1 (copy)
                         if v25 and v25.Parent then
                             local l_Magnitude_1 = (l_HumanoidRootPart_0.Position - l_HumanoidRootPart_1.Position).Magnitude;
@@ -150,7 +154,7 @@ v1.UpdateMark = function(v17) --[[ Line: 57 ]]
     end;
 end;
 local v28 = {};
-v1.Toggle = function(v29, v30) --[[ Line: 88 ]]
+v1.Toggle = function(v29, v30) --[[ Line: 89 ]]
     -- upvalues: v28 (ref), v16 (copy), v1 (copy)
     for _, v32 in v28 do
         v32:Disconnect();
@@ -159,7 +163,7 @@ v1.Toggle = function(v29, v30) --[[ Line: 88 ]]
     v16();
     if v30 and v29 then
         v1.UpdateMark(v29);
-        table.insert(v28, v29:GetAttributeChangedSignal("Level"):Connect(function() --[[ Line: 96 ]]
+        table.insert(v28, v29:GetAttributeChangedSignal("Level"):Connect(function() --[[ Line: 97 ]]
             -- upvalues: v1 (ref), v29 (copy)
             v1.UpdateMark(v29);
         end));

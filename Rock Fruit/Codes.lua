@@ -2,5 +2,7 @@ return {
     "MiniUpdate",
     "Mambo",
     "MiniUpdate2",
-    "OmniMan"
+    "OmniMan",
+    "UPDATE1",
+    "SorryForDelay1"
 }

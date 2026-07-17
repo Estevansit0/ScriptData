@@ -1,3 +1,5 @@
+-- Script Path: game:GetService("ReplicatedStorage").Modules.GaranteeRandomItem
+
 return {
     Fish = 5, 
     Iron = 5, 
@@ -24,6 +26,7 @@ return {
     ["Chef Hat"] = 50, 
     Pipe = 50, 
     ["Orb Boss"] = 50, 
+    ["Space Ticket"] = 50, 
     Duck4 = 50, 
     ["Orb Green"] = 250, 
     ["Orb Black"] = 250, 
@@ -50,9 +53,13 @@ return {
     ["Aura Pink"] = 750, 
     ["Aura Red"] = 750, 
     ["Aura Green"] = 750, 
+    Microphone = 750, 
+    ["Thompson Gun"] = 750, 
+    ["Heart of Envy"] = 750, 
+    ["Cake Monster"] = 750, 
     Duck6 = 750, 
     ["Aura Rainbow"] = 1500, 
     ["Magic Evolution"] = 1500, 
     ["Book of Busoshoku Haki"] = 750, 
     Duck7 = 850
-}
+};

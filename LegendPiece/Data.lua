@@ -1,16 +1,25 @@
 return {
     ["fruitsEnums"] = {
-        ["Flame"] = {
-            ["ItemName"] = "Flame",
-            ["ItemType"] = "Elemental",
-            ["ItemDescription"] = "flame desc",
-            ["RobuxPrice"] = 620,
+        ["Rubber"] = {
             ["ItemRarity"] = "Epic",
-            ["ProductID"] = 1921174214,
+            ["ItemName"] = "Rubber",
+            ["ItemType"] = "Natural",
             ["Chance"] = 25,
-            ["IconID"] = "rbxassetid://100422713276559",
-            ["GamepassID"] = 908805492,
-            ["CoinPrice"] = 650000,
+            ["IconID"] = "rbxassetid://78033986943222",
+            ["CoinPrice"] = 500000,
+            ["ItemDescription"] = "rubber desc",
+        },
+        ["Invisible"] = {
+            ["ItemName"] = "Invisible",
+            ["ItemType"] = "Natural",
+            ["ItemDescription"] = "invisible desc",
+            ["RobuxPrice"] = 75,
+            ["ItemRarity"] = "Common",
+            ["ProductID"] = 1921173120,
+            ["Chance"] = 100,
+            ["IconID"] = "rbxassetid://84595010421940",
+            ["GamepassID"] = 908811454,
+            ["CoinPrice"] = 50000,
         },
         ["Paw"] = {
             ["ItemName"] = "Paw",
@@ -35,6 +44,66 @@ return {
             ["IconID"] = "rbxassetid://81954886107659",
             ["GamepassID"] = 909156503,
             ["CoinPrice"] = 600000,
+        },
+        ["Smoke"] = {
+            ["ItemName"] = "Smoke",
+            ["ItemType"] = "Natural",
+            ["ItemDescription"] = "smoke desc",
+            ["RobuxPrice"] = 150,
+            ["ItemRarity"] = "Rare",
+            ["ProductID"] = 1921173542,
+            ["Chance"] = 80,
+            ["IconID"] = "rbxassetid://128524763008831",
+            ["GamepassID"] = 909525371,
+            ["CoinPrice"] = 200000,
+        },
+        ["Quake"] = {
+            ["ItemName"] = "Quake",
+            ["ItemType"] = "Natural",
+            ["ItemDescription"] = "quake desc",
+            ["RobuxPrice"] = 360,
+            ["ItemRarity"] = "Legendary",
+            ["ProductID"] = 1921174056,
+            ["Chance"] = 25,
+            ["IconID"] = "rbxassetid://113938078213915",
+            ["GamepassID"] = 909156503,
+            ["CoinPrice"] = 1500000,
+        },
+        ["Spike"] = {
+            ["ItemName"] = "Spike",
+            ["ItemType"] = "Natural",
+            ["ItemDescription"] = "spike desc",
+            ["RobuxPrice"] = 150,
+            ["ItemRarity"] = "Rare",
+            ["ProductID"] = 1921173542,
+            ["Chance"] = 80,
+            ["IconID"] = "rbxassetid://125197924707349",
+            ["GamepassID"] = 909525371,
+            ["CoinPrice"] = 90000,
+        },
+        ["Rumble"] = {
+            ["ItemName"] = "Rumble",
+            ["ItemType"] = "Elemental",
+            ["ItemDescription"] = "rumble desc",
+            ["RobuxPrice"] = 690,
+            ["ItemRarity"] = "Legendary",
+            ["ProductID"] = 2836095753,
+            ["Chance"] = 15,
+            ["IconID"] = "rbxassetid://118283240591506",
+            ["GamepassID"] = 1054888782,
+            ["CoinPrice"] = 2000000,
+        },
+        ["Flame"] = {
+            ["ItemName"] = "Flame",
+            ["ItemType"] = "Elemental",
+            ["ItemDescription"] = "flame desc",
+            ["RobuxPrice"] = 620,
+            ["ItemRarity"] = "Epic",
+            ["ProductID"] = 1921174214,
+            ["Chance"] = 25,
+            ["IconID"] = "rbxassetid://100422713276559",
+            ["GamepassID"] = 908805492,
+            ["CoinPrice"] = 650000,
         },
         ["Spin"] = {
             ["ItemName"] = "Spin",
@@ -72,42 +141,6 @@ return {
             ["GamepassID"] = 909366383,
             ["CoinPrice"] = 700000,
         },
-        ["Invisible"] = {
-            ["ItemName"] = "Invisible",
-            ["ItemType"] = "Natural",
-            ["ItemDescription"] = "invisible desc",
-            ["RobuxPrice"] = 75,
-            ["ItemRarity"] = "Common",
-            ["ProductID"] = 1921173120,
-            ["Chance"] = 100,
-            ["IconID"] = "rbxassetid://84595010421940",
-            ["GamepassID"] = 908811454,
-            ["CoinPrice"] = 50000,
-        },
-        ["Spike"] = {
-            ["ItemName"] = "Spike",
-            ["ItemType"] = "Natural",
-            ["ItemDescription"] = "spike desc",
-            ["RobuxPrice"] = 150,
-            ["ItemRarity"] = "Rare",
-            ["ProductID"] = 1921173542,
-            ["Chance"] = 80,
-            ["IconID"] = "rbxassetid://125197924707349",
-            ["GamepassID"] = 909525371,
-            ["CoinPrice"] = 90000,
-        },
-        ["Smoke"] = {
-            ["ItemName"] = "Smoke",
-            ["ItemType"] = "Natural",
-            ["ItemDescription"] = "smoke desc",
-            ["RobuxPrice"] = 150,
-            ["ItemRarity"] = "Rare",
-            ["ProductID"] = 1921173542,
-            ["Chance"] = 80,
-            ["IconID"] = "rbxassetid://128524763008831",
-            ["GamepassID"] = 909525371,
-            ["CoinPrice"] = 200000,
-        },
         ["Barrier"] = {
             ["ItemName"] = "Barrier",
             ["ItemType"] = "Natural",
@@ -120,17 +153,23 @@ return {
             ["GamepassID"] = 909525371,
             ["CoinPrice"] = 100000,
         },
-        ["Rumble"] = {
-            ["ItemName"] = "Rumble",
-            ["ItemType"] = "Elemental",
-            ["ItemDescription"] = "rumble desc",
-            ["RobuxPrice"] = 690,
-            ["ItemRarity"] = "Legendary",
-            ["ProductID"] = 2836095753,
-            ["Chance"] = 15,
-            ["IconID"] = "rbxassetid://118283240591506",
-            ["GamepassID"] = 1054888782,
-            ["CoinPrice"] = 2000000,
+        ["Door"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Door",
+            ["ItemType"] = "Natural",
+            ["Chance"] = 25,
+            ["IconID"] = "rbxassetid://139251595647181",
+            ["CoinPrice"] = 600000,
+            ["ItemDescription"] = "door desc",
+        },
+        ["Leopard"] = {
+            ["ItemRarity"] = "Mythical",
+            ["ItemName"] = "Leopard",
+            ["ItemType"] = "Beast",
+            ["Chance"] = 5,
+            ["IconID"] = "rbxassetid://91341658424878",
+            ["CoinPrice"] = 4300000,
+            ["ItemDescription"] = "leopard desc",
         },
         ["Light"] = {
             ["ItemName"] = "Light",
@@ -143,18 +182,6 @@ return {
             ["IconID"] = "rbxassetid://137369719991798",
             ["GamepassID"] = 908682487,
             ["CoinPrice"] = 1260000,
-        },
-        ["Quake"] = {
-            ["ItemName"] = "Quake",
-            ["ItemType"] = "Natural",
-            ["ItemDescription"] = "quake desc",
-            ["RobuxPrice"] = 360,
-            ["ItemRarity"] = "Legendary",
-            ["ProductID"] = 1921174056,
-            ["Chance"] = 25,
-            ["IconID"] = "rbxassetid://113938078213915",
-            ["GamepassID"] = 909156503,
-            ["CoinPrice"] = 1500000,
         },
         ["Dough"] = {
             ["ItemName"] = "Dough",
@@ -182,8 +209,19 @@ return {
         },
     },
     ["toolsEnums"] = {
+        ["Rubber"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["X"] = "Rubber Stomp",
+                ["C"] = "Rubber Bazooka",
+                ["Z"] = "Rubber Pistol",
+                ["E"] = "Rubber Rocket",
+                ["B"] = "Rubber Rifle",
+                ["V"] = "Rubber Gatling",
+            },
+        },
         ["Invisible"] = {
-            ["ToolType"] = "Fruits",
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
                 ["Z"] = "Invisible",
             },
@@ -194,9 +232,9 @@ return {
                 ["Z"] = "Ground Slam",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
-                ["Multiplier"] = 0.4,
+                ["Multiplier"] = 0.40000000000000002,
                 ["BaseDamage"] = 6,
                 ["MaxCombo"] = 2,
                 ["Scaler"] = "Melee",
@@ -209,7 +247,7 @@ return {
                 ["Z"] = "White Slam",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
@@ -218,7 +256,7 @@ return {
             },
         },
         ["Magma"] = {
-            ["ToolType"] = "Fruits",
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
                 ["V"] = "Magma Shower",
                 ["X"] = "Magma Eruption",
@@ -233,7 +271,7 @@ return {
             },
         },
         ["Spike"] = {
-            ["ToolType"] = "Fruits",
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
                 ["E"] = "Spikey Ball",
                 ["X"] = "Spike Burst",
@@ -241,7 +279,7 @@ return {
             },
         },
         ["Light"] = {
-            ["ToolType"] = "Fruits",
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
                 ["X"] = "Mirror Kick",
                 ["C"] = "Starlight",
@@ -251,7 +289,7 @@ return {
             },
         },
         ["Flame"] = {
-            ["ToolType"] = "Fruits",
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
                 ["X"] = "Fire Pillar",
                 ["C"] = "Fire Bullets",
@@ -266,40 +304,13 @@ return {
                 ["Fruit"] = "Magma",
             },
         },
-        ["Ice Fruit"] = {
-            ["ToolType"] = "Misc",
-            ["Given"] = {
-                ["Fruit"] = "Ice",
-            },
-        },
-        ["Sand Fruit"] = {
-            ["ToolType"] = "Misc",
-            ["Given"] = {
-                ["Fruit"] = "Sand",
-            },
-        },
-        ["DarkBlade"] = {
-            ["ToolType"] = "Sword",
-            ["Skills"] = {
-                ["X"] = "Strongest Slash",
-                ["Z"] = "Thousand Slices",
-            },
-            ["M1s"] = {
-                ["HitDelay"] = 0.6,
-                ["Hitbox"] = Vector3.new(5, 5, 5),
-                ["Multiplier"] = 0.7,
-                ["BaseDamage"] = 9,
-                ["MaxCombo"] = 2,
-                ["Scaler"] = "Sword",
-            },
-        },
         ["Cutlass"] = {
             ["ToolType"] = "Sword",
             ["Skills"] = {
                 ["Z"] = "Cutlass Slash",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
@@ -307,18 +318,12 @@ return {
                 ["Scaler"] = "Sword",
             },
         },
-        ["Spike Fruit"] = {
-            ["ToolType"] = "Misc",
-            ["Given"] = {
-                ["Fruit"] = "Spike",
-            },
-        },
         ["Bamboo"] = {
             ["ToolType"] = "Sword",
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
-                ["Multiplier"] = 0.45,
+                ["Multiplier"] = 0.45000000000000001,
                 ["BaseDamage"] = 6,
                 ["MaxCombo"] = 2,
                 ["Scaler"] = "Sword",
@@ -331,7 +336,7 @@ return {
                 ["X"] = "Icy Flash",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
@@ -346,62 +351,8 @@ return {
                 ["Z"] = "Activate Poison",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(4, 4, 4),
-                ["Multiplier"] = 0.5,
-                ["BaseDamage"] = 7,
-                ["MaxCombo"] = 2,
-                ["Scaler"] = "Sword",
-            },
-        },
-        ["Invisible Fruit"] = {
-            ["ToolType"] = "Misc",
-            ["Given"] = {
-                ["Fruit"] = "Invisible",
-            },
-        },
-        ["Sand"] = {
-            ["ToolType"] = "Fruits",
-            ["Skills"] = {
-                ["X"] = "Sand Burial",
-                ["C"] = "Quicksand",
-                ["Z"] = "Desert Blades",
-                ["E"] = "Sand Flight",
-                ["V"] = "Sand Tornado",
-            },
-        },
-        ["Rumble Fruit"] = {
-            ["ToolType"] = "Misc",
-            ["Given"] = {
-                ["Fruit"] = "Rumble",
-            },
-        },
-        ["Bomb"] = {
-            ["ToolType"] = "Fruits",
-            ["Skills"] = {
-                ["X"] = "Triple Bomb",
-                ["C"] = "Bomb Explosion",
-                ["Z"] = "Bomb Shot",
-            },
-        },
-        ["Quake"] = {
-            ["ToolType"] = "Fruits",
-            ["Skills"] = {
-                ["V"] = "Sea Quake",
-                ["X"] = "Quake Stomp",
-                ["C"] = "Air Crusher",
-                ["Z"] = "Tremor Crush",
-            },
-        },
-        ["JungleClub"] = {
-            ["ToolType"] = "Sword",
-            ["Skills"] = {
-                ["X"] = "Gorilla Drop",
-                ["Z"] = "Jungle Waves",
-            },
-            ["M1s"] = {
-                ["HitDelay"] = 0.6,
-                ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
                 ["MaxCombo"] = 2,
@@ -415,7 +366,22 @@ return {
                 ["Z"] = "360 Pound Slash",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
+                ["Hitbox"] = Vector3.new(5, 5, 5),
+                ["Multiplier"] = 0.5,
+                ["BaseDamage"] = 7,
+                ["MaxCombo"] = 2,
+                ["Scaler"] = "Sword",
+            },
+        },
+        ["Pipe"] = {
+            ["ToolType"] = "Sword",
+            ["Skills"] = {
+                ["X"] = "Pipe Slam",
+                ["Z"] = "Swirling",
+            },
+            ["M1s"] = {
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
@@ -430,7 +396,7 @@ return {
                 ["Z"] = "Spin Shark",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
@@ -438,25 +404,47 @@ return {
                 ["Scaler"] = "Sword",
             },
         },
-        ["Paw Fruit"] = {
+        ["Ice Fruit"] = {
             ["ToolType"] = "Misc",
             ["Given"] = {
-                ["Fruit"] = "Paw",
+                ["Fruit"] = "Ice",
             },
         },
-        ["Gryphon"] = {
-            ["ToolType"] = "Sword",
+        ["Sand Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Sand",
+            },
+        },
+        ["Leopard"] = {
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
-                ["X"] = "Rush Cleave",
-                ["Z"] = "Redish Slash",
+                ["X"] = "Wild Strike",
+                ["C"] = "Beast Impulse",
+                ["Z"] = "Leopard Transform",
+                ["E"] = "Predator Sprint",
+                ["V"] = "Grand Leopard Impact",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
-                ["Hitbox"] = Vector3.new(5, 5, 5),
-                ["Multiplier"] = 0.6,
-                ["BaseDamage"] = 8,
-                ["MaxCombo"] = 2,
-                ["Scaler"] = "Sword",
+                ["ActionHitboxes"] = {
+                    ["Roar"] = Vector3.new(30, 30, 30),
+                },
+                ["BaseDamage"] = 60,
+                ["ActionOffsets"] = {
+                    ["Roar"] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+                ["Multiplier"] = 0.40000000000000002,
+                ["Scaler"] = "Fruit",
+                ["HitDelay"] = 0.42999999999999999,
+                ["Hitbox"] = Vector3.new(8, 8, 8),
+                ["Actions"] = {
+                    [1] = "M1",
+                    [2] = "M2",
+                    [3] = "M3",
+                    [4] = "Roar",
+                },
+                ["MaxCombo"] = 4,
+                ["ComboResetTime"] = 1.3999999999999999,
             },
         },
         ["Pole"] = {
@@ -466,12 +454,18 @@ return {
                 ["Z"] = "Golden Sweep",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
                 ["MaxCombo"] = 2,
                 ["Scaler"] = "Sword",
+            },
+        },
+        ["Spike Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Spike",
             },
         },
         ["AxeHand"] = {
@@ -481,7 +475,7 @@ return {
                 ["Z"] = "Spin Axe",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(4, 4, 4),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
@@ -496,22 +490,86 @@ return {
                 ["Z"] = "Abyssal Cyclone",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
-                ["Multiplier"] = 0.6,
+                ["Multiplier"] = 0.59999999999999998,
                 ["BaseDamage"] = 8,
                 ["MaxCombo"] = 2,
                 ["Scaler"] = "Sword",
             },
         },
-        ["Pipe"] = {
+        ["DarkBlade"] = {
             ["ToolType"] = "Sword",
             ["Skills"] = {
-                ["X"] = "Pipe Slam",
-                ["Z"] = "Swirling",
+                ["X"] = "Strongest Slash",
+                ["Z"] = "Thousand Slices",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
+                ["Hitbox"] = Vector3.new(5, 5, 5),
+                ["Multiplier"] = 0.69999999999999996,
+                ["BaseDamage"] = 9,
+                ["MaxCombo"] = 2,
+                ["Scaler"] = "Sword",
+            },
+        },
+        ["Invisible Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Invisible",
+            },
+        },
+        ["BlackLegV2"] = {
+            ["ToolType"] = "FightingStyle",
+            ["Skills"] = {
+                ["X"] = "Hellfire Strike",
+                ["C"] = "Shooting Star Devil Kick",
+                ["Z"] = "Drill Kick",
+            },
+            ["M1s"] = {
+                ["StatusEffect"] = {
+                    ["Name"] = "Burnt",
+                    ["Duration"] = 2,
+                },
+                ["HitDelay"] = 0.59999999999999998,
+                ["Hitbox"] = Vector3.new(5, 5, 5),
+                ["Multiplier"] = 0.5,
+                ["BaseDamage"] = 6,
+                ["MaxCombo"] = 5,
+                ["Scaler"] = "Melee",
+            },
+        },
+        ["Rumble Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Rumble",
+            },
+        },
+        ["Bomb"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["X"] = "Triple Bomb",
+                ["C"] = "Bomb Explosion",
+                ["Z"] = "Bomb Shot",
+            },
+        },
+        ["Quake"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["V"] = "Sea Quake",
+                ["X"] = "Quake Stomp",
+                ["C"] = "Air Crusher",
+                ["Z"] = "Tremor Crush",
+            },
+        },
+        ["JungleClub"] = {
+            ["ToolType"] = "Sword",
+            ["Skills"] = {
+                ["X"] = "Gorilla Drop",
+                ["Z"] = "Jungle Waves",
+            },
+            ["M1s"] = {
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 7,
@@ -519,10 +577,82 @@ return {
                 ["Scaler"] = "Sword",
             },
         },
+        ["Leopard Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Leopard",
+            },
+        },
+        ["Rumble"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["V"] = "Thunder Spirit",
+                ["X"] = "Sky Judgement",
+                ["C"] = "Godspeed",
+                ["Z"] = "Lightning Dragon",
+            },
+        },
+        ["Door Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Door",
+            },
+        },
+        ["Gryphon"] = {
+            ["ToolType"] = "Sword",
+            ["Skills"] = {
+                ["X"] = "Rush Cleave",
+                ["Z"] = "Redish Slash",
+            },
+            ["M1s"] = {
+                ["HitDelay"] = 0.59999999999999998,
+                ["Hitbox"] = Vector3.new(5, 5, 5),
+                ["Multiplier"] = 0.59999999999999998,
+                ["BaseDamage"] = 8,
+                ["MaxCombo"] = 2,
+                ["Scaler"] = "Sword",
+            },
+        },
         ["Spin"] = {
-            ["ToolType"] = "Fruits",
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
                 ["Z"] = "Travel",
+            },
+        },
+        ["Smoke"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["E"] = "Smoke Flight",
+                ["X"] = "Smoke Prison",
+                ["Z"] = "White Snake",
+            },
+        },
+        ["Sand"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["X"] = "Sand Burial",
+                ["C"] = "Quicksand",
+                ["Z"] = "Desert Blades",
+                ["E"] = "Sand Flight",
+                ["V"] = "Sand Tornado",
+            },
+        },
+        ["Door"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["X"] = "Backdoor Ambush",
+                ["C"] = "Dimension Runner",
+                ["Z"] = "Six-Gate Barrage",
+                ["E"] = "Air Door",
+                ["V"] = "Mirage Door",
+            },
+        },
+        ["Paw"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["X"] = "Paw Barrage",
+                ["C"] = "Paw Nuke",
+                ["Z"] = "Paw Shot",
             },
         },
         ["PowerHuman"] = {
@@ -533,21 +663,12 @@ return {
                 ["Z"] = "Finger Pistol",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
-                ["Multiplier"] = 0.6,
+                ["Multiplier"] = 0.59999999999999998,
                 ["BaseDamage"] = 8,
                 ["MaxCombo"] = 2,
                 ["Scaler"] = "Melee",
-            },
-        },
-        ["Ice"] = {
-            ["ToolType"] = "Fruits",
-            ["Skills"] = {
-                ["V"] = "Ice Age",
-                ["X"] = "Ice Stomp",
-                ["C"] = "Icicle Rain",
-                ["Z"] = "Ice Bird",
             },
         },
         ["Spin Fruit"] = {
@@ -556,18 +677,27 @@ return {
                 ["Fruit"] = "Spin",
             },
         },
-        ["Smoke"] = {
-            ["ToolType"] = "Fruits",
+        ["Barrier"] = {
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
-                ["E"] = "Smoke Flight",
-                ["X"] = "Smoke Prison",
-                ["Z"] = "White Snake",
+                ["X"] = "Barrier Cubes",
+                ["C"] = "Barrier Stairs",
+                ["Z"] = "Barrier Crash",
             },
         },
-        ["Light Fruit"] = {
+        ["Ice"] = {
+            ["ToolType"] = "Fruit",
+            ["Skills"] = {
+                ["V"] = "Ice Age",
+                ["X"] = "Ice Stomp",
+                ["C"] = "Icicle Rain",
+                ["Z"] = "Ice Bird",
+            },
+        },
+        ["Quake Fruit"] = {
             ["ToolType"] = "Misc",
             ["Given"] = {
-                ["Fruit"] = "Light",
+                ["Fruit"] = "Quake",
             },
         },
         ["BlackLeg"] = {
@@ -578,39 +708,22 @@ return {
                 ["Z"] = "Flying Kick",
             },
             ["M1s"] = {
-                ["HitDelay"] = 0.6,
+                ["HitDelay"] = 0.59999999999999998,
                 ["Hitbox"] = Vector3.new(5, 5, 5),
                 ["Multiplier"] = 0.5,
                 ["BaseDamage"] = 6,
-                ["MaxCombo"] = 2,
+                ["MaxCombo"] = 5,
                 ["Scaler"] = "Melee",
             },
         },
-        ["Rumble"] = {
-            ["ToolType"] = "Fruits",
-            ["Skills"] = {
-                ["V"] = "Thunder Spirit",
-                ["X"] = "Sky Judgement",
-                ["C"] = "Godspeed",
-                ["Z"] = "Lightning Dragon",
-            },
-        },
-        ["Paw"] = {
-            ["ToolType"] = "Fruits",
-            ["Skills"] = {
-                ["X"] = "Paw Barrage",
-                ["C"] = "Paw Nuke",
-                ["Z"] = "Paw Shot",
-            },
-        },
-        ["Bomb Fruit"] = {
+        ["Paw Fruit"] = {
             ["ToolType"] = "Misc",
             ["Given"] = {
-                ["Fruit"] = "Bomb",
+                ["Fruit"] = "Paw",
             },
         },
         ["Dough"] = {
-            ["ToolType"] = "Fruits",
+            ["ToolType"] = "Fruit",
             ["Skills"] = {
                 ["X"] = "Burning Dough",
                 ["C"] = "Dough Barrage",
@@ -619,12 +732,32 @@ return {
                 ["V"] = "Buzzcut Dough",
             },
         },
-        ["Barrier"] = {
-            ["ToolType"] = "Fruits",
+        ["Bomb Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Bomb",
+            },
+        },
+        ["Cyborg"] = {
+            ["ToolType"] = "FightingStyle",
             ["Skills"] = {
-                ["X"] = "Barrier Cubes",
-                ["C"] = "Barrier Stairs",
-                ["Z"] = "Barrier Crash",
+                ["X"] = "Radical Beam",
+                ["C"] = "Booster Impact",
+                ["Z"] = "Weapons Left",
+            },
+            ["M1s"] = {
+                ["HitDelay"] = 0.59999999999999998,
+                ["Hitbox"] = Vector3.new(5, 5, 5),
+                ["Multiplier"] = 0.49454545454545457,
+                ["BaseDamage"] = 6,
+                ["MaxCombo"] = 2,
+                ["Scaler"] = "Melee",
+            },
+        },
+        ["Light Fruit"] = {
+            ["ToolType"] = "Misc",
+            ["Given"] = {
+                ["Fruit"] = "Light",
             },
         },
         ["Smoke Fruit"] = {
@@ -639,10 +772,10 @@ return {
                 ["Fruit"] = "Dough",
             },
         },
-        ["Quake Fruit"] = {
+        ["Rubber Fruit"] = {
             ["ToolType"] = "Misc",
             ["Given"] = {
-                ["Fruit"] = "Quake",
+                ["Fruit"] = "Rubber",
             },
         },
         ["Barrier Fruit"] = {
@@ -653,6 +786,33 @@ return {
         },
     },
     ["SkillsEnums"] = {
+        ["Mirage Door"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 40,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 150,
+                ["MasteryName"] = "DoorLevel",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(40, 40, 40),
+                },
+                ["Speeds"] = {
+                    [1] = 100,
+                },
+            },
+            ["Multiplier"] = 0.13600000000000001,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Door",
+            ["Delay"] = 12,
+        },
         ["Invisible"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
@@ -671,6 +831,30 @@ return {
             ["ChargeTimeout"] = 0,
             ["Tool"] = "Invisible",
             ["Delay"] = 2,
+        },
+        ["Radical Beam"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 6,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.69999999999999996,
+            ["Scaler"] = "Melee",
+            ["Requirement"] = {
+                ["MasteryValue"] = 150,
+                ["MasteryName"] = "CyborgLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(15, 15, 52),
+                },
+            },
+            ["Multiplier"] = 0.10818181818181818,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 5,
+            ["Tool"] = "Cyborg",
+            ["Delay"] = 12,
         },
         ["Jewels Of Light"] = {
             ["LandRequired"] = false,
@@ -694,50 +878,47 @@ return {
                     [1] = 300,
                 },
             },
-            ["Multiplier"] = 0.1,
+            ["Multiplier"] = 0.10000000000000001,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 4,
             ["Tool"] = "Light",
             ["Delay"] = 24,
         },
-        ["Fire Fist"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 3,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["BreakTree"] = true,
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["StatusEffect"] = {
-                ["Name"] = "Burnt",
-                ["Duration"] = 2,
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 1,
-                ["MasteryName"] = "FlameLevel",
-            },
-            ["Projectile"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(40, 40, 40),
-                },
-                ["Speeds"] = {
-                    [1] = 200,
-                },
-            },
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Flame",
-            ["Delay"] = 7.5,
-        },
-        ["Finger Pistol"] = {
+        ["Golden Sweep"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
             ["BaseDamage"] = 2,
             ["AnimationSpeed"] = {
-                ["Release"] = 0.8,
+                ["Release"] = 1,
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(20, 15, 20),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Sword",
+            ["Multiplier"] = 0.040000000000000001,
+            ["Requirement"] = {
+                ["MasteryValue"] = 20,
+                ["MasteryName"] = "PoleLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["MobHold"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 2,
+            ["Tool"] = "Pole",
+            ["Delay"] = 9,
+        },
+        ["Finger Pistol"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 4,
+            ["AnimationSpeed"] = {
+                ["Release"] = 0.80000000000000004,
             },
             ["ProcessDelay"] = 0,
             ["Scaler"] = "Melee",
@@ -746,55 +927,75 @@ return {
                     [1] = Vector3.new(15, 15, 32),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -20.5),
+                    [1] = CFrame.new(0, 0, -20.5, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
                 ["MasteryValue"] = 1,
                 ["MasteryName"] = "PowerHumanLevel",
             },
-            ["Multiplier"] = 0.06,
+            ["Multiplier"] = 0.089999999999999997,
             ["MobHold"] = true,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 2,
             ["Tool"] = "PowerHuman",
             ["Delay"] = 10,
         },
-        ["Magma Fist"] = {
+        ["Six-Gate Barrage"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 46,
+            ["BaseDamage"] = 17,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0,
             ["Scaler"] = "Fruit",
-            ["StatusEffect"] = {
-                ["Name"] = "Burnt",
-                ["Duration"] = 2,
-            },
             ["Requirement"] = {
                 ["MasteryValue"] = 1,
-                ["MasteryName"] = "MagmaLevel",
+                ["MasteryName"] = "DoorLevel",
             },
             ["Projectile"] = {
                 ["Sizes"] = {
-                    [1] = Vector3.new(40, 40, 40),
+                    [1] = Vector3.new(30, 30, 70),
                 },
                 ["Speeds"] = {
-                    [1] = 150,
+                    [1] = 100,
                 },
             },
-            ["Multiplier"] = 1.2,
-            ["ReleaseDelay"] = 0.2,
+            ["Multiplier"] = 0.016,
+            ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
-            ["Tool"] = "Magma",
-            ["Delay"] = 7.5,
+            ["Tool"] = "Door",
+            ["Delay"] = 8,
+        },
+        ["Triple Bomb"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 22,
+            ["AnimationSpeed"] = {
+                ["Release"] = 2,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 25,
+                ["MasteryName"] = "BombLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(25, 25, 25),
+                },
+            },
+            ["Multiplier"] = 1.5,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Bomb",
+            ["Delay"] = 8,
         },
         ["Dough Barrage"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 1,
+            ["BaseDamage"] = 27,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -809,39 +1010,39 @@ return {
                     [1] = Vector3.new(40, 30, 40),
                 },
             },
-            ["Multiplier"] = 0.04,
+            ["Multiplier"] = 0.016363636363636365,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 5,
             ["Tool"] = "Dough",
-            ["Delay"] = 22.5,
+            ["Delay"] = 18,
         },
-        ["Air Crusher"] = {
+        ["Thousand Slices"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 62,
+            ["BaseDamage"] = 2,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 1,
-            ["Scaler"] = "Fruit",
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Sword",
             ["AOE"] = {
                 ["Sizes"] = {
-                    [1] = Vector3.new(150, 90, 150),
+                    [1] = Vector3.new(45, 45, 45),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 25, 0),
+                    [1] = CFrame.new(0, 0, -10, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
-                ["MasteryValue"] = 120,
-                ["MasteryName"] = "QuakeLevel",
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "DarkBladeLevel",
             },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1.4,
-            ["ReleaseDelay"] = 0.35,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Quake",
-            ["Delay"] = 18,
+            ["Multiplier"] = 0.059999999999999998,
+            ["MobHold"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 2.7000000000000002,
+            ["Tool"] = "DarkBlade",
+            ["Delay"] = 8.5,
         },
         ["Pipe Slam"] = {
             ["LandRequired"] = true,
@@ -854,14 +1055,14 @@ return {
                 ["Name"] = "Burnt",
                 ["Duration"] = 2,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Sword",
             ["AOE"] = {
                 ["Sizes"] = {
                     [1] = Vector3.new(25, 16, 28),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 4, -18),
+                    [1] = CFrame.new(0, 4, -18, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
@@ -870,7 +1071,7 @@ return {
             },
             ["IgnoreYRotation"] = true,
             ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Pipe",
             ["Delay"] = 10.5,
@@ -878,7 +1079,7 @@ return {
         ["Quake Stomp"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 46,
+            ["BaseDamage"] = 54,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -889,7 +1090,7 @@ return {
                     [1] = Vector3.new(80, 60, 80),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
@@ -897,68 +1098,162 @@ return {
                 ["MasteryName"] = "QuakeLevel",
             },
             ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
+            ["Multiplier"] = 2,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Quake",
-            ["Delay"] = 13.5,
+            ["Delay"] = 8,
         },
-        ["Sand Flight"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = true,
-            ["BaseDamage"] = 5,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 15,
-                ["MasteryName"] = "SandLevel",
-            },
-            ["Multiplier"] = 0.5,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 20,
-            ["Tool"] = "Sand",
-            ["Delay"] = 7.5,
-        },
-        ["Ice Age"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 60,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["StatusEffect"] = {
-                ["Name"] = "Frozen",
-                ["Duration"] = 2,
-            },
-            ["ProcessDelay"] = 0.4,
-            ["Scaler"] = "Fruit",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(75, 45, 75),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 120,
-                ["MasteryName"] = "IceLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1.4,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Ice",
-            ["Delay"] = 26,
-        },
-        ["Power Impact"] = {
+        ["Dimension Runner"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
             ["BaseDamage"] = 70,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.3,
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(30, 30, 30),
+                },
+                ["Speeds"] = {
+                    [1] = 100,
+                },
+            },
+            ["ProcessDelay"] = 7,
+            ["Scaler"] = "Fruit",
+            ["IgnoreYRotation"] = true,
+            ["Requirement"] = {
+                ["MasteryValue"] = 100,
+                ["MasteryName"] = "DoorLevel",
+            },
+            ["Multiplier"] = 1,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Door",
+            ["Delay"] = 20,
+        },
+        ["Drill Kick"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 3,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Melee",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 14),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 0,
+                ["MasteryName"] = "BlackLegLevel",
+            },
+            ["Multiplier"] = 0.080000000000000002,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 5,
+            ["Tool"] = "BlackLegV2",
+            ["Delay"] = 11,
+        },
+        ["Water Ball"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 1,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 0,
+                ["MasteryName"] = "???Level",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(160, 160, 160),
+                },
+                ["Speeds"] = {
+                    [1] = 200,
+                },
+            },
+            ["Multiplier"] = 0.20000000000000001,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 5,
+            ["Tool"] = "Sea Beast",
+            ["Delay"] = 8,
+        },
+        ["Shooting Star Devil Kick"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 45,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
+            ["ProcessDelay"] = 2,
+            ["Scaler"] = "Melee",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(40, 80, 40),
+                    [2] = Vector3.new(80, 100, 80),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 350,
+                ["MasteryName"] = "BlackLegLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 4,
+            ["Tool"] = "BlackLegV2",
+            ["Delay"] = 16,
+        },
+        ["Tempest Kick"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 50,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Melee",
+            ["Requirement"] = {
+                ["MasteryValue"] = 100,
+                ["MasteryName"] = "PowerHumanLevel",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(20, 20, 20),
+                },
+                ["Speeds"] = {
+                    [1] = 150,
+                },
+            },
+            ["Multiplier"] = 1.7,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "PowerHuman",
+            ["Delay"] = 6,
+        },
+        ["Power Impact"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 72,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
             ["Scaler"] = "Melee",
             ["Requirement"] = {
                 ["MasteryValue"] = 200,
@@ -969,19 +1264,19 @@ return {
                     [1] = Vector3.new(15, 15, 80),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -40),
+                    [1] = CFrame.new(0, 0, -40, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
-            ["Multiplier"] = 1.4,
+            ["Multiplier"] = 1.3999999999999999,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "PowerHuman",
-            ["Delay"] = 16,
+            ["Delay"] = 12,
         },
         ["Fire Bullets"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 7,
+            ["BaseDamage"] = 17,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -1007,23 +1302,23 @@ return {
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 1.5,
             ["Tool"] = "Flame",
-            ["Delay"] = 10.5,
+            ["Delay"] = 8,
         },
         ["Flying Kick"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 30,
+            ["BaseDamage"] = 25,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.9,
+            ["ProcessDelay"] = 0.90000000000000002,
             ["Scaler"] = "Melee",
             ["AOE"] = {
                 ["Sizes"] = {
                     [1] = Vector3.new(25, 25, 25),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 10, 0),
+                    [1] = CFrame.new(0, 10, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
@@ -1031,11 +1326,11 @@ return {
                 ["MasteryName"] = "BlackLegLevel",
             },
             ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1,
+            ["Multiplier"] = 3,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "BlackLeg",
-            ["Delay"] = 10,
+            ["Delay"] = 7.5,
         },
         ["Magma Shower"] = {
             ["StatusEffect"] = {
@@ -1062,11 +1357,11 @@ return {
                     [1] = 150,
                 },
             },
-            ["Multiplier"] = 0.2,
+            ["Multiplier"] = 0.20000000000000001,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 4,
             ["Tool"] = "Magma",
-            ["Delay"] = 24,
+            ["Delay"] = 18,
         },
         ["Spikey Ball"] = {
             ["LandRequired"] = false,
@@ -1086,7 +1381,7 @@ return {
                 ["MasteryValue"] = 50,
                 ["MasteryName"] = "SpikeLevel",
             },
-            ["Multiplier"] = 0.08,
+            ["Multiplier"] = 0.080000000000000002,
             ["FreeMovement"] = true,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 5,
@@ -1112,7 +1407,7 @@ return {
                 },
             },
             ["Multiplier"] = 0.01,
-            ["ReleaseDelay"] = 0.3,
+            ["ReleaseDelay"] = 0.29999999999999999,
             ["ChargeTimeout"] = 4,
             ["Tool"] = "Sea Beast",
             ["Delay"] = 8,
@@ -1136,31 +1431,25 @@ return {
             ["Tool"] = "Light",
             ["Delay"] = 7.5,
         },
-        ["Dough Punch"] = {
+        ["Icy Flash"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 27,
+            ["BaseDamage"] = 44,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.3,
-            ["Scaler"] = "Fruit",
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Sword",
             ["Requirement"] = {
-                ["MasteryValue"] = 1,
-                ["MasteryName"] = "DoughLevel",
+                ["MasteryValue"] = 260,
+                ["MasteryName"] = "IcyKatanaLevel",
             },
             ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(10, 10, 110),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -60),
-                },
             },
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0,
+            ["Multiplier"] = 1.3,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
-            ["Tool"] = "Dough",
+            ["Tool"] = "IcyKatana",
             ["Delay"] = 9,
         },
         ["Abyssal Cyclone"] = {
@@ -1170,7 +1459,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.8,
+            ["ProcessDelay"] = 0.80000000000000004,
             ["Scaler"] = "Sword",
             ["Requirement"] = {
                 ["MasteryValue"] = 150,
@@ -1182,10 +1471,10 @@ return {
                     [2] = Vector3.new(30, 40, 30),
                 },
                 ["Positions"] = {
-                    [2] = CFrame.new(0, 0, -10),
+                    [2] = CFrame.new(0, 0, -10, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
-            ["Multiplier"] = 0.6,
+            ["Multiplier"] = 0.59999999999999998,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 0,
             ["Tool"] = "AbyssAnchor",
@@ -1199,7 +1488,7 @@ return {
                 ["Release"] = 1,
             },
             ["BreakTree"] = false,
-            ["ProcessDelay"] = 0.3,
+            ["ProcessDelay"] = 0.29999999999999999,
             ["Scaler"] = "Fruit",
             ["Projectile"] = {
                 ["Sizes"] = {
@@ -1218,16 +1507,43 @@ return {
                     [1] = Vector3.new(200, 200, 200),
                 },
             },
-            ["Multiplier"] = 0.2,
-            ["ReleaseDelay"] = 0.15,
+            ["Multiplier"] = 0.20000000000000001,
+            ["ReleaseDelay"] = 0.14999999999999999,
             ["ChargeTimeout"] = 5,
             ["Tool"] = "Rumble",
-            ["Delay"] = 30,
+            ["Delay"] = 25,
+        },
+        ["Rubber Rifle"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 27,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.69999999999999996,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 150,
+                ["MasteryName"] = "RubberLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(15, 15, 70),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -35, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 1.3390909090909091,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Rubber",
+            ["Delay"] = 12,
         },
         ["Icicle Rain"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 10,
+            ["BaseDamage"] = 25,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -1235,7 +1551,7 @@ return {
                 ["Name"] = "Frozen",
                 ["Duration"] = 2,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Fruit",
             ["AOE"] = {
                 ["Sizes"] = {
@@ -1247,11 +1563,39 @@ return {
                 ["MasteryName"] = "IceLevel",
             },
             ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 0.2,
-            ["ReleaseDelay"] = 0.1,
+            ["Multiplier"] = 0.20000000000000001,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Ice",
-            ["Delay"] = 15,
+            ["Delay"] = 10,
+        },
+        ["Rubber Stomp"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 27,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.40000000000000002,
+            ["Scaler"] = "Fruit",
+            ["IgnoreYRotation"] = true,
+            ["Requirement"] = {
+                ["MasteryValue"] = 20,
+                ["MasteryName"] = "RubberLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 70),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -35, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 1.8845454545454545,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Rubber",
+            ["Delay"] = 9,
         },
         ["Redish Slash"] = {
             ["LandRequired"] = false,
@@ -1260,7 +1604,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Sword",
             ["Requirement"] = {
                 ["MasteryValue"] = 120,
@@ -1269,7 +1613,7 @@ return {
             ["AOE"] = {
             },
             ["Multiplier"] = 1.2,
-            ["ReleaseDelay"] = 0.1,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Gryphon",
             ["Delay"] = 7.5,
@@ -1277,11 +1621,11 @@ return {
         ["White Snake"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 31,
+            ["BaseDamage"] = 45,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Fruit",
             ["Requirement"] = {
                 ["MasteryValue"] = 1,
@@ -1296,12 +1640,12 @@ return {
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Smoke",
-            ["Delay"] = 5,
+            ["Delay"] = 3,
         },
         ["Kick Barrage"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 1,
+            ["BaseDamage"] = 2,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -1310,7 +1654,7 @@ return {
                     [1] = Vector3.new(10, 10, 16),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, -6.511377811431885, -5.463695049285889),
+                    [1] = CFrame.new(0, -6.5113778114318848, -5.4636950492858887, 1, 0, 0, 0, 0.6427876353263855, 0.76604443788528442, 0, -0.76604443788528442, 0.6427876353263855),
                 },
             },
             ["ProcessDelay"] = 0,
@@ -1320,12 +1664,12 @@ return {
                 ["MasteryValue"] = 80,
                 ["MasteryName"] = "BlackLegLevel",
             },
-            ["Multiplier"] = 0.04,
+            ["Multiplier"] = 0.089999999999999997,
             ["MobHold"] = true,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "BlackLeg",
-            ["Delay"] = 20,
+            ["Delay"] = 12,
         },
         ["Hunter"] = {
             ["LandRequired"] = false,
@@ -1341,7 +1685,7 @@ return {
                     [1] = Vector3.new(40, 40, 40),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
@@ -1355,6 +1699,31 @@ return {
             ["Tool"] = "Jitte",
             ["Delay"] = 14,
         },
+        ["Sand Burial"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 21,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(45, 25, 45),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 45,
+                ["MasteryName"] = "SandLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 0.59999999999999998,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Sand",
+            ["Delay"] = 10.5,
+        },
         ["Hand Blade"] = {
             ["LandRequired"] = true,
             ["TimeoutBar"] = false,
@@ -1362,14 +1731,14 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Sword",
             ["AOE"] = {
                 ["Sizes"] = {
                     [1] = Vector3.new(20, 25, 35),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -18),
+                    [1] = CFrame.new(0, 0, -18, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
@@ -1378,18 +1747,65 @@ return {
             },
             ["IgnoreYRotation"] = true,
             ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "AxeHand",
             ["Delay"] = 12,
         },
-        ["Starlight"] = {
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 7,
+        ["Roller Donut"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 5,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 50,
+                ["MasteryName"] = "DoughLevel",
+            },
+            ["Multiplier"] = 0.5,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 20,
+            ["Tool"] = "Dough",
+            ["Delay"] = 7.5,
+        },
+        ["Rubber Rocket"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 27,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 1,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 50,
+                ["MasteryName"] = "RubberLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 70),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -35, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Rubber",
+            ["Delay"] = 6,
+        },
+        ["Starlight"] = {
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 9,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Fruit",
             ["AOE"] = {
                 ["Sizes"] = {
@@ -1401,16 +1817,16 @@ return {
                 ["MasteryName"] = "LightLevel",
             },
             ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 0.2,
+            ["Multiplier"] = 0.20000000000000001,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Light",
-            ["Delay"] = 13.5,
+            ["Delay"] = 10,
         },
         ["Quicksand"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 4,
+            ["BaseDamage"] = 9,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -1426,36 +1842,59 @@ return {
                     [1] = Vector3.new(60, 30, 60),
                 },
             },
-            ["Multiplier"] = 0.12,
+            ["Multiplier"] = 0.14999999999999999,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Sand",
-            ["Delay"] = 15,
+            ["Delay"] = 10,
         },
-        ["Sand Burial"] = {
+        ["Sea Beast Roar"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 21,
+            ["BaseDamage"] = 1,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.10000000000000001,
             ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 0,
+                ["MasteryName"] = "???Level",
+            },
             ["AOE"] = {
                 ["Sizes"] = {
-                    [1] = Vector3.new(45, 25, 45),
+                    [1] = Vector3.new(180, 180, 180),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
-            ["Requirement"] = {
-                ["MasteryValue"] = 45,
-                ["MasteryName"] = "SandLevel",
+            ["Multiplier"] = 0.0080000000000000002,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 5,
+            ["Tool"] = "Sea Beast",
+            ["Delay"] = 8,
+        },
+        ["Wild Strike"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 50,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
             },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 0.6,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Sand",
-            ["Delay"] = 10.5,
+            ["BreakTree"] = true,
+            ["ProcessDelay"] = 1,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 40,
+                ["MasteryName"] = "LeopardLevel",
+            },
+            ["Multiplier"] = 2.8599999999999999,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Leopard",
+            ["Delay"] = 8,
         },
         ["Abyssal Grasp"] = {
             ["LandRequired"] = false,
@@ -1464,7 +1903,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.4,
+            ["ProcessDelay"] = 0.40000000000000002,
             ["Scaler"] = "Sword",
             ["Requirement"] = {
                 ["MasteryValue"] = 350,
@@ -1472,45 +1911,131 @@ return {
             },
             ["AOE"] = {
             },
-            ["Multiplier"] = 0.8,
+            ["Multiplier"] = 0.80000000000000004,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "AbyssAnchor",
             ["Delay"] = 13.5,
         },
-        ["Fire Flight"] = {
+        ["Buzzcut Dough"] = {
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(90, 30, 90),
+                },
+            },
             ["LandRequired"] = false,
-            ["TimeoutBar"] = true,
-            ["BaseDamage"] = 5,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 67,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
+            ["LockReleaseDelay"] = 0.94999999999999996,
+            ["ProcessDelay"] = 4,
+            ["Scaler"] = "Fruit",
+            ["Multiplier"] = 2.5,
+            ["Requirement"] = {
+                ["MasteryValue"] = 300,
+                ["MasteryName"] = "DoughLevel",
+            },
+            ["Delay"] = 20,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Dough",
+            ["LockToolDuringCast"] = true,
+        },
+        ["Predator Sprint"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 0,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["BreakTree"] = true,
             ["ProcessDelay"] = 0,
             ["Scaler"] = "Fruit",
             ["Requirement"] = {
-                ["MasteryValue"] = 20,
-                ["MasteryName"] = "FlameLevel",
+                ["MasteryValue"] = 60,
+                ["MasteryName"] = "LeopardLevel",
             },
-            ["Multiplier"] = 0.5,
+            ["Multiplier"] = 1,
+            ["FreeMovement"] = true,
             ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 20,
-            ["Tool"] = "Flame",
+            ["ChargeTimeout"] = 10,
+            ["Tool"] = "Leopard",
             ["Delay"] = 7.5,
         },
-        ["Ice Glove Check"] = {
+        ["Leopard Transform"] = {
+            ["LandRequired"] = false,
             ["TimeoutBar"] = false,
             ["BaseDamage"] = 0,
-            ["ProcessDelay"] = 1.2,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["BreakTree"] = true,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Fruit",
             ["Requirement"] = {
-                ["MasteryValue"] = 0,
-                ["MasteryName"] = "IceLevel",
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "LeopardLevel",
             },
-            ["Multiplier"] = 0.5,
+            ["Multiplier"] = 1,
+            ["FreeMovement"] = true,
             ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 5,
-            ["Tool"] = "Ice",
-            ["Delay"] = 12,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Leopard",
+            ["Delay"] = 5,
+        },
+        ["Dough Punch"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 60,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "DoughLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 110),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -60, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 2.2000000000000002,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Dough",
+            ["Delay"] = 9,
+        },
+        ["Rush Cleave"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 60,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Sword",
+            ["Requirement"] = {
+                ["MasteryValue"] = 260,
+                ["MasteryName"] = "GryphonLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [2] = Vector3.new(60, 25, 60),
+                },
+            },
+            ["Multiplier"] = 1.3999999999999999,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Gryphon",
+            ["Delay"] = 14,
         },
         ["Spin Shark"] = {
             ["AOE"] = {
@@ -1518,7 +2043,7 @@ return {
                     [1] = Vector3.new(20, 10, 20),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["LandRequired"] = false,
@@ -1527,7 +2052,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["Multiplier"] = 0.04,
+            ["Multiplier"] = 0.040000000000000001,
             ["ProcessDelay"] = 0,
             ["Scaler"] = "Sword",
             ["MobHold"] = true,
@@ -1542,10 +2067,35 @@ return {
             ["Tool"] = "SharkBlade",
             ["Delay"] = 8,
         },
+        ["Booster Impact"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 6,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.5,
+            ["Scaler"] = "Melee",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(14, 14, 18),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 350,
+                ["MasteryName"] = "CyborgLevel",
+            },
+            ["Multiplier"] = 2.54,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 5,
+            ["Tool"] = "Cyborg",
+            ["Delay"] = 18,
+        },
         ["Tremor Crush"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 25,
+            ["BaseDamage"] = 120,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -1560,45 +2110,150 @@ return {
                     [1] = Vector3.new(35, 40, 75),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -40),
+                    [1] = CFrame.new(0, 0, -40, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
-            ["Multiplier"] = 0.6,
+            ["Multiplier"] = 1.8,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Quake",
-            ["Delay"] = 10.5,
+            ["Delay"] = 7,
         },
-        ["Magma Eruption"] = {
+        ["Rubber Gatling"] = {
             ["LandRequired"] = false,
-            ["IgnoreYRotation"] = true,
-            ["BaseDamage"] = 8,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 27,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.1,
+            ["ProcessDelay"] = 0.10000000000000001,
             ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 60),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -30, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 100,
+                ["MasteryName"] = "RubberLevel",
+            },
+            ["Multiplier"] = 0.11181818181818182,
+            ["Delay"] = 10,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 1.8,
+            ["Tool"] = "Rubber",
+            ["LockToolDuringCast"] = true,
+        },
+        ["Ground Slam"] = {
+            ["LandRequired"] = true,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 35,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Melee",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(30, 30, 30),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 10,
+                ["MasteryName"] = "CombatLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 2,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Combat",
+            ["Delay"] = 5,
+        },
+        ["Hellfire Strike"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 55,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Melee",
             ["StatusEffect"] = {
                 ["Name"] = "Burnt",
                 ["Duration"] = 2,
             },
             ["Requirement"] = {
-                ["MasteryValue"] = 45,
-                ["MasteryName"] = "MagmaLevel",
+                ["MasteryValue"] = 150,
+                ["MasteryName"] = "BlackLegLevel",
             },
             ["AOE"] = {
                 ["Sizes"] = {
-                    [1] = Vector3.new(50, 20, 50),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 5, 0),
+                    [2] = Vector3.new(60, 25, 60),
                 },
             },
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
+            ["Multiplier"] = 1.2,
+            ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
-            ["Tool"] = "Magma",
-            ["Delay"] = 10.5,
+            ["Tool"] = "BlackLegV2",
+            ["Delay"] = 13,
+        },
+        ["Rubber Pistol"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 27,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 1,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "RubberLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 80),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -40, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 1.7027272727272726,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Rubber",
+            ["Delay"] = 5,
+        },
+        ["Backdoor Ambush"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 70,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Fruit",
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(30, 30, 30),
+                },
+                ["Speeds"] = {
+                    [1] = 100,
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 25,
+                ["MasteryName"] = "DoorLevel",
+            },
+            ["Multiplier"] = 1,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Door",
+            ["Delay"] = 6,
         },
         ["Death Lion Strike"] = {
             ["LandRequired"] = false,
@@ -1618,7 +2273,7 @@ return {
                     [1] = Vector3.new(15, 15, 85),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -33),
+                    [1] = CFrame.new(0, 0, -33, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Multiplier"] = 0.5,
@@ -1627,87 +2282,167 @@ return {
             ["Tool"] = "Wado",
             ["Delay"] = 16,
         },
-        ["Sand Tornado"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 65,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["IgnoreYRotation"] = true,
-            ["Requirement"] = {
-                ["MasteryValue"] = 150,
-                ["MasteryName"] = "SandLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(45, 50, 45),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 23, 0),
-                },
-            },
-            ["Multiplier"] = 1.6,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Sand",
-            ["Delay"] = 21,
-        },
-        ["Water Ball"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 1,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 0,
-                ["MasteryName"] = "???Level",
-            },
-            ["Projectile"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(160, 160, 160),
-                },
-                ["Speeds"] = {
-                    [1] = 200,
-                },
-            },
-            ["Multiplier"] = 0.2,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 5,
-            ["Tool"] = "Sea Beast",
-            ["Delay"] = 8,
-        },
-        ["Paw Shot"] = {
-            ["LandRequired"] = false,
+        ["Jungle Waves"] = {
+            ["LandRequired"] = true,
             ["TimeoutBar"] = false,
             ["BaseDamage"] = 30,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 1,
-                ["MasteryName"] = "PawLevel",
-            },
-            ["Projectile"] = {
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Sword",
+            ["AOE"] = {
                 ["Sizes"] = {
                     [1] = Vector3.new(25, 25, 25),
                 },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 60,
+                ["MasteryName"] = "JungleClubLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 0.80000000000000004,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "JungleClub",
+            ["Delay"] = 7.5,
+        },
+        ["Ice Bird"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 33,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["StatusEffect"] = {
+                ["Name"] = "Frozen",
+                ["Duration"] = 2,
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "IceLevel",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(35, 35, 35),
+                },
                 ["Speeds"] = {
-                    [1] = 100,
+                    [1] = 150,
                 },
             },
-            ["Multiplier"] = 1,
+            ["Multiplier"] = 2,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
-            ["Tool"] = "Paw",
-            ["Delay"] = 5,
+            ["Tool"] = "Ice",
+            ["Delay"] = 9,
+        },
+        ["Magma Fist"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 46,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "MagmaLevel",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(40, 40, 40),
+                },
+                ["Speeds"] = {
+                    [1] = 150,
+                },
+            },
+            ["Multiplier"] = 1.2,
+            ["ReleaseDelay"] = 0.20000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Magma",
+            ["Delay"] = 7.5,
+        },
+        ["Spike Stomp"] = {
+            ["LandRequired"] = true,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 21,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "SpikeLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0.20000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Spike",
+            ["Delay"] = 6,
+        },
+        ["Spike Burst"] = {
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 60,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 2,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 25,
+                ["MasteryName"] = "SpikeLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(50, 50, 50),
+                },
+            },
+            ["Multiplier"] = 1.3999999999999999,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Spike",
+            ["Delay"] = 10.5,
+        },
+        ["Fire Pillar"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 50,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(50, 50, 50),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 15, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 50,
+                ["MasteryName"] = "FlameLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1.3999999999999999,
+            ["ReleaseDelay"] = 0.14999999999999999,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Flame",
+            ["Delay"] = 9,
         },
         ["Rapid Thrust"] = {
             ["LandRequired"] = false,
@@ -1723,46 +2458,47 @@ return {
                     [1] = Vector3.new(10, 10, 15),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -7),
+                    [1] = CFrame.new(0, 0, -7, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Requirement"] = {
                 ["MasteryValue"] = 70,
                 ["MasteryName"] = "PoleLevel",
             },
-            ["Multiplier"] = 0.06,
+            ["Multiplier"] = 0.059999999999999998,
             ["MobHold"] = true,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 2,
             ["Tool"] = "Pole",
             ["Delay"] = 13.5,
         },
-        ["Sea Beast Roar"] = {
-            ["LandRequired"] = false,
+        ["Shark Smash"] = {
+            ["LandRequired"] = true,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 1,
+            ["BaseDamage"] = 32,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 0,
-                ["MasteryName"] = "???Level",
-            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Sword",
             ["AOE"] = {
                 ["Sizes"] = {
-                    [1] = Vector3.new(180, 180, 180),
+                    [1] = Vector3.new(30, 30, 30),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
-            ["Multiplier"] = 0.008,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 5,
-            ["Tool"] = "Sea Beast",
-            ["Delay"] = 8,
+            ["Requirement"] = {
+                ["MasteryValue"] = 80,
+                ["MasteryName"] = "SharkBladeLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 2,
+            ["Tool"] = "SharkBlade",
+            ["Delay"] = 12,
         },
         ["Light Kick"] = {
             ["LandRequired"] = false,
@@ -1771,7 +2507,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Fruit",
             ["Projectile"] = {
                 ["Sizes"] = {
@@ -1790,41 +2526,51 @@ return {
                     [1] = Vector3.new(60, 60, 60),
                 },
             },
-            ["Multiplier"] = 1,
+            ["Multiplier"] = 2,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Light",
             ["Delay"] = 7.5,
         },
-        ["Cutlass Slash"] = {
+        ["Magma Eruption"] = {
             ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 30,
+            ["IgnoreYRotation"] = true,
+            ["BaseDamage"] = 10,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Sword",
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Fruit",
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
             ["Requirement"] = {
-                ["MasteryValue"] = 20,
-                ["MasteryName"] = "CutlassLevel",
+                ["MasteryValue"] = 45,
+                ["MasteryName"] = "MagmaLevel",
             },
             ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(50, 20, 50),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 5, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
             },
             ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
-            ["Tool"] = "Cutlass",
-            ["Delay"] = 7.5,
+            ["Tool"] = "Magma",
+            ["Delay"] = 8,
         },
         ["Lightning Dragon"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 36,
+            ["BaseDamage"] = 58,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.3,
+            ["ProcessDelay"] = 0.29999999999999999,
             ["Scaler"] = "Fruit",
             ["Requirement"] = {
                 ["MasteryValue"] = 1,
@@ -1841,37 +2587,24 @@ return {
             ["Tool"] = "Rumble",
             ["Delay"] = 9,
         },
-        ["Fire Pillar"] = {
+        ["Sand Flight"] = {
             ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 47,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 5,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["StatusEffect"] = {
-                ["Name"] = "Burnt",
-                ["Duration"] = 2,
-            },
-            ["ProcessDelay"] = 0.1,
+            ["ProcessDelay"] = 0.10000000000000001,
             ["Scaler"] = "Fruit",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(50, 50, 50),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 15, 0),
-                },
-            },
             ["Requirement"] = {
-                ["MasteryValue"] = 50,
-                ["MasteryName"] = "FlameLevel",
+                ["MasteryValue"] = 15,
+                ["MasteryName"] = "SandLevel",
             },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1.4,
-            ["ReleaseDelay"] = 0.15,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Flame",
-            ["Delay"] = 15,
+            ["Multiplier"] = 0.5,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 20,
+            ["Tool"] = "Sand",
+            ["Delay"] = 7.5,
         },
         ["Barrier Cubes"] = {
             ["LandRequired"] = false,
@@ -1880,7 +2613,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Fruit",
             ["Requirement"] = {
                 ["MasteryValue"] = 50,
@@ -1891,87 +2624,102 @@ return {
                     [1] = Vector3.new(20, 20, 20),
                 },
             },
-            ["Multiplier"] = 1.4,
+            ["Multiplier"] = 2.1000000000000001,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Barrier",
-            ["Delay"] = 10.5,
+            ["Delay"] = 7,
         },
-        ["Icy Flash"] = {
+        ["Grand Leopard Impact"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 44,
+            ["BaseDamage"] = 50,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Sword",
-            ["Requirement"] = {
-                ["MasteryValue"] = 260,
-                ["MasteryName"] = "IcyKatanaLevel",
-            },
-            ["AOE"] = {
-            },
-            ["Multiplier"] = 1.3,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "IcyKatana",
-            ["Delay"] = 9,
-        },
-        ["Mirror Kick"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 44,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.8,
+            ["BreakTree"] = true,
+            ["ProcessDelay"] = 3,
             ["Scaler"] = "Fruit",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(100, 120, 100),
-                },
-            },
             ["Requirement"] = {
-                ["MasteryValue"] = 40,
-                ["MasteryName"] = "LightLevel",
+                ["MasteryValue"] = 300,
+                ["MasteryName"] = "LeopardLevel",
             },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1.4,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Light",
-            ["Delay"] = 10.5,
-        },
-        ["Impale"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 22,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.4,
-            ["Scaler"] = "Sword",
-            ["Requirement"] = {
-                ["MasteryValue"] = 90,
-                ["MasteryName"] = "GoldenHookLevel",
-            },
-            ["AOE"] = {
-            },
-            ["Multiplier"] = 0.6,
+            ["Multiplier"] = 4.5,
+            ["FreeMovement"] = true,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
-            ["Tool"] = "GoldenHook",
-            ["Delay"] = 13.5,
+            ["Tool"] = "Leopard",
+            ["Delay"] = 12,
+        },
+        ["Swirling"] = {
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 2,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(18, 8, 18),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Sword",
+            ["IgnoreYRotation"] = true,
+            ["Requirement"] = {
+                ["MasteryValue"] = 30,
+                ["MasteryName"] = "PipeLevel",
+            },
+            ["Multiplier"] = 0.059999999999999998,
+            ["MobHold"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 1.5,
+            ["Tool"] = "Pipe",
+            ["Delay"] = 13,
+        },
+        ["Sand Tornado"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 65,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["IgnoreYRotation"] = true,
+            ["Requirement"] = {
+                ["MasteryValue"] = 150,
+                ["MasteryName"] = "SandLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(45, 50, 45),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 23, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 1.6000000000000001,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Sand",
+            ["Delay"] = 15,
         },
         ["Sky Judgement"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 5,
+            ["BaseDamage"] = 4,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.6,
+            ["ProcessDelay"] = 0.59999999999999998,
             ["Scaler"] = "Fruit",
             ["AOE"] = {
                 ["Sizes"] = {
@@ -1990,7 +2738,7 @@ return {
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 4,
             ["Tool"] = "Rumble",
-            ["Delay"] = 19,
+            ["Delay"] = 15,
         },
         ["Travel"] = {
             ["LandRequired"] = false,
@@ -2030,24 +2778,37 @@ return {
             ["Tool"] = "Smoke",
             ["Delay"] = 7.5,
         },
-        ["Activate Poison"] = {
+        ["Fire Fist"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 5,
+            ["BaseDamage"] = 3,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Sword",
-            ["Requirement"] = {
-                ["MasteryValue"] = 10,
-                ["MasteryName"] = "GoldenHookLevel",
+            ["BreakTree"] = true,
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
             },
-            ["Multiplier"] = 0.5,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 0,
-            ["Tool"] = "GoldenHook",
-            ["Delay"] = 10,
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "FlameLevel",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(40, 40, 40),
+                },
+                ["Speeds"] = {
+                    [1] = 200,
+                },
+            },
+            ["Multiplier"] = 2,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Flame",
+            ["Delay"] = 5,
         },
         ["Bomb Shot"] = {
             ["LandRequired"] = false,
@@ -2056,7 +2817,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.20000000000000001,
             ["Scaler"] = "Fruit",
             ["Requirement"] = {
                 ["MasteryValue"] = 1,
@@ -2070,59 +2831,11 @@ return {
                     [1] = 100,
                 },
             },
-            ["Multiplier"] = 1,
+            ["Multiplier"] = 3,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Bomb",
             ["Delay"] = 5,
-        },
-        ["Jungle Waves"] = {
-            ["LandRequired"] = true,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 30,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Sword",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(25, 25, 25),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 60,
-                ["MasteryName"] = "JungleClubLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 0.8,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "JungleClub",
-            ["Delay"] = 7.5,
-        },
-        ["Spike Burst"] = {
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 60,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 2,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 25,
-                ["MasteryName"] = "SpikeLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(50, 50, 50),
-                },
-            },
-            ["Multiplier"] = 1.4,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Spike",
-            ["Delay"] = 10.5,
         },
         ["360 Pound Slash"] = {
             ["LandRequired"] = false,
@@ -2131,7 +2844,7 @@ return {
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.8,
+            ["ProcessDelay"] = 0.80000000000000004,
             ["Scaler"] = "Sword",
             ["Requirement"] = {
                 ["MasteryValue"] = 150,
@@ -2143,14 +2856,61 @@ return {
                 },
             },
             ["Multiplier"] = 0.5,
-            ["ReleaseDelay"] = 0.2,
+            ["ReleaseDelay"] = 0.20000000000000001,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "Wado",
             ["Delay"] = 8,
         },
+        ["Air Crusher"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 62,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 1,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(150, 90, 150),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 25, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 120,
+                ["MasteryName"] = "QuakeLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1.8,
+            ["ReleaseDelay"] = 0.34999999999999998,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Quake",
+            ["Delay"] = 12,
+        },
+        ["Weapons Left"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 6,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.80000000000000004,
+            ["Scaler"] = "Melee",
+            ["Requirement"] = {
+                ["MasteryValue"] = 0,
+                ["MasteryName"] = "CyborgLevel",
+            },
+            ["Multiplier"] = 0.070303030303030298,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Cyborg",
+            ["Delay"] = 8,
+        },
         ["Buzzcut Dough Spin"] = {
             ["LandRequired"] = false,
-            ["BaseDamage"] = 1,
+            ["BaseDamage"] = 2,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -2161,7 +2921,7 @@ return {
                 ["MasteryName"] = "DoughLevel",
             },
             ["ReleaseDelay"] = 0,
-            ["Multiplier"] = 0.05,
+            ["Multiplier"] = 0.050000000000000003,
             ["Tool"] = "Dough",
             ["Delay"] = 1,
         },
@@ -2170,21 +2930,735 @@ return {
             ["TimeoutBar"] = false,
             ["BaseDamage"] = 60,
             ["AnimationSpeed"] = {
-                ["Release"] = 1,
+                ["Release"] = 2,
             },
-            ["ProcessDelay"] = 0.3,
+            ["AOE"] = {
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
             ["Scaler"] = "Sword",
+            ["Delay"] = 13,
             ["Requirement"] = {
                 ["MasteryValue"] = 100,
                 ["MasteryName"] = "DarkBladeLevel",
             },
-            ["AOE"] = {
-            },
-            ["Multiplier"] = 1.6,
-            ["ReleaseDelay"] = 0.3,
+            ["Multiplier"] = 1.6000000000000001,
+            ["MobHold"] = true,
+            ["ReleaseDelay"] = 0.10000000000000001,
             ["ChargeTimeout"] = 3,
             ["Tool"] = "DarkBlade",
+            ["MobChargeTimeout"] = 2,
+        },
+        ["Strongest Slash Full"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 90,
+            ["AnimationSpeed"] = {
+                ["Release"] = 2,
+            },
+            ["AOE"] = {
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Sword",
             ["Delay"] = 13,
+            ["Requirement"] = {
+                ["MasteryValue"] = 100,
+                ["MasteryName"] = "DarkBladeLevel",
+            },
+            ["Multiplier"] = 2.3999999999999999,
+            ["MobHold"] = true,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "DarkBlade",
+            ["MobChargeTimeout"] = 2,
+        },
+        ["Paw Barrage"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 15,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 25,
+                ["MasteryName"] = "PawLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 35),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -20, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 0.10000000000000001,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 1.25,
+            ["Tool"] = "Paw",
+            ["Delay"] = 5,
+        },
+        ["Bomb Explosion"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 65,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 50,
+                ["MasteryName"] = "BombLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(60, 60, 60),
+                },
+            },
+            ["Multiplier"] = 4,
+            ["ReleaseDelay"] = 0.20000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Bomb",
+            ["Delay"] = 15,
+        },
+        ["Barrier Stairs"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 5,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 15,
+                ["MasteryName"] = "BarrierLevel",
+            },
+            ["Multiplier"] = 0.5,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Barrier",
+            ["Delay"] = 3,
+        },
+        ["Light Rain"] = {
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 8,
+            ["ProcessDelay"] = 0.59999999999999998,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 0,
+                ["MasteryName"] = "LightLevel",
+            },
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 5,
+            ["Tool"] = "Light",
+            ["Delay"] = 6,
+        },
+        ["Paw Shot"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 30,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "PawLevel",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(25, 25, 25),
+                },
+                ["Speeds"] = {
+                    [1] = 100,
+                },
+            },
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Paw",
+            ["Delay"] = 5,
+        },
+        ["Hell Bound"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 57,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Fruit",
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 95,
+                ["MasteryName"] = "MagmaLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(13, 13, 13),
+                },
+            },
+            ["Multiplier"] = 1.3999999999999999,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Magma",
+            ["Delay"] = 10,
+        },
+        ["Desert Blades"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 10,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 0,
+                ["MasteryName"] = "SandLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(10, 10, 110),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -55, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 0.40000000000000002,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Sand",
+            ["Delay"] = 7.5,
+        },
+        ["Smoke Prison"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 7,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(200, 200, 200),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 50,
+                ["MasteryName"] = "SmokeLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 0.14000000000000001,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Smoke",
+            ["Delay"] = 10,
+        },
+        ["Paw Nuke"] = {
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 12,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Fruit",
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(80, 80, 80),
+                },
+                ["Speeds"] = {
+                    [1] = 100,
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 60,
+                ["MasteryName"] = "PawLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(80, 80, 80),
+                },
+            },
+            ["Multiplier"] = 0.20000000000000001,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Paw",
+            ["Delay"] = 10,
+        },
+        ["Barrier Crash"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 25,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 1,
+                ["MasteryName"] = "BarrierLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(30, 25, 35),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 5, -20, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 2,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 6,
+            ["Tool"] = "Barrier",
+            ["Delay"] = 5,
+        },
+        ["Mirror Kick"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 50,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.80000000000000004,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(100, 120, 100),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 40,
+                ["MasteryName"] = "LightLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 2,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Light",
+            ["Delay"] = 10.5,
+        },
+        ["Ice Stomp"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 44,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["StatusEffect"] = {
+                ["Name"] = "Frozen",
+                ["Duration"] = 2,
+            },
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(20, 20, 50),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 7, -25, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 30,
+                ["MasteryName"] = "IceLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1.6000000000000001,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Ice",
+            ["Delay"] = 9,
+        },
+        ["Ice Glove"] = {
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 8,
+            ["ProcessDelay"] = 1.2,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 10,
+                ["MasteryName"] = "IceLevel",
+            },
+            ["Multiplier"] = 0.5,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 15,
+            ["Tool"] = "Ice",
+            ["Delay"] = 12,
+        },
+        ["Ice Glove Check"] = {
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 0,
+            ["ProcessDelay"] = 1.2,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 0,
+                ["MasteryName"] = "IceLevel",
+            },
+            ["Multiplier"] = 0.5,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 5,
+            ["Tool"] = "Ice",
+            ["Delay"] = 12,
+        },
+        ["Flame Emperor"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 78,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["BreakTree"] = false,
+            ["ProcessDelay"] = 0.29999999999999999,
+            ["Scaler"] = "Fruit",
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 2,
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 150,
+                ["MasteryName"] = "FlameLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(200, 200, 200),
+                },
+            },
+            ["Multiplier"] = 3.1000000000000001,
+            ["ReleaseDelay"] = 0.14999999999999999,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Flame",
+            ["Delay"] = 19,
+        },
+        ["Breakdance"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 2,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(20, 10, 20),
+                },
+            },
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Melee",
+            ["IgnoreYRotation"] = true,
+            ["Requirement"] = {
+                ["MasteryValue"] = 40,
+                ["MasteryName"] = "BlackLegLevel",
+            },
+            ["Multiplier"] = 0.089999999999999997,
+            ["MobHold"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 2,
+            ["Tool"] = "BlackLeg",
+            ["Delay"] = 8,
+        },
+        ["Activate Poison"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 5,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Sword",
+            ["Requirement"] = {
+                ["MasteryValue"] = 10,
+                ["MasteryName"] = "GoldenHookLevel",
+            },
+            ["Multiplier"] = 0.5,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "GoldenHook",
+            ["Delay"] = 10,
+        },
+        ["Gorilla Drop"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 40,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["BreakTree"] = true,
+            ["ProcessDelay"] = 1,
+            ["Scaler"] = "Sword",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(50, 50, 50),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 150,
+                ["MasteryName"] = "JungleClubLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1.2,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "JungleClub",
+            ["Delay"] = 13.5,
+        },
+        ["Air Door"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 70,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(30, 30, 30),
+                },
+                ["Speeds"] = {
+                    [1] = 100,
+                },
+            },
+            ["ProcessDelay"] = 7,
+            ["Scaler"] = "Fruit",
+            ["IgnoreYRotation"] = true,
+            ["Requirement"] = {
+                ["MasteryValue"] = 60,
+                ["MasteryName"] = "DoorLevel",
+            },
+            ["Multiplier"] = 1,
+            ["FreeMovement"] = true,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Door",
+            ["Delay"] = 15,
+        },
+        ["Frost Slashes"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 3,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Sword",
+            ["Requirement"] = {
+                ["MasteryValue"] = 120,
+                ["MasteryName"] = "IcyKatanaLevel",
+            },
+            ["AOE"] = {
+            },
+            ["Multiplier"] = 0.089999999999999997,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "IcyKatana",
+            ["Delay"] = 13,
+        },
+        ["Ice Age"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 65,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["StatusEffect"] = {
+                ["Name"] = "Frozen",
+                ["Duration"] = 2,
+            },
+            ["ProcessDelay"] = 0.40000000000000002,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(75, 45, 75),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 120,
+                ["MasteryName"] = "IceLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 2,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Ice",
+            ["Delay"] = 15,
+        },
+        ["Godspeed Dash"] = {
+            ["LandRequired"] = false,
+            ["BaseDamage"] = 2,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 160,
+                ["MasteryName"] = "RumbleLevel",
+            },
+            ["ReleaseDelay"] = 0,
+            ["Multiplier"] = 0.029999999999999999,
+            ["Tool"] = "Rumble",
+            ["Delay"] = 10,
+        },
+        ["Fire Flight"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = true,
+            ["BaseDamage"] = 5,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 20,
+                ["MasteryName"] = "FlameLevel",
+            },
+            ["Multiplier"] = 0.5,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 20,
+            ["Tool"] = "Flame",
+            ["Delay"] = 7.5,
+        },
+        ["Burning Dough"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 40,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["StatusEffect"] = {
+                ["Name"] = "Burnt",
+                ["Duration"] = 3,
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 100,
+                ["MasteryName"] = "DoughLevel",
+            },
+            ["Projectile"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(40, 40, 40),
+                },
+                ["Speeds"] = {
+                    [1] = 200,
+                },
+            },
+            ["Multiplier"] = 2.2000000000000002,
+            ["ReleaseDelay"] = 0.080000000000000002,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Dough",
+            ["Delay"] = 10,
+        },
+        ["White Slam"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 30,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Sword",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(40, 40, 40),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 60,
+                ["MasteryName"] = "JitteLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Jitte",
+            ["Delay"] = 11,
+        },
+        ["Beast Impulse"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 120,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["BreakTree"] = true,
+            ["ProcessDelay"] = 0.20000000000000001,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 120,
+                ["MasteryName"] = "LeopardLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 1.8,
+            ["ReleaseDelay"] = 0.20000000000000001,
+            ["ChargeTimeout"] = 0,
+            ["Tool"] = "Leopard",
+            ["Delay"] = 9,
+        },
+        ["Sea Quake"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 100,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["BreakTree"] = false,
+            ["ProcessDelay"] = 1,
+            ["Scaler"] = "Fruit",
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(60, 40, 40),
+                    [2] = Vector3.new(300, 300, 300),
+                },
+            },
+            ["Requirement"] = {
+                ["MasteryValue"] = 200,
+                ["MasteryName"] = "QuakeLevel",
+            },
+            ["IgnoreYRotation"] = true,
+            ["Multiplier"] = 4,
+            ["ReleaseDelay"] = 0.20000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Quake",
+            ["Delay"] = 22,
+        },
+        ["Rubber Bazooka"] = {
+            ["LandRequired"] = false,
+            ["TimeoutBar"] = false,
+            ["BaseDamage"] = 27,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
+            },
+            ["ProcessDelay"] = 0.59999999999999998,
+            ["Scaler"] = "Fruit",
+            ["Requirement"] = {
+                ["MasteryValue"] = 70,
+                ["MasteryName"] = "RubberLevel",
+            },
+            ["AOE"] = {
+                ["Sizes"] = {
+                    [1] = Vector3.new(20, 20, 80),
+                },
+                ["Positions"] = {
+                    [1] = CFrame.new(0, 0, -40, 1, 0, 0, 0, 1, 0, 0, 0, 1),
+                },
+            },
+            ["Multiplier"] = 2.2481818181818181,
+            ["ReleaseDelay"] = 0,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Rubber",
+            ["Delay"] = 7,
         },
         ["Spin Axe"] = {
             ["AOE"] = {
@@ -2206,794 +3680,38 @@ return {
                 ["MasteryValue"] = 10,
                 ["MasteryName"] = "AxeHandLevel",
             },
-            ["Multiplier"] = 0.03,
+            ["Multiplier"] = 0.029999999999999999,
             ["MobHold"] = true,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 2,
             ["Tool"] = "AxeHand",
             ["Delay"] = 9,
         },
-        ["Shark Smash"] = {
-            ["LandRequired"] = true,
+        ["Impale"] = {
+            ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 32,
+            ["BaseDamage"] = 22,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
-            ["ProcessDelay"] = 0.2,
+            ["ProcessDelay"] = 0.40000000000000002,
             ["Scaler"] = "Sword",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(30, 30, 30),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
-                },
-            },
             ["Requirement"] = {
-                ["MasteryValue"] = 80,
-                ["MasteryName"] = "SharkBladeLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 2,
-            ["Tool"] = "SharkBlade",
-            ["Delay"] = 12,
-        },
-        ["Bomb Explosion"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 65,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.3,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 50,
-                ["MasteryName"] = "BombLevel",
+                ["MasteryValue"] = 90,
+                ["MasteryName"] = "GoldenHookLevel",
             },
             ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(60, 60, 60),
-                },
             },
-            ["Multiplier"] = 1.4,
-            ["ReleaseDelay"] = 0.2,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Bomb",
-            ["Delay"] = 15,
-        },
-        ["Ice Stomp"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 44,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["StatusEffect"] = {
-                ["Name"] = "Frozen",
-                ["Duration"] = 2,
-            },
-            ["ProcessDelay"] = 0.3,
-            ["Scaler"] = "Fruit",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(20, 20, 50),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 7, -25),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 30,
-                ["MasteryName"] = "IceLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1.2,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Ice",
-            ["Delay"] = 14,
-        },
-        ["Golden Sweep"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 2,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(20, 15, 20),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
-                },
-            },
-            ["ProcessDelay"] = 0,
-            ["Scaler"] = "Sword",
-            ["Multiplier"] = 0.04,
-            ["Requirement"] = {
-                ["MasteryValue"] = 20,
-                ["MasteryName"] = "PoleLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["MobHold"] = true,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 2,
-            ["Tool"] = "Pole",
-            ["Delay"] = 9,
-        },
-        ["Thousand Slices"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 2,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0,
-            ["Scaler"] = "Sword",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(45, 45, 45),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -10),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 1,
-                ["MasteryName"] = "DarkBladeLevel",
-            },
-            ["Multiplier"] = 0.06,
-            ["MobHold"] = true,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 2.7,
-            ["Tool"] = "DarkBlade",
-            ["Delay"] = 8.5,
-        },
-        ["Hell Bound"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 53,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.3,
-            ["Scaler"] = "Fruit",
-            ["StatusEffect"] = {
-                ["Name"] = "Burnt",
-                ["Duration"] = 2,
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 95,
-                ["MasteryName"] = "MagmaLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(13, 13, 13),
-                },
-            },
-            ["Multiplier"] = 1.4,
+            ["Multiplier"] = 0.59999999999999998,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 3,
-            ["Tool"] = "Magma",
+            ["Tool"] = "GoldenHook",
             ["Delay"] = 13.5,
-        },
-        ["Desert Blades"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 10,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 0,
-                ["MasteryName"] = "SandLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(10, 10, 110),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -55),
-                },
-            },
-            ["Multiplier"] = 0.4,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Sand",
-            ["Delay"] = 7.5,
-        },
-        ["Smoke Prison"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 5,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(200, 200, 200),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 50,
-                ["MasteryName"] = "SmokeLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 0.14,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 0,
-            ["Tool"] = "Smoke",
-            ["Delay"] = 15,
-        },
-        ["Paw Nuke"] = {
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 9,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.3,
-            ["Scaler"] = "Fruit",
-            ["Projectile"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(80, 80, 80),
-                },
-                ["Speeds"] = {
-                    [1] = 100,
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 60,
-                ["MasteryName"] = "PawLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(80, 80, 80),
-                },
-            },
-            ["Multiplier"] = 0.2,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Paw",
-            ["Delay"] = 16,
-        },
-        ["Barrier Crash"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 20,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 1,
-                ["MasteryName"] = "BarrierLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(30, 25, 35),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 5, -20),
-                },
-            },
-            ["Multiplier"] = 0.8,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 6,
-            ["Tool"] = "Barrier",
-            ["Delay"] = 12,
-        },
-        ["Swirling"] = {
-            ["StatusEffect"] = {
-                ["Name"] = "Burnt",
-                ["Duration"] = 2,
-            },
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 2,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(18, 8, 18),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
-                },
-            },
-            ["ProcessDelay"] = 0,
-            ["Scaler"] = "Sword",
-            ["IgnoreYRotation"] = true,
-            ["Requirement"] = {
-                ["MasteryValue"] = 30,
-                ["MasteryName"] = "PipeLevel",
-            },
-            ["Multiplier"] = 0.06,
-            ["MobHold"] = true,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 1.5,
-            ["Tool"] = "Pipe",
-            ["Delay"] = 13,
-        },
-        ["White Slam"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 30,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Sword",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(40, 40, 40),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 60,
-                ["MasteryName"] = "JitteLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Jitte",
-            ["Delay"] = 11,
-        },
-        ["Rush Cleave"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 60,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.3,
-            ["Scaler"] = "Sword",
-            ["Requirement"] = {
-                ["MasteryValue"] = 260,
-                ["MasteryName"] = "GryphonLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [2] = Vector3.new(60, 25, 60),
-                },
-            },
-            ["Multiplier"] = 1.4,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Gryphon",
-            ["Delay"] = 14,
-        },
-        ["Ground Slam"] = {
-            ["LandRequired"] = true,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 25,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Melee",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(30, 30, 30),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 10,
-                ["MasteryName"] = "CombatLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Combat",
-            ["Delay"] = 7.5,
-        },
-        ["Flame Emperor"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 78,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["BreakTree"] = false,
-            ["ProcessDelay"] = 0.3,
-            ["Scaler"] = "Fruit",
-            ["StatusEffect"] = {
-                ["Name"] = "Burnt",
-                ["Duration"] = 2,
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 150,
-                ["MasteryName"] = "FlameLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(200, 200, 200),
-                },
-            },
-            ["Multiplier"] = 1.8,
-            ["ReleaseDelay"] = 0.15,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Flame",
-            ["Delay"] = 27,
-        },
-        ["Breakdance"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 2,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(20, 10, 20),
-                },
-            },
-            ["ProcessDelay"] = 0,
-            ["Scaler"] = "Melee",
-            ["IgnoreYRotation"] = true,
-            ["Requirement"] = {
-                ["MasteryValue"] = 40,
-                ["MasteryName"] = "BlackLegLevel",
-            },
-            ["Multiplier"] = 0.06,
-            ["MobHold"] = true,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 2,
-            ["Tool"] = "BlackLeg",
-            ["Delay"] = 15,
-        },
-        ["Spike Stomp"] = {
-            ["LandRequired"] = true,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 21,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 1,
-                ["MasteryName"] = "SpikeLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0.2,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Spike",
-            ["Delay"] = 6,
-        },
-        ["Gorilla Drop"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 40,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["BreakTree"] = true,
-            ["ProcessDelay"] = 1,
-            ["Scaler"] = "Sword",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(50, 50, 50),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, 0),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 150,
-                ["MasteryName"] = "JungleClubLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 1.2,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "JungleClub",
-            ["Delay"] = 13.5,
-        },
-        ["Triple Bomb"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 26,
-            ["AnimationSpeed"] = {
-                ["Release"] = 2,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 25,
-                ["MasteryName"] = "BombLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(25, 25, 25),
-                },
-            },
-            ["Multiplier"] = 0.6,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Bomb",
-            ["Delay"] = 8,
-        },
-        ["Frost Slashes"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 3,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Sword",
-            ["Requirement"] = {
-                ["MasteryValue"] = 120,
-                ["MasteryName"] = "IcyKatanaLevel",
-            },
-            ["AOE"] = {
-            },
-            ["Multiplier"] = 0.09,
-            ["ReleaseDelay"] = 0.1,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "IcyKatana",
-            ["Delay"] = 13,
-        },
-        ["Ice Bird"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 33,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["StatusEffect"] = {
-                ["Name"] = "Frozen",
-                ["Duration"] = 2,
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 1,
-                ["MasteryName"] = "IceLevel",
-            },
-            ["Projectile"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(35, 35, 35),
-                },
-                ["Speeds"] = {
-                    [1] = 150,
-                },
-            },
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Ice",
-            ["Delay"] = 9,
-        },
-        ["Godspeed Dash"] = {
-            ["LandRequired"] = false,
-            ["BaseDamage"] = 3,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 160,
-                ["MasteryName"] = "RumbleLevel",
-            },
-            ["ReleaseDelay"] = 0,
-            ["Multiplier"] = 0.03,
-            ["Tool"] = "Rumble",
-            ["Delay"] = 13,
-        },
-        ["Roller Donut"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = true,
-            ["BaseDamage"] = 5,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 50,
-                ["MasteryName"] = "DoughLevel",
-            },
-            ["Multiplier"] = 0.5,
-            ["FreeMovement"] = true,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 20,
-            ["Tool"] = "Dough",
-            ["Delay"] = 7.5,
-        },
-        ["Burning Dough"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 40,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.2,
-            ["Scaler"] = "Fruit",
-            ["StatusEffect"] = {
-                ["Name"] = "Burnt",
-                ["Duration"] = 2,
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 100,
-                ["MasteryName"] = "DoughLevel",
-            },
-            ["Projectile"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(40, 40, 40),
-                },
-                ["Speeds"] = {
-                    [1] = 200,
-                },
-            },
-            ["Multiplier"] = 1.2,
-            ["ReleaseDelay"] = 0.08,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Dough",
-            ["Delay"] = 12.75,
-        },
-        ["Barrier Stairs"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 5,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 15,
-                ["MasteryName"] = "BarrierLevel",
-            },
-            ["Multiplier"] = 0.5,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Barrier",
-            ["Delay"] = 3,
-        },
-        ["Tempest Kick"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 40,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0.1,
-            ["Scaler"] = "Melee",
-            ["Requirement"] = {
-                ["MasteryValue"] = 100,
-                ["MasteryName"] = "PowerHumanLevel",
-            },
-            ["Projectile"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(20, 20, 20),
-                },
-                ["Speeds"] = {
-                    [1] = 150,
-                },
-            },
-            ["Multiplier"] = 1.2,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "PowerHuman",
-            ["Delay"] = 11,
-        },
-        ["Sea Quake"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 30,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["BreakTree"] = false,
-            ["ProcessDelay"] = 1,
-            ["Scaler"] = "Fruit",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(60, 40, 40),
-                    [2] = Vector3.new(300, 300, 300),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 200,
-                ["MasteryName"] = "QuakeLevel",
-            },
-            ["IgnoreYRotation"] = true,
-            ["Multiplier"] = 0.8,
-            ["ReleaseDelay"] = 0.2,
-            ["ChargeTimeout"] = 3,
-            ["Tool"] = "Quake",
-            ["Delay"] = 31.5,
-        },
-        ["Buzzcut Dough"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 67,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 4,
-            ["Scaler"] = "Fruit",
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(90, 30, 90),
-                },
-            },
-            ["Requirement"] = {
-                ["MasteryValue"] = 300,
-                ["MasteryName"] = "DoughLevel",
-            },
-            ["Multiplier"] = 1.7,
-            ["FreeMovement"] = true,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 0,
-            ["Tool"] = "Dough",
-            ["Delay"] = 26.5,
-        },
-        ["Paw Barrage"] = {
-            ["LandRequired"] = false,
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 4,
-            ["AnimationSpeed"] = {
-                ["Release"] = 1,
-            },
-            ["ProcessDelay"] = 0,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 25,
-                ["MasteryName"] = "PawLevel",
-            },
-            ["AOE"] = {
-                ["Sizes"] = {
-                    [1] = Vector3.new(10, 10, 35),
-                },
-                ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -20),
-                },
-            },
-            ["Multiplier"] = 0.1,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 1.25,
-            ["Tool"] = "Paw",
-            ["Delay"] = 10,
-        },
-        ["Light Rain"] = {
-            ["TimeoutBar"] = false,
-            ["BaseDamage"] = 8,
-            ["ProcessDelay"] = 0.6,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 0,
-                ["MasteryName"] = "LightLevel",
-            },
-            ["Multiplier"] = 1,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 5,
-            ["Tool"] = "Light",
-            ["Delay"] = 6,
         },
         ["Godspeed"] = {
             ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 32,
+            ["BaseDamage"] = 28,
             ["AnimationSpeed"] = {
                 ["Release"] = 1,
             },
@@ -3009,141 +3727,57 @@ return {
                     [2] = Vector3.new(75, 30, 75),
                 },
                 ["Positions"] = {
-                    [1] = CFrame.new(0, 0, -30),
+                    [1] = CFrame.new(0, 0, -30, 1, 0, 0, 0, 1, 0, 0, 0, 1),
                 },
             },
             ["Multiplier"] = 1,
             ["ReleaseDelay"] = 0,
             ["ChargeTimeout"] = 2,
             ["Tool"] = "Rumble",
-            ["Delay"] = 13,
+            ["Delay"] = 9,
         },
-        ["Ice Glove"] = {
+        ["Cutlass Slash"] = {
+            ["LandRequired"] = false,
             ["TimeoutBar"] = false,
-            ["BaseDamage"] = 8,
-            ["ProcessDelay"] = 1.2,
-            ["Scaler"] = "Fruit",
-            ["Requirement"] = {
-                ["MasteryValue"] = 10,
-                ["MasteryName"] = "IceLevel",
+            ["BaseDamage"] = 30,
+            ["AnimationSpeed"] = {
+                ["Release"] = 1,
             },
-            ["Multiplier"] = 0.5,
-            ["ReleaseDelay"] = 0,
-            ["ChargeTimeout"] = 15,
-            ["Tool"] = "Ice",
-            ["Delay"] = 12,
+            ["ProcessDelay"] = 0.10000000000000001,
+            ["Scaler"] = "Sword",
+            ["Requirement"] = {
+                ["MasteryValue"] = 20,
+                ["MasteryName"] = "CutlassLevel",
+            },
+            ["AOE"] = {
+            },
+            ["Multiplier"] = 1,
+            ["ReleaseDelay"] = 0.10000000000000001,
+            ["ChargeTimeout"] = 3,
+            ["Tool"] = "Cutlass",
+            ["Delay"] = 7.5,
         },
     },
     ["QuestsEnums"] = {
-        ["Golden Armor"] = {
-            ["Name"] = "Golden Armor",
-            ["Target"] = "Golden Armor",
-            ["Level"] = 300,
-            ["Rewards"] = {
-                ["Coin"] = 5300,
-                ["XP"] = 260000,
-            },
-            ["Progress"] = 1,
-        },
         ["Sky Soldier"] = {
             ["Name"] = "Sky Soldier",
             ["Target"] = "Sky Soldier",
             ["Level"] = 850,
             ["Rewards"] = {
                 ["Coin"] = 9600,
-                ["XP"] = 1000000,
+                ["XP"] = 500000,
             },
             ["Progress"] = 5,
         },
-        ["Inventor"] = {
-            ["Name"] = "Inventor",
-            ["Target"] = "Inventor",
-            ["Level"] = 950,
+        ["Snowman"] = {
+            ["Name"] = "Snowman",
+            ["Target"] = "Snowman",
+            ["Level"] = 575,
             ["Rewards"] = {
-                ["Coin"] = 11500,
-                ["XP"] = 152500,
-            },
-            ["Progress"] = 1,
-        },
-        ["God's Guards"] = {
-            ["Name"] = "God's Guards",
-            ["Target"] = "God's Guards",
-            ["Level"] = 875,
-            ["Rewards"] = {
-                ["Coin"] = 10000,
-                ["XP"] = 1200000,
-            },
-            ["Progress"] = 4,
-        },
-        ["Monkey"] = {
-            ["Name"] = "Monkey",
-            ["Target"] = "Monkey",
-            ["Level"] = 200,
-            ["Rewards"] = {
-                ["Coin"] = 4000,
-                ["XP"] = 180000,
-            },
-            ["Progress"] = 5,
-        },
-        ["Sandy"] = {
-            ["Name"] = "Sandy",
-            ["Target"] = "Sandy",
-            ["Level"] = 800,
-            ["Rewards"] = {
-                ["Coin"] = 9300,
-                ["XP"] = 980000,
-            },
-            ["Progress"] = 1,
-        },
-        ["Yeti"] = {
-            ["Name"] = "Yeti",
-            ["Target"] = "Yeti",
-            ["Level"] = 650,
-            ["Rewards"] = {
-                ["Coin"] = 8200,
-                ["XP"] = 900000,
-            },
-            ["Progress"] = 1,
-        },
-        ["Strong Deserter"] = {
-            ["Name"] = "Strong Deserter",
-            ["Target"] = "Strong Deserter",
-            ["Level"] = 725,
-            ["Rewards"] = {
-                ["Coin"] = 8700,
-                ["XP"] = 940000,
+                ["Coin"] = 7600,
+                ["XP"] = 270000,
             },
             ["Progress"] = 6,
-        },
-        ["God"] = {
-            ["Name"] = "God",
-            ["Target"] = "God",
-            ["Level"] = 950,
-            ["Rewards"] = {
-                ["Coin"] = 10600,
-                ["XP"] = 1600000,
-            },
-            ["Progress"] = 1,
-        },
-        ["Gorilla King"] = {
-            ["Name"] = "Gorilla King",
-            ["Target"] = "Gorilla King",
-            ["Level"] = 225,
-            ["Rewards"] = {
-                ["Coin"] = 4300,
-                ["XP"] = 200000,
-            },
-            ["Progress"] = 1,
-        },
-        ["Judgement"] = {
-            ["Name"] = "Judgement",
-            ["Target"] = "Judgement",
-            ["Level"] = 900,
-            ["Rewards"] = {
-                ["Coin"] = 10300,
-                ["XP"] = 1400000,
-            },
-            ["Progress"] = 1,
         },
         ["Pirate"] = {
             ["Name"] = "Pirate",
@@ -3151,29 +3785,19 @@ return {
             ["Level"] = 150,
             ["Rewards"] = {
                 ["Coin"] = 1750,
-                ["XP"] = 140000,
+                ["XP"] = 70000,
             },
             ["Progress"] = 4,
-        },
-        ["Shark Man"] = {
-            ["Name"] = "Shark Man",
-            ["Target"] = "Shark Man",
-            ["Level"] = 400,
-            ["Rewards"] = {
-                ["Coin"] = 6000,
-                ["XP"] = 300000,
-            },
-            ["Progress"] = 1,
         },
         ["Mechanic"] = {
             ["Name"] = "Mechanic",
             ["Target"] = "Mechanic",
-            ["Level"] = 900,
+            ["Level"] = 1000,
             ["Rewards"] = {
                 ["Coin"] = 11000,
-                ["XP"] = 149500,
+                ["XP"] = 850000,
             },
-            ["Progress"] = 1,
+            ["Progress"] = 7,
         },
         ["Trained Marine"] = {
             ["Name"] = "Trained Marine",
@@ -3181,19 +3805,17 @@ return {
             ["Level"] = 75,
             ["Rewards"] = {
                 ["Coin"] = 1250,
-                ["XP"] = 80000,
+                ["XP"] = 40000,
             },
             ["Progress"] = 6,
         },
-        ["Types"] = {
-        },
-        ["Spikey"] = {
-            ["Name"] = "Spikey",
-            ["Target"] = "Spikey",
-            ["Level"] = 750,
+        ["Judgement"] = {
+            ["Name"] = "Judgement",
+            ["Target"] = "Judgement",
+            ["Level"] = 900,
             ["Rewards"] = {
-                ["Coin"] = 9000,
-                ["XP"] = 960000,
+                ["Coin"] = 10300,
+                ["XP"] = 700000,
             },
             ["Progress"] = 1,
         },
@@ -3203,87 +3825,7 @@ return {
             ["Level"] = 100,
             ["Rewards"] = {
                 ["Coin"] = 1500,
-                ["XP"] = 130000,
-            },
-            ["Progress"] = 1,
-        },
-        ["Snowman"] = {
-            ["Name"] = "Snowman",
-            ["Target"] = "Snowman",
-            ["Level"] = 575,
-            ["Rewards"] = {
-                ["Coin"] = 7600,
-                ["XP"] = 540000,
-            },
-            ["Progress"] = 6,
-        },
-        ["Deserter"] = {
-            ["Name"] = "Deserter",
-            ["Target"] = "Deserter",
-            ["Level"] = 700,
-            ["Rewards"] = {
-                ["Coin"] = 8400,
-                ["XP"] = 920000,
-            },
-            ["Progress"] = 6,
-        },
-        ["Icy Samurai"] = {
-            ["Name"] = "Icy Samurai",
-            ["Target"] = "Icy Samurai",
-            ["Level"] = 600,
-            ["Rewards"] = {
-                ["Coin"] = 8000,
-                ["XP"] = 730000,
-            },
-            ["Progress"] = 1,
-        },
-        ["Clown"] = {
-            ["Name"] = "Clown",
-            ["Target"] = "Clown",
-            ["Level"] = 175,
-            ["Rewards"] = {
-                ["Coin"] = 2000,
-                ["XP"] = 160000,
-            },
-            ["Progress"] = 1,
-        },
-        ["Chef"] = {
-            ["Name"] = "Chef",
-            ["Target"] = "Chef",
-            ["Level"] = 250,
-            ["Rewards"] = {
-                ["Coin"] = 4600,
-                ["XP"] = 220000,
-            },
-            ["Progress"] = 6,
-        },
-        ["Head Chef"] = {
-            ["Name"] = "Head Chef",
-            ["Target"] = "Head Chef",
-            ["Level"] = 275,
-            ["Rewards"] = {
-                ["Coin"] = 5000,
-                ["XP"] = 240000,
-            },
-            ["Progress"] = 4,
-        },
-        ["Vagabond"] = {
-            ["Name"] = "Vagabond",
-            ["Target"] = "Vagabond",
-            ["Level"] = 450,
-            ["Rewards"] = {
-                ["Coin"] = 6300,
-                ["XP"] = 320000,
-            },
-            ["Progress"] = 6,
-        },
-        ["Captain Smoker"] = {
-            ["Name"] = "Captain Smoker",
-            ["Target"] = "Captain Smoker",
-            ["Level"] = 500,
-            ["Rewards"] = {
-                ["Coin"] = 7000,
-                ["XP"] = 500000,
+                ["XP"] = 65000,
             },
             ["Progress"] = 1,
         },
@@ -3293,29 +3835,9 @@ return {
             ["Level"] = 475,
             ["Rewards"] = {
                 ["Coin"] = 6700,
-                ["XP"] = 340000,
+                ["XP"] = 170000,
             },
             ["Progress"] = 6,
-        },
-        ["Fishman"] = {
-            ["Name"] = "Fishman",
-            ["Target"] = "Fishman",
-            ["Level"] = 350,
-            ["Rewards"] = {
-                ["Coin"] = 5600,
-                ["XP"] = 280000,
-            },
-            ["Progress"] = 6,
-        },
-        ["Boss Bandit"] = {
-            ["Name"] = "Boss Bandit",
-            ["Target"] = "Boss Bandit",
-            ["Level"] = 25,
-            ["Rewards"] = {
-                ["Coin"] = 500,
-                ["XP"] = 20000,
-            },
-            ["Progress"] = 1,
         },
         ["Snow Bandit"] = {
             ["Name"] = "Snow Bandit",
@@ -3323,7 +3845,7 @@ return {
             ["Level"] = 550,
             ["Rewards"] = {
                 ["Coin"] = 7300,
-                ["XP"] = 520000,
+                ["XP"] = 260000,
             },
             ["Progress"] = 6,
         },
@@ -3333,7 +3855,7 @@ return {
             ["Level"] = 50,
             ["Rewards"] = {
                 ["Coin"] = 1000,
-                ["XP"] = 50000,
+                ["XP"] = 25000,
             },
             ["Progress"] = 6,
         },
@@ -3343,20 +3865,224 @@ return {
             ["Level"] = 0,
             ["Rewards"] = {
                 ["Coin"] = 150,
-                ["XP"] = 7000,
+                ["XP"] = 3500,
             },
             ["Progress"] = 4,
         },
+        ["Golden Armor"] = {
+            ["Name"] = "Golden Armor",
+            ["Target"] = "Golden Armor",
+            ["Level"] = 300,
+            ["Rewards"] = {
+                ["Coin"] = 5300,
+                ["XP"] = 130000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Monkey"] = {
+            ["Name"] = "Monkey",
+            ["Target"] = "Monkey",
+            ["Level"] = 200,
+            ["Rewards"] = {
+                ["Coin"] = 4000,
+                ["XP"] = 90000,
+            },
+            ["Progress"] = 5,
+        },
+        ["Sandy"] = {
+            ["Name"] = "Sandy",
+            ["Target"] = "Sandy",
+            ["Level"] = 800,
+            ["Rewards"] = {
+                ["Coin"] = 9300,
+                ["XP"] = 490000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Yeti"] = {
+            ["Name"] = "Yeti",
+            ["Target"] = "Yeti",
+            ["Level"] = 650,
+            ["Rewards"] = {
+                ["Coin"] = 8200,
+                ["XP"] = 450000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Strong Deserter"] = {
+            ["Name"] = "Strong Deserter",
+            ["Target"] = "Strong Deserter",
+            ["Level"] = 725,
+            ["Rewards"] = {
+                ["Coin"] = 8700,
+                ["XP"] = 470000,
+            },
+            ["Progress"] = 6,
+        },
+        ["Gorilla King"] = {
+            ["Name"] = "Gorilla King",
+            ["Target"] = "Gorilla King",
+            ["Level"] = 225,
+            ["Rewards"] = {
+                ["Coin"] = 4300,
+                ["XP"] = 100000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Shark Man"] = {
+            ["Name"] = "Shark Man",
+            ["Target"] = "Shark Man",
+            ["Level"] = 400,
+            ["Rewards"] = {
+                ["Coin"] = 6000,
+                ["XP"] = 150000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Expert Mechanic"] = {
+            ["Name"] = "Expert Mechanic",
+            ["Target"] = "Expert Mechanic",
+            ["Level"] = 1025,
+            ["Rewards"] = {
+                ["Coin"] = 11500,
+                ["XP"] = 950000,
+            },
+            ["Progress"] = 6,
+        },
+        ["Boss Bandit"] = {
+            ["Name"] = "Boss Bandit",
+            ["Target"] = "Boss Bandit",
+            ["Level"] = 25,
+            ["Rewards"] = {
+                ["Coin"] = 500,
+                ["XP"] = 10000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Deserter"] = {
+            ["Name"] = "Deserter",
+            ["Target"] = "Deserter",
+            ["Level"] = 700,
+            ["Rewards"] = {
+                ["Coin"] = 8400,
+                ["XP"] = 460000,
+            },
+            ["Progress"] = 6,
+        },
+        ["Icy Samurai"] = {
+            ["Name"] = "Icy Samurai",
+            ["Target"] = "Icy Samurai",
+            ["Level"] = 600,
+            ["Rewards"] = {
+                ["Coin"] = 8000,
+                ["XP"] = 365000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Clown"] = {
+            ["Name"] = "Clown",
+            ["Target"] = "Clown",
+            ["Level"] = 175,
+            ["Rewards"] = {
+                ["Coin"] = 2000,
+                ["XP"] = 80000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Cyborg"] = {
+            ["Name"] = "Cyborg",
+            ["Target"] = "Cyborg",
+            ["Level"] = 1050,
+            ["Rewards"] = {
+                ["Coin"] = 12000,
+                ["XP"] = 1050000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Captain Smoker"] = {
+            ["Name"] = "Captain Smoker",
+            ["Target"] = "Captain Smoker",
+            ["Level"] = 500,
+            ["Rewards"] = {
+                ["Coin"] = 7000,
+                ["XP"] = 250000,
+            },
+            ["Progress"] = 1,
+        },
+        ["God's Guards"] = {
+            ["Name"] = "God's Guards",
+            ["Target"] = "God's Guards",
+            ["Level"] = 875,
+            ["Rewards"] = {
+                ["Coin"] = 10000,
+                ["XP"] = 600000,
+            },
+            ["Progress"] = 4,
+        },
+        ["God"] = {
+            ["Name"] = "God",
+            ["Target"] = "God",
+            ["Level"] = 950,
+            ["Rewards"] = {
+                ["Coin"] = 10600,
+                ["XP"] = 800000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Types"] = {
+        },
+        ["Fishman"] = {
+            ["Name"] = "Fishman",
+            ["Target"] = "Fishman",
+            ["Level"] = 350,
+            ["Rewards"] = {
+                ["Coin"] = 5600,
+                ["XP"] = 140000,
+            },
+            ["Progress"] = 6,
+        },
+        ["Spikey"] = {
+            ["Name"] = "Spikey",
+            ["Target"] = "Spikey",
+            ["Level"] = 750,
+            ["Rewards"] = {
+                ["Coin"] = 9000,
+                ["XP"] = 480000,
+            },
+            ["Progress"] = 1,
+        },
+        ["Chef"] = {
+            ["Name"] = "Chef",
+            ["Target"] = "Chef",
+            ["Level"] = 250,
+            ["Rewards"] = {
+                ["Coin"] = 4600,
+                ["XP"] = 110000,
+            },
+            ["Progress"] = 6,
+        },
+        ["Head Chef"] = {
+            ["Name"] = "Head Chef",
+            ["Target"] = "Head Chef",
+            ["Level"] = 275,
+            ["Rewards"] = {
+                ["Coin"] = 5000,
+                ["XP"] = 120000,
+            },
+            ["Progress"] = 4,
+        },
+        ["Vagabond"] = {
+            ["Name"] = "Vagabond",
+            ["Target"] = "Vagabond",
+            ["Level"] = 450,
+            ["Rewards"] = {
+                ["Coin"] = 6300,
+                ["XP"] = 160000,
+            },
+            ["Progress"] = 6,
+        },
     },
     ["ItemsEnums"] = {
-        ["Icy Crystal Flower"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Icy Crystal Flower",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "A frigid crystal bloom shimmering with ancient frost, said to preserve within its petals the biting essence of winter itself.",
-            ["UseButton"] = false,
-            ["IconID"] = "rbxassetid://134406926560483",
-        },
         ["Bamboo"] = {
             ["ItemRarity"] = "Common",
             ["ItemName"] = "Bamboo",
@@ -3364,26 +4090,12 @@ return {
             ["ItemDescription"] = "A hardened bamboo staff, light but surprisingly resilient.",
             ["IconID"] = "rbxassetid://137355741243628",
         },
-        ["Mysterious Treasure Map"] = {
-            ["ItemRarity"] = "Mythical",
-            ["ItemName"] = "Mysterious Treasure Map",
+        ["Legendary Key"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Legendary Key",
             ["ItemType"] = "Misc",
-            ["ItemDescription"] = "A weathered map etched with cryptic markings, said to reveal the resting place of a long-lost shipwreck laden with forgotten treasure in the farthest reaches of the sea.",
-            ["IconID"] = "rbxassetid://97760943299269",
-        },
-        ["Jitte"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Jitte",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A Marine weapon designed to trap and counter swords with disciplined precision.",
-            ["IconID"] = "rbxassetid://106435402024241",
-        },
-        ["Golden Hammer"] = {
-            ["ItemRarity"] = "Rare",
-            ["ItemName"] = "Golden Hammer",
-            ["ItemType"] = "Material",
-            ["ItemDescription"] = "30% reduction in the probability of level drop.",
-            ["IconID"] = "rbxassetid://111586837215027",
+            ["ItemDescription"] = "Legendary key to be used in the in-game shop for fruit spinning, you spin fruits of legendary rarity or higher.",
+            ["IconID"] = "rbxassetid://102051261163292",
         },
         ["All Blue"] = {
             ["ItemRarity"] = "Epic",
@@ -3393,34 +4105,13 @@ return {
             ["UseButton"] = false,
             ["IconID"] = "rbxassetid://117603432705224",
         },
-        ["Flame Fruit"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Flame Fruit",
-            ["ItemType"] = "Fruit",
-            ["FruitType"] = "Elemental",
-            ["ItemDescription"] = "Transforms the body into fire, burning through enemies with blazing intensity.",
-            ["IconID"] = "rbxassetid://112435380732671",
-        },
-        ["2x Drop"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "2x Drop",
+        ["Signal Lens"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Signal Lens",
             ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Double Drops Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
-            ["IconID"] = "rbxassetid://129750884610564",
-        },
-        ["Race Spins"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "Race Spins",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Race Spins Stored. Use to redeem for self. Not automatically used when trading.",
-            ["IconID"] = "rbxassetid://110272102823836",
-        },
-        ["Refund Stats"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "Refund Stats",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Refund Stats Stored. Use to redeem for self. Not automatically used when trading.",
-            ["IconID"] = "rbxassetid://102130331711504",
+            ["ItemDescription"] = "A tuned lens that focuses distant signals.",
+            ["UseButton"] = false,
+            ["IconID"] = "",
         },
         ["AxeHand"] = {
             ["ItemRarity"] = "Rare",
@@ -3435,64 +4126,6 @@ return {
             ["ItemType"] = "Misc",
             ["ItemDescription"] = "A mysterious orb radiating powerful aura, capable of luring fearsome sea beasts from distant oceans into these calm waters.",
             ["IconID"] = "rbxassetid://78242413867890",
-        },
-        ["DarkBlade"] = {
-            ["ItemRarity"] = "Mythical",
-            ["ItemName"] = "DarkBlade",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A legendary black blade known as the strongest sword in the world, feared by all swordsmen.",
-            ["IconID"] = "rbxassetid://139521157051701",
-        },
-        ["Magma Fruit"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Magma Fruit",
-            ["ItemType"] = "Fruit",
-            ["FruitType"] = "Elemental",
-            ["ItemDescription"] = "Turns the body into molten magma, melting through anything with overwhelming heat.",
-            ["IconID"] = "rbxassetid://118194254793698",
-        },
-        ["Treasure Upgrade Package"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "Treasure Upgrade Package",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Treasure Upgrade Package Stored. Contains multiple items including Magic Powder x3, Artisan's Recipe x3, Golden Hammer x3, Royal Pendant x1, and 120 gems.",
-            ["IconID"] = "rbxassetid://124405361723419",
-        },
-        ["Coffin Boat"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "Coffin Boat",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Coffin Boat Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
-            ["IconID"] = "rbxassetid://77074940877706",
-        },
-        ["Quake Fruit"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Quake Fruit",
-            ["ItemType"] = "Fruit",
-            ["FruitType"] = "Natural",
-            ["ItemDescription"] = "Allows the user to shatter the air like glass, creating tremors that can split seas and islands.",
-            ["IconID"] = "rbxassetid://117344196864411",
-        },
-        ["Mythical Key"] = {
-            ["ItemRarity"] = "Mythical",
-            ["ItemName"] = "Mythical Key",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Mythical key to be used in the in-game shop for fruit spinning, you spin fruits of mythical rarity",
-            ["IconID"] = "rbxassetid://126728218420561",
-        },
-        ["2x Mastery"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "2x Mastery",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Double Mastery Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
-            ["IconID"] = "rbxassetid://79531127296983",
-        },
-        ["Royal Pendant"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Royal Pendant",
-            ["ItemType"] = "Material",
-            ["ItemDescription"] = "If the treasure upgrade succeeds, you will receive all gems back.",
-            ["IconID"] = "rbxassetid://86933263843291",
         },
         ["Mythical Bundle"] = {
             ["ItemRarity"] = "Exclusive",
@@ -3509,27 +4142,12 @@ return {
             ["ItemDescription"] = "Gives control over ice and frost, freezing enemies in an instant.",
             ["IconID"] = "rbxassetid://104618572614561",
         },
-        ["Sand Fruit"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Sand Fruit",
-            ["ItemType"] = "Fruit",
-            ["FruitType"] = "Elemental",
-            ["ItemDescription"] = "Allows the user to become sand, draining moisture and burying foes in desert storms.",
-            ["IconID"] = "rbxassetid://98161070801736",
-        },
-        ["Wado"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Wado",
+        ["DarkBlade"] = {
+            ["ItemRarity"] = "Mythical",
+            ["ItemName"] = "DarkBlade",
             ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A pure white katana famed for its unbreakable steel and graceful cuts.",
-            ["IconID"] = "rbxassetid://103823926249816",
-        },
-        ["Magic Powder"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Magic Powder",
-            ["ItemType"] = "Material",
-            ["ItemDescription"] = "Increases success chance by 50%.",
-            ["IconID"] = "rbxassetid://83371603425111",
+            ["ItemDescription"] = "A legendary black blade known as the strongest sword in the world, feared by all swordsmen.",
+            ["IconID"] = "rbxassetid://139521157051701",
         },
         ["Spike Fruit"] = {
             ["ItemRarity"] = "Rare",
@@ -3539,49 +4157,6 @@ return {
             ["ItemDescription"] = "Covers the body in sharp spikes, punishing anyone who dares to strike.",
             ["IconID"] = "rbxassetid://94351303397512",
         },
-        ["SharkBlade"] = {
-            ["ItemRarity"] = "Rare",
-            ["ItemName"] = "Shark Blade",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A jagged sword shaped like shark teeth, tearing through targets like a feeding frenzy.",
-            ["IconID"] = "rbxassetid://121015932649395",
-        },
-        ["AbyssAnchor"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Abyss Anchor",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A sea beast's anchor wielded like a blade, crushing enemies with overwhelming weight.",
-            ["IconID"] = "rbxassetid://139003744104096",
-        },
-        ["Pipe"] = {
-            ["ItemRarity"] = "Rare",
-            ["ItemName"] = "Pipe",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A simple flaming metal pipe used as a weapon by revolutionaries.",
-            ["IconID"] = "rbxassetid://122375733794314",
-        },
-        ["Invisible Fruit"] = {
-            ["ItemRarity"] = "Common",
-            ["ItemName"] = "Invisible Fruit",
-            ["ItemType"] = "Fruit",
-            ["ItemDescription"] = "Grants invisibility, erasing the user’s presence from sight.",
-            ["IconID"] = "rbxassetid://101091832361412",
-        },
-        ["Time Cloth"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Time Cloth",
-            ["ItemType"] = "Material",
-            ["ItemDescription"] = "If the treasure upgrade succeeds, you will receive all materials back.",
-            ["IconID"] = "rbxassetid://132995328011523",
-        },
-        ["Rumble Fruit"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Rumble Fruit",
-            ["ItemType"] = "Fruit",
-            ["FruitType"] = "Elemental",
-            ["ItemDescription"] = "Embodies lightning and thunder, turning the user into a living storm from the sky.",
-            ["IconID"] = "rbxassetid://133943287247029",
-        },
         ["Spin Fruit"] = {
             ["ItemRarity"] = "Common",
             ["ItemName"] = "Spin Fruit",
@@ -3590,41 +4165,12 @@ return {
             ["ItemDescription"] = "Allows body parts to spin like propellers, creating slicing winds and rapid movement.",
             ["IconID"] = "rbxassetid://93536484881227",
         },
-        ["Fruit Storage"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "Fruit Storage",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Fruit Storage Stored. Use to redeem for self. Not automatically used when trading.",
-            ["IconID"] = "rbxassetid://133983618134852",
-        },
-        ["JungleClub"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Jungle Club",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A heavy wooden club used by a terror in the jungle, relying on raw force over skill.",
-            ["IconID"] = "rbxassetid://104391950174098",
-        },
         ["2x Coin"] = {
             ["ItemRarity"] = "Exclusive",
             ["ItemName"] = "2x Coin",
             ["ItemType"] = "Misc",
             ["ItemDescription"] = "Double Coins Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
             ["IconID"] = "rbxassetid://130429478882920",
-        },
-        ["Legendary Bundle"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "Legendary Bundle",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Legendary Bundle Stored. Contains two items including Legendary Key x1, and Common Key x3.",
-            ["IconID"] = "rbxassetid://105101062951856",
-        },
-        ["Paw Fruit"] = {
-            ["ItemRarity"] = "Rare",
-            ["ItemName"] = "Paw Fruit",
-            ["ItemType"] = "Fruit",
-            ["FruitType"] = "Natural",
-            ["ItemDescription"] = "Pads on the hands repel anything they touch, sending attacks, people, or even pain flying away.",
-            ["IconID"] = "rbxassetid://93532794253073",
         },
         ["Pole"] = {
             ["ItemRarity"] = "Rare",
@@ -3633,28 +4179,13 @@ return {
             ["ItemDescription"] = "A long staff weapon used to strike from range with swift, flowing movements.",
             ["IconID"] = "rbxassetid://107578645267219",
         },
-        ["IcyKatana"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Icy Katana",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A frost forged katana wreathed in biting chill, striking with silent precision and winter’s wrath.",
-            ["IconID"] = "rbxassetid://115036039578955",
-        },
-        ["Legendary Key"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Legendary Key",
+        ["Gear"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Gear",
             ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Legendary key to be used in the in-game shop for fruit spinning, you spin fruits of legendary rarity or higher.",
-            ["IconID"] = "rbxassetid://102051261163292",
-        },
-        ["Gryphon"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Gryphon",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A finely balanced saber carried by a red haired emperor, swift and precise.",
-            ["IconID"] = "rbxassetid://73277104726965",
-        },
-        ["Types"] = {
+            ["ItemDescription"] = "A vital power-transmission piece for cyborg modification.",
+            ["UseButton"] = false,
+            ["IconID"] = "rbxassetid://102883367843384",
         },
         ["2x XP"] = {
             ["ItemRarity"] = "Exclusive",
@@ -3663,53 +4194,12 @@ return {
             ["ItemDescription"] = "Double Experience Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
             ["IconID"] = "rbxassetid://108319870691140",
         },
-        ["Fried Rice"] = {
-            ["ItemRarity"] = "Common",
-            ["ItemName"] = "Fried Rice",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "The most delicious fried rice in the world.",
-            ["UseButton"] = false,
-            ["IconID"] = "rbxassetid://122007063612923",
-        },
-        ["Dark Blade"] = {
-            ["ItemRarity"] = "Exclusive",
-            ["ItemName"] = "Dark Blade",
-            ["ItemType"] = "Misc",
-            ["ItemDescription"] = "Dark Blade Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
-            ["IconID"] = "rbxassetid://80901724974334",
-        },
-        ["Slayer's Armor Set (Blue)"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Slayer's Armor Set (Blue)",
-            ["ItemType"] = "Accessory",
-            ["Attributes"] = {
-                ["Melee"] = 25,
-            },
-            ["ItemDescription"] = "...",
-            ["AccessoryType"] = "Armor",
-            ["IconID"] = "rbxassetid://10529406469",
-        },
-        ["GoldenHook"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Golden Hook",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A razor sharp hook once used by a desert pirate, deadly in close combat with poison.",
-            ["IconID"] = "rbxassetid://137272544956468",
-        },
-        ["Light Fruit"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Light Fruit",
-            ["ItemType"] = "Fruit",
-            ["FruitType"] = "Elemental",
-            ["ItemDescription"] = "Grants the speed and force of light itself, letting the user move and strike faster than the eye can follow.",
-            ["IconID"] = "rbxassetid://120262884771302",
-        },
-        ["Cutlass"] = {
-            ["ItemRarity"] = "Common",
-            ["ItemName"] = "Cutlass",
-            ["ItemType"] = "Weapon",
-            ["ItemDescription"] = "A refined Cutlass blade, balanced for swift strikes.",
-            ["IconID"] = "rbxassetid://90126318911740",
+        ["Map Scrap"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Map Scrap",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "A marked scrap used in simple Craft recipes.",
+            ["IconID"] = "",
         },
         ["Common Key"] = {
             ["ItemRarity"] = "Common",
@@ -3733,20 +4223,6 @@ return {
             ["ItemDescription"] = "Makes the user’s body explosive, turning every touch into a detonation.",
             ["IconID"] = "rbxassetid://118451172058484",
         },
-        ["Artisan's Recipe"] = {
-            ["ItemRarity"] = "Rare",
-            ["ItemName"] = "Artisan's Recipe",
-            ["ItemType"] = "Material",
-            ["ItemDescription"] = "Destruction probability reduced by 50%.",
-            ["IconID"] = "rbxassetid://132536932919683",
-        },
-        ["Gambler's Dice"] = {
-            ["ItemRarity"] = "Epic",
-            ["ItemName"] = "Gambler's Dice",
-            ["ItemType"] = "Material",
-            ["ItemDescription"] = "If the treasure upgrade succeeds, it levels up by +2 at once, or if the upgrade fails then it's level drops by -2.",
-            ["IconID"] = "rbxassetid://85981406504729",
-        },
         ["Smoke Fruit"] = {
             ["ItemRarity"] = "Rare",
             ["ItemName"] = "Smoke Fruit",
@@ -3763,13 +4239,12 @@ return {
             ["ItemDescription"] = "A bizarre power that turns the body into pliable dough, overwhelming foes with endless, shapeless attacks.",
             ["IconID"] = "rbxassetid://80347435069245",
         },
-        ["Slayer's Mask (Blue)"] = {
-            ["ItemRarity"] = "Legendary",
-            ["ItemName"] = "Slayer's Mask (Blue)",
-            ["ItemType"] = "Accessory",
-            ["ItemDescription"] = "...",
-            ["AccessoryType"] = "Face",
-            ["IconID"] = "rbxassetid://10529406469",
+        ["Fruit Storage"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "Fruit Storage",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Fruit Storage Stored. Use to redeem for self. Not automatically used when trading.",
+            ["IconID"] = "rbxassetid://133983618134852",
         },
         ["Barrier Fruit"] = {
             ["ItemRarity"] = "Rare",
@@ -3778,6 +4253,350 @@ return {
             ["FruitType"] = "Natural",
             ["ItemDescription"] = "Creates invisible, unbreakable walls that can block nearly any attack.",
             ["IconID"] = "rbxassetid://90020179051034",
+        },
+        ["Icy Crystal Flower"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Icy Crystal Flower",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "A frigid crystal bloom shimmering with ancient frost, said to preserve within its petals the biting essence of winter itself.",
+            ["UseButton"] = false,
+            ["IconID"] = "rbxassetid://134406926560483",
+        },
+        ["Mysterious Treasure Map"] = {
+            ["ItemRarity"] = "Mythical",
+            ["ItemName"] = "Mysterious Treasure Map",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "A weathered map etched with cryptic markings, said to reveal the resting place of a long-lost shipwreck laden with forgotten treasure in the farthest reaches of the sea.",
+            ["IconID"] = "rbxassetid://97760943299269",
+        },
+        ["Jitte"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Jitte",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A Marine weapon designed to trap and counter swords with disciplined precision.",
+            ["IconID"] = "rbxassetid://106435402024241",
+        },
+        ["Golden Hammer"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Golden Hammer",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "30% reduction in the probability of level drop.",
+            ["IconID"] = "rbxassetid://111586837215027",
+        },
+        ["Flame Fruit"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Flame Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Elemental",
+            ["ItemDescription"] = "Transforms the body into fire, burning through enemies with blazing intensity.",
+            ["IconID"] = "rbxassetid://112435380732671",
+        },
+        ["Coffin Boat"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "Coffin Boat",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Coffin Boat Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
+            ["IconID"] = "rbxassetid://77074940877706",
+        },
+        ["Magma Fruit"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Magma Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Elemental",
+            ["ItemDescription"] = "Turns the body into molten magma, melting through anything with overwhelming heat.",
+            ["IconID"] = "rbxassetid://118194254793698",
+        },
+        ["Mythical Key"] = {
+            ["ItemRarity"] = "Mythical",
+            ["ItemName"] = "Mythical Key",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Mythical key to be used in the in-game shop for fruit spinning, you spin fruits of mythical rarity",
+            ["IconID"] = "rbxassetid://126728218420561",
+        },
+        ["Royal Pendant"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Royal Pendant",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "If the treasure upgrade succeeds, you will receive all gems back.",
+            ["IconID"] = "rbxassetid://86933263843291",
+        },
+        ["Race Spins"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "Race Spins",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Race Spins Stored. Use to redeem for self. Not automatically used when trading.",
+            ["IconID"] = "rbxassetid://110272102823836",
+        },
+        ["Sand Fruit"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Sand Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Elemental",
+            ["ItemDescription"] = "Allows the user to become sand, draining moisture and burying foes in desert storms.",
+            ["IconID"] = "rbxassetid://98161070801736",
+        },
+        ["Wado"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Wado",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A pure white katana famed for its unbreakable steel and graceful cuts.",
+            ["IconID"] = "rbxassetid://103823926249816",
+        },
+        ["Steel Plate"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Steel Plate",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "A sturdy plate used in simple Craft recipes.",
+            ["IconID"] = "",
+        },
+        ["Refund Stats"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "Refund Stats",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Refund Stats Stored. Use to redeem for self. Not automatically used when trading.",
+            ["IconID"] = "rbxassetid://102130331711504",
+        },
+        ["Legendary Bundle"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "Legendary Bundle",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Legendary Bundle Stored. Contains two items including Legendary Key x1, and Common Key x3.",
+            ["IconID"] = "rbxassetid://105101062951856",
+        },
+        ["Treasure Upgrade Package"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "Treasure Upgrade Package",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Treasure Upgrade Package Stored. Contains multiple items including Magic Powder x3, Artisan's Recipe x3, Golden Hammer x3, Royal Pendant x1, and 120 gems.",
+            ["IconID"] = "rbxassetid://124405361723419",
+        },
+        ["Rubber Fruit"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Rubber Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Natural",
+            ["ItemDescription"] = "Transforms the body into rubber, crushing enemies with unpredictable, elastic strikes.",
+            ["IconID"] = "rbxassetid://105086120970629",
+        },
+        ["Scout Map"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Scout Map",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "A reinforced map assembled for scouting dangerous routes.",
+            ["UseButton"] = false,
+            ["IconID"] = "",
+        },
+        ["Time Cloth"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Time Cloth",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "If the treasure upgrade succeeds, you will receive all materials back.",
+            ["IconID"] = "rbxassetid://132995328011523",
+        },
+        ["Rumble Fruit"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Rumble Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Elemental",
+            ["ItemDescription"] = "Embodies lightning and thunder, turning the user into a living storm from the sky.",
+            ["IconID"] = "rbxassetid://133943287247029",
+        },
+        ["Ember Shard"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Ember Shard",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "A warm shard used in simple Craft recipes.",
+            ["IconID"] = "",
+        },
+        ["2x Mastery"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "2x Mastery",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Double Mastery Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
+            ["IconID"] = "rbxassetid://79531127296983",
+        },
+        ["JungleClub"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Jungle Club",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A heavy wooden club used by a terror in the jungle, relying on raw force over skill.",
+            ["IconID"] = "rbxassetid://104391950174098",
+        },
+        ["Leopard Fruit"] = {
+            ["ItemRarity"] = "Mythical",
+            ["ItemName"] = "Leopard Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Beast",
+            ["ItemDescription"] = "Transforms the user into a ferocious leopard, shredding enemies with untamed, predatory speed.",
+            ["IconID"] = "rbxassetid://119218029901272",
+        },
+        ["Mechanical Core"] = {
+            ["ItemRarity"] = "Mythical",
+            ["ItemName"] = "Mechanical Core",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "A compatible power source harvested from a Cyborg. The engineer needs it to install cybernetic modifications.",
+            ["UseButton"] = false,
+            ["IconID"] = "rbxassetid://92846269022774",
+        },
+        ["Gambler's Dice"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Gambler's Dice",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "If the treasure upgrade succeeds, it levels up by +2 at once, or if the upgrade fails then it's level drops by -2.",
+            ["IconID"] = "rbxassetid://85981406504729",
+        },
+        ["IcyKatana"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Icy Katana",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A frost forged katana wreathed in biting chill, striking with silent precision and winter’s wrath.",
+            ["IconID"] = "rbxassetid://115036039578955",
+        },
+        ["Quake Fruit"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Quake Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Natural",
+            ["ItemDescription"] = "Allows the user to shatter the air like glass, creating tremors that can split seas and islands.",
+            ["IconID"] = "rbxassetid://117344196864411",
+        },
+        ["Door Fruit"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Door Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Natural",
+            ["ItemDescription"] = "Changes any surface into a doorway to step across different dimensions.",
+            ["IconID"] = "rbxassetid://118895381999467",
+        },
+        ["Magic Powder"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Magic Powder",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "Increases success chance by 50%.",
+            ["IconID"] = "rbxassetid://83371603425111",
+        },
+        ["Types"] = {
+        },
+        ["SharkBlade"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Shark Blade",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A jagged sword shaped like shark teeth, tearing through targets like a feeding frenzy.",
+            ["IconID"] = "rbxassetid://121015932649395",
+        },
+        ["GoldenHook"] = {
+            ["ItemRarity"] = "Epic",
+            ["ItemName"] = "Golden Hook",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A razor sharp hook once used by a desert pirate, deadly in close combat with poison.",
+            ["IconID"] = "rbxassetid://137272544956468",
+        },
+        ["Dark Blade"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "Dark Blade",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Dark Blade Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
+            ["IconID"] = "rbxassetid://80901724974334",
+        },
+        ["Slayer's Armor Set (Blue)"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Slayer's Armor Set (Blue)",
+            ["ItemType"] = "Accessory",
+            ["Attributes"] = {
+                ["Melee"] = 25,
+            },
+            ["ItemDescription"] = "...",
+            ["AccessoryType"] = "Armor",
+            ["IconID"] = "rbxassetid://10529406469",
+        },
+        ["Ember Compass"] = {
+            ["ItemRarity"] = "Mythical",
+            ["ItemName"] = "Ember Compass",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "A compass warmed by condensed Ember Shards.",
+            ["UseButton"] = false,
+            ["IconID"] = "",
+        },
+        ["Light Fruit"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Light Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Elemental",
+            ["ItemDescription"] = "Grants the speed and force of light itself, letting the user move and strike faster than the eye can follow.",
+            ["IconID"] = "rbxassetid://120262884771302",
+        },
+        ["Cutlass"] = {
+            ["ItemRarity"] = "Common",
+            ["ItemName"] = "Cutlass",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A refined Cutlass blade, balanced for swift strikes.",
+            ["IconID"] = "rbxassetid://90126318911740",
+        },
+        ["Pipe"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Pipe",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A simple flaming metal pipe used as a weapon by revolutionaries.",
+            ["IconID"] = "rbxassetid://122375733794314",
+        },
+        ["AbyssAnchor"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Abyss Anchor",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A sea beast's anchor wielded like a blade, crushing enemies with overwhelming weight.",
+            ["IconID"] = "rbxassetid://139003744104096",
+        },
+        ["Gryphon"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Gryphon",
+            ["ItemType"] = "Weapon",
+            ["ItemDescription"] = "A finely balanced saber carried by a red haired emperor, swift and precise.",
+            ["IconID"] = "rbxassetid://73277104726965",
+        },
+        ["Artisan's Recipe"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Artisan's Recipe",
+            ["ItemType"] = "Material",
+            ["ItemDescription"] = "Destruction probability reduced by 50%.",
+            ["IconID"] = "rbxassetid://132536932919683",
+        },
+        ["Invisible Fruit"] = {
+            ["ItemRarity"] = "Common",
+            ["ItemName"] = "Invisible Fruit",
+            ["ItemType"] = "Fruit",
+            ["ItemDescription"] = "Grants invisibility, erasing the user’s presence from sight.",
+            ["IconID"] = "rbxassetid://101091832361412",
+        },
+        ["2x Drop"] = {
+            ["ItemRarity"] = "Exclusive",
+            ["ItemName"] = "2x Drop",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "Double Drops Gamepass Stored. Use to redeem for self. Not automatically used when trading.",
+            ["IconID"] = "rbxassetid://129750884610564",
+        },
+        ["Paw Fruit"] = {
+            ["ItemRarity"] = "Rare",
+            ["ItemName"] = "Paw Fruit",
+            ["ItemType"] = "Fruit",
+            ["FruitType"] = "Natural",
+            ["ItemDescription"] = "Pads on the hands repel anything they touch, sending attacks, people, or even pain flying away.",
+            ["IconID"] = "rbxassetid://93532794253073",
+        },
+        ["Slayer's Mask (Blue)"] = {
+            ["ItemRarity"] = "Legendary",
+            ["ItemName"] = "Slayer's Mask (Blue)",
+            ["ItemType"] = "Accessory",
+            ["ItemDescription"] = "...",
+            ["AccessoryType"] = "Face",
+            ["IconID"] = "rbxassetid://10529406469",
+        },
+        ["Fried Rice"] = {
+            ["ItemRarity"] = "Common",
+            ["ItemName"] = "Fried Rice",
+            ["ItemType"] = "Misc",
+            ["ItemDescription"] = "The most delicious fried rice in the world.",
+            ["UseButton"] = false,
+            ["IconID"] = "rbxassetid://122007063612923",
         },
     },
     ["MerchantEnum"] = {

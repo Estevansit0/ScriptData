@@ -1,1 +1,1 @@
-local a={"Release","Legend","1kCCU"}return a
+local a={"Release","Legend","1kCCU", "COMEBACK!", "SORRYFORTHERESET!"}return a

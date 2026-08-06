@@ -1,8 +1,5 @@
 return {
-    "MiniUpdate",
-    "Mambo",
-    "MiniUpdate2",
-    "OmniMan",
-    "UPDATE1",
-    "SorryForDelay1"
+    "UPDATE2",
+    "SorryForDelay2",
+    "Sans",
 }

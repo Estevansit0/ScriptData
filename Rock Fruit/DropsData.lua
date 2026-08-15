@@ -14,6 +14,7 @@ return {
     {Name = "Bacon Minerals", Drops = {"Holy Gold", "Black Iron"}},
     {Name = "Bacon Pirate", Drops = {"Iron Shark Teeth"}},
     {Name = "Bacon Rock", Drops = {"Holy Stone"}},
+    {Name = "Bacon Seinen", Drops = {"Shadow Diary", "Scarf Old"}},
     {Name = "Bacon Shadow Garden", Drops = {"Shadow Iron", "Orb Purple"}},
     {Name = "Bacon Snow", Drops = {"Khaw Phad Kai", "Book of Rokuogan"}},
     {Name = "Bacon Strong", Drops = {"Boxing Gloves", "Boxing Sandbag", "Dumbbell 25 KG"}},

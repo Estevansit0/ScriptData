@@ -8,6 +8,7 @@ return {
     "Re:Zero",
     "I have no enemies",
     "Viltrumite",
+    "Umamusume",
     "Adaptation",
     "Edgerunner",
     "The Eminence in Shadow"

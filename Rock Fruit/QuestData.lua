@@ -89,6 +89,14 @@ local t = {
     {
         Level = 22000,
         Npc = NpcQuest:WaitForChild("NPC_Quest22")
+    },
+    {
+        Level = 23500,
+        Npc = NpcQuest:WaitForChild("NPC_Quest23")
+    },
+    {
+        Level = 24500,
+        Npc = NpcQuest:WaitForChild("NPC_Quest24")
     }
 }
 local QuestMarker = game:GetService("ReplicatedStorage"):WaitForChild("QuestMarker")
@@ -96,7 +104,7 @@ local CurrentCamera = workspace.CurrentCamera
 local RunService = game:GetService("RunService")
 
 game:GetService("TweenService")
-function t.GetQuestByLevel(p1) --[[ Line: 33 | Upvalues: t (copy) ]]
+function t.GetQuestByLevel(p1) --[[ Line: 35 | Upvalues: t (copy) ]]
     local v1 = nil
 
     for i, v in ipairs(t) do
@@ -113,7 +121,7 @@ end
 local t2 = {}
 local t3 = {}
 
-local function ClearMarkers() --[[ ClearMarkers | Line: 48 | Upvalues: t3 (ref), t2 (ref) ]]
+local function ClearMarkers() --[[ ClearMarkers | Line: 50 | Upvalues: t3 (ref), t2 (ref) ]]
     for v1, v2 in t3 do
         v2:Disconnect()
     end
@@ -126,7 +134,7 @@ local function ClearMarkers() --[[ ClearMarkers | Line: 48 | Upvalues: t3 (ref),
     t2 = {}
 end
 
-function t.UpdateMark(p1) --[[ Line: 59 | Upvalues: ClearMarkers (copy), t (copy), QuestMarker (copy), RunService (copy), t3 (ref), t2 (ref) ]]
+function t.UpdateMark(p1) --[[ Line: 61 | Upvalues: ClearMarkers (copy), t (copy), QuestMarker (copy), RunService (copy), t3 (ref), t2 (ref) ]]
     ClearMarkers()
 
     local v2 = t.GetQuestByLevel((p1:GetAttribute("Level")))
@@ -162,7 +170,7 @@ function t.UpdateMark(p1) --[[ Line: 59 | Upvalues: ClearMarkers (copy), t (copy
 
     v3.Parent = HumanoidRootPart
     v3.Distance.TextLabel.Text = string.format("%.0f", (HumanoidRootPart.Position - HumanoidRootPart2.Position).Magnitude) .. "m"
-    table.insert(t3, (RunService.RenderStepped:Connect(function() --[[ Line: 76 | Upvalues: v3 (copy), HumanoidRootPart (copy), HumanoidRootPart2 (copy) ]]
+    table.insert(t3, (RunService.RenderStepped:Connect(function() --[[ Line: 78 | Upvalues: v3 (copy), HumanoidRootPart (copy), HumanoidRootPart2 (copy) ]]
         if not (v3 and v3.Parent) then
             return
         end
@@ -174,7 +182,7 @@ end
 
 local t4 = {}
 
-function t.Toggle(p1, p2) --[[ Line: 90 | Upvalues: t4 (ref), ClearMarkers (copy), t (copy) ]]
+function t.Toggle(p1, p2) --[[ Line: 92 | Upvalues: t4 (ref), ClearMarkers (copy), t (copy) ]]
     for v1, v2 in t4 do
         v2:Disconnect()
     end
@@ -188,7 +196,7 @@ function t.Toggle(p1, p2) --[[ Line: 90 | Upvalues: t4 (ref), ClearMarkers (copy
 
     t.UpdateMark(p1)
 
-    local function f5() --[[ Line: 98 | Upvalues: t (ref), p1 (copy) ]]
+    local function f5() --[[ Line: 100 | Upvalues: t (ref), p1 (copy) ]]
         t.UpdateMark(p1)
     end
 

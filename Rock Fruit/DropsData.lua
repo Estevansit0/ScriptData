@@ -1,4 +1,4 @@
-local PossibleDrops = {
+return {
     {Name = "Bacon", Drops = {"Wood", "Bandage", "Bacon"}},
     {Name = "Bacon Chicken", Drops = {"Egg"}},
     {Name = "Bacon Clown", Drops = {"Orb Spirit"}},

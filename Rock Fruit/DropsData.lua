@@ -1,6 +1,8 @@
-return {
+local PossibleDrops = {
     {Name = "Bacon", Drops = {"Wood", "Bandage", "Bacon"}},
+    {Name = "Bacon Chicken", Drops = {"Egg"}},
     {Name = "Bacon Clown", Drops = {"Orb Spirit"}},
+    {Name = "Bacon Farmer", Drops = {"Grains of Rice"}},
     {Name = "Bacon Fawkes", Drops = {"Gold", "Black Belt"}},
     {Name = "Bacon Fisherman", Drops = {"Fish"}},
     {Name = "Bacon Hellfire", Drops = {"Orb Dragon", "Dragon Fang"}},
@@ -22,5 +24,6 @@ return {
     {Name = "Bacon The Deep", Drops = {"Orb Water"}},
     {Name = "Bacon Trainer", Drops = {"Trainer Notes", "Stopwatch"}},
     {Name = "Bacon Traveler", Drops = {"Pipe", "Iron"}},
+    {Name = "Boss", Drops = {}},
     {Name = "Gorilla", Drops = {"Orb Black", "Old Iron"}},
 }

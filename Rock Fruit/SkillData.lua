@@ -8,6 +8,7 @@ return {
     Shirasaya = { "Z", "X", "C", "V" },
     Boxing = { "Z", "X", "C", "V" },
     MuayThai = { "Z", "X", "C", "V", "F" },
+    MuayThaiV2 = { "Z", "X", "C", "V", "F" },
     Kitetsu = { "Z", "X", "C", "V" },
     Lightning = { "Z", "X", "C", "V" },
     ["Karate Fish"] = { "Z", "X", "C", "V" },
@@ -41,5 +42,6 @@ return {
     Hachimi = { "Z", "X", "C", "V" },
     Thanos = { "Z", "X", "C", "V", "F" },
     ["Blade of Chaos"] = { "Z", "X", "C", "V", "F" },
-    Yamato = { "Z", "X", "C", "V", "F" }
+    Yamato = { "Z", "X", "C", "V", "F" },
+    ["Super Chicken"] = { "Z", "X", "C", "V", "F" }
 }

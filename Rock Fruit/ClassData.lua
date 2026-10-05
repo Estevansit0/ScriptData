@@ -11,5 +11,8 @@ return {
     "Umamusume",
     "Adaptation",
     "Edgerunner",
-    "The Eminence in Shadow"
+    "The Eminence in Shadow",
+    "Saiyan",
+    "Merfolk",
+    "God of War",
 }

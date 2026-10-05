@@ -39,9 +39,19 @@ return {
     ["Excuse me sir"] = { "Z", "X", "C", "V" },
     ["Agnes Tachyon"] = { "Z", "X", "C", "V", "F" },
     Mambo = { "Z", "X", "C", "V" },
+    ["Harikathe ikuno"] = { "Z", "X", "C", "V" },
     Hachimi = { "Z", "X", "C", "V" },
     Thanos = { "Z", "X", "C", "V", "F" },
     ["Blade of Chaos"] = { "Z", "X", "C", "V", "F" },
     Yamato = { "Z", "X", "C", "V", "F" },
-    ["Super Chicken"] = { "Z", "X", "C", "V", "F" }
+    ["Super Chicken"] = { "Z", "X", "C", "V", "F" },
+    Dragon = { "Z", "X", "C", "V", "F" },
+    Cow = { "Z", "X", "C", "V", "F" },
+    Kaioken = { "Z", "X", "C", "V", "F" },
+    SSJ = { "Z", "X", "C", "V", "F" },
+    SSJ2 = { "Z", "X", "C", "V", "F" },
+    SSJ3 = { "Z", "X", "C", "V", "F" },
+    SSJG = { "Z", "X", "C", "V", "F" },
+    SSJB = { "Z", "X", "C", "V", "F" },
+    ["Ultra Instinct"] = { "Z", "X", "C", "V", "F" }
 }
